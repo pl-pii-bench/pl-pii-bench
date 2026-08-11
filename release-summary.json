@@ -1,0 +1,703 @@
+{
+  "benchmark_version": "v1.0.0",
+  "engine_registry": {
+    "engines": [
+      {
+        "adapter": "anonimator",
+        "display_name": "Anonimator",
+        "holdout_lanes": [
+          "core",
+          "identifiers",
+          "address",
+          "negative"
+        ],
+        "id": "anonimator",
+        "public_lanes": [
+          "core",
+          "inflection",
+          "identifiers",
+          "address",
+          "negative",
+          "robustness",
+          "pdf"
+        ],
+        "reproducibility": {
+          "dependency_group": "product-attested",
+          "execution": "maintainer-attested"
+        }
+      },
+      {
+        "adapter": "presidio",
+        "display_name": "Presidio",
+        "holdout_lanes": [
+          "core",
+          "identifiers",
+          "address",
+          "negative"
+        ],
+        "id": "presidio",
+        "public_lanes": [
+          "core",
+          "inflection",
+          "identifiers",
+          "address",
+          "negative",
+          "robustness",
+          "pdf"
+        ],
+        "reproducibility": {
+          "dependency_group": "presidio",
+          "execution": "open-adapter"
+        }
+      },
+      {
+        "adapter": "spacy_pl",
+        "display_name": "spaCy PL",
+        "holdout_lanes": [
+          "core",
+          "identifiers",
+          "address",
+          "negative"
+        ],
+        "id": "spacy-pl",
+        "public_lanes": [
+          "core",
+          "inflection",
+          "identifiers",
+          "address",
+          "negative",
+          "robustness",
+          "pdf"
+        ],
+        "reproducibility": {
+          "dependency_group": "spacy-pl",
+          "execution": "open-adapter"
+        }
+      },
+      {
+        "adapter": "gliner_pii_polish",
+        "display_name": "GLiNER PII Polish",
+        "holdout_lanes": [
+          "core",
+          "identifiers",
+          "address",
+          "negative"
+        ],
+        "id": "gliner-pii-polish",
+        "public_lanes": [
+          "core",
+          "inflection",
+          "identifiers",
+          "address",
+          "negative",
+          "robustness",
+          "pdf"
+        ],
+        "reproducibility": {
+          "dependency_group": "gliner-pii-polish",
+          "execution": "open-adapter"
+        }
+      },
+      {
+        "adapter": "bardsai_eu_pii",
+        "display_name": "BardsAI EU PII",
+        "holdout_lanes": [
+          "core",
+          "identifiers",
+          "address",
+          "negative"
+        ],
+        "id": "bardsai-eu-pii",
+        "public_lanes": [
+          "core",
+          "inflection",
+          "identifiers",
+          "address",
+          "negative",
+          "robustness",
+          "pdf"
+        ],
+        "reproducibility": {
+          "dependency_group": "bardsai-eu-pii",
+          "execution": "open-adapter",
+          "model_id": "bardsai/eu-pii-anonimization-multilang-v2-preview",
+          "model_revision": "8e0b19766bb0dd4916d096b4f540dd46c138c760"
+        }
+      }
+    ],
+    "version": 1
+  },
+  "environment": {
+    "anonimator_version": "0.1.0",
+    "harness_version": "0.1.0",
+    "presidio_analyzer_version": "2.2.364",
+    "spacy_model": "pl_core_news_lg",
+    "spacy_model_version": "3.8.0",
+    "spacy_version": "3.8.14"
+  },
+  "public_artifacts_sha256": "62cedba703ee5197194a3d5db49a8114ea7875d0504060808135e85a00ab20a6",
+  "runs": [
+    {
+      "documents": 33,
+      "engine": "anonimator",
+      "lane": "core",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.9967105263157895,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.995249406175772,
+        "relaxed_f2": 0.9835691465084435,
+        "relaxed_precision": 0.9389978213507625,
+        "relaxed_recall": 0.9953810623556582,
+        "residual_identifiability_rate": 0.0
+      }
+    },
+    {
+      "documents": 441,
+      "engine": "anonimator",
+      "lane": "inflection",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 1.0,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 1.0,
+        "relaxed_f2": 1.0,
+        "relaxed_precision": 1.0,
+        "relaxed_recall": 1.0,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 12,
+      "engine": "anonimator",
+      "lane": "identifiers",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.7416666666666667,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.75,
+        "relaxed_f2": 0.7775919732441472,
+        "relaxed_precision": 0.9117647058823529,
+        "relaxed_recall": 0.75,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "anonimator",
+      "lane": "address",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 1.0,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.9390243902439024,
+        "relaxed_f2": 0.9482758620689653,
+        "relaxed_precision": 0.9871794871794872,
+        "relaxed_recall": 0.9390243902439024,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "anonimator",
+      "lane": "negative",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": null,
+        "negative_lane_fp_count": 32,
+        "negative_lane_fp_per_1000_tokens": 2.0817069997397866,
+        "protected_recall_relaxed": null,
+        "relaxed_f2": null,
+        "relaxed_precision": 0.0,
+        "relaxed_recall": null,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 231,
+      "engine": "anonimator",
+      "lane": "robustness",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.7119360902255639,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.7624703087885986,
+        "relaxed_f2": 0.7907103452972827,
+        "relaxed_precision": 0.9073856975381008,
+        "relaxed_recall": 0.766083800725833,
+        "residual_identifiability_rate": 0.07142857142857142
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "anonimator",
+      "lane": "pdf",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.9924242424242424,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.994535519125683,
+        "relaxed_f2": 0.981012658227848,
+        "relaxed_precision": 0.93,
+        "relaxed_recall": 0.9946524064171123,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 33,
+      "engine": "presidio",
+      "lane": "core",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 1.0,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.9572446555819477,
+        "relaxed_f2": 0.8943965517241379,
+        "relaxed_precision": 0.70578231292517,
+        "relaxed_recall": 0.9584295612009238,
+        "residual_identifiability_rate": 0.0
+      }
+    },
+    {
+      "documents": 441,
+      "engine": "presidio",
+      "lane": "inflection",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.963718820861678,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.963718820861678,
+        "relaxed_f2": 0.9650317892824705,
+        "relaxed_precision": 0.9703196347031964,
+        "relaxed_recall": 0.963718820861678,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 12,
+      "engine": "presidio",
+      "lane": "identifiers",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.425,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.4435483870967742,
+        "relaxed_f2": 0.4830210772833724,
+        "relaxed_precision": 0.75,
+        "relaxed_recall": 0.4435483870967742,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "presidio",
+      "lane": "address",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 1.0,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.7926829268292683,
+        "relaxed_f2": 0.7784431137724552,
+        "relaxed_precision": 0.7262569832402235,
+        "relaxed_recall": 0.7926829268292683,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "presidio",
+      "lane": "negative",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": null,
+        "negative_lane_fp_count": 362,
+        "negative_lane_fp_per_1000_tokens": 23.549310434556336,
+        "protected_recall_relaxed": null,
+        "relaxed_f2": null,
+        "relaxed_precision": 0.0,
+        "relaxed_recall": null,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 231,
+      "engine": "presidio",
+      "lane": "robustness",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.6560150375939849,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.673905666779776,
+        "relaxed_f2": 0.6711846735305618,
+        "relaxed_precision": 0.6393544382371198,
+        "relaxed_recall": 0.6796436819531507,
+        "residual_identifiability_rate": 0.03571428571428571
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "presidio",
+      "lane": "pdf",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.9924242424242424,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.9508196721311475,
+        "relaxed_f2": 0.8829365079365079,
+        "relaxed_precision": 0.6846153846153846,
+        "relaxed_recall": 0.9518716577540107,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 33,
+      "engine": "spacy-pl",
+      "lane": "core",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.5493421052631579,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.6318289786223278,
+        "relaxed_f2": 0.6396686608375518,
+        "relaxed_precision": 0.6303854875283447,
+        "relaxed_recall": 0.6420323325635104,
+        "residual_identifiability_rate": 0.0
+      }
+    },
+    {
+      "documents": 441,
+      "engine": "spacy-pl",
+      "lane": "inflection",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.963718820861678,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.963718820861678,
+        "relaxed_f2": 0.9650317892824705,
+        "relaxed_precision": 0.9703196347031964,
+        "relaxed_recall": 0.963718820861678,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 12,
+      "engine": "spacy-pl",
+      "lane": "identifiers",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.0,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.03225806451612903,
+        "relaxed_f2": 0.03937007874015748,
+        "relaxed_precision": 0.3333333333333333,
+        "relaxed_recall": 0.03225806451612903,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "spacy-pl",
+      "lane": "address",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 1.0,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.7926829268292683,
+        "relaxed_f2": 0.7784431137724552,
+        "relaxed_precision": 0.7262569832402235,
+        "relaxed_recall": 0.7926829268292683,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "spacy-pl",
+      "lane": "negative",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": null,
+        "negative_lane_fp_count": 346,
+        "negative_lane_fp_per_1000_tokens": 22.508456934686443,
+        "protected_recall_relaxed": null,
+        "relaxed_f2": null,
+        "relaxed_precision": 0.0,
+        "relaxed_recall": null,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 231,
+      "engine": "spacy-pl",
+      "lane": "robustness",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.49295112781954886,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.5561588055649813,
+        "relaxed_f2": 0.5729480232791491,
+        "relaxed_precision": 0.6063716814159292,
+        "relaxed_recall": 0.5651600131969647,
+        "residual_identifiability_rate": 0.03571428571428571
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "spacy-pl",
+      "lane": "pdf",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.5378787878787878,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.6229508196721312,
+        "relaxed_f2": 0.6263269639065817,
+        "relaxed_precision": 0.6082474226804123,
+        "relaxed_recall": 0.6310160427807486,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 33,
+      "engine": "gliner-pii-polish",
+      "lane": "core",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.6447368421052632,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.5961995249406176,
+        "relaxed_f2": 0.6133919843597264,
+        "relaxed_precision": 0.7993630573248408,
+        "relaxed_recall": 0.5796766743648961,
+        "residual_identifiability_rate": 0.0
+      }
+    },
+    {
+      "documents": 441,
+      "engine": "gliner-pii-polish",
+      "lane": "inflection",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.9727891156462585,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.9727891156462585,
+        "relaxed_f2": 0.9772209567198179,
+        "relaxed_precision": 0.9953596287703016,
+        "relaxed_recall": 0.9727891156462585,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 12,
+      "engine": "gliner-pii-polish",
+      "lane": "identifiers",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.1388888888888889,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.16666666666666666,
+        "relaxed_f2": 0.19076923076923075,
+        "relaxed_precision": 0.45255474452554745,
+        "relaxed_recall": 0.16666666666666666,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "gliner-pii-polish",
+      "lane": "address",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 1.0,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.29878048780487804,
+        "relaxed_f2": 0.3232189973614776,
+        "relaxed_precision": 0.4803921568627451,
+        "relaxed_recall": 0.29878048780487804,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "gliner-pii-polish",
+      "lane": "negative",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": null,
+        "negative_lane_fp_count": 123,
+        "negative_lane_fp_per_1000_tokens": 8.001561280249804,
+        "protected_recall_relaxed": null,
+        "relaxed_f2": null,
+        "relaxed_precision": 0.0,
+        "relaxed_recall": null,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 231,
+      "engine": "gliner-pii-polish",
+      "lane": "robustness",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.6005639097744361,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.5643026806922293,
+        "relaxed_f2": 0.5842467678471052,
+        "relaxed_precision": 0.788899430740038,
+        "relaxed_recall": 0.5486638073243154,
+        "residual_identifiability_rate": 0.0
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "gliner-pii-polish",
+      "lane": "pdf",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.6287878787878788,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.5628415300546448,
+        "relaxed_f2": 0.5852272727272727,
+        "relaxed_precision": 0.7803030303030303,
+        "relaxed_recall": 0.5508021390374331,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 33,
+      "engine": "bardsai-eu-pii",
+      "lane": "core",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.6282894736842105,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.6935866983372921,
+        "relaxed_f2": 0.5127334465195246,
+        "relaxed_precision": 0.24896949711459193,
+        "relaxed_recall": 0.6974595842956121,
+        "residual_identifiability_rate": 0.0
+      }
+    },
+    {
+      "documents": 441,
+      "engine": "bardsai-eu-pii",
+      "lane": "inflection",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.36961451247165533,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.36961451247165533,
+        "relaxed_f2": 0.33197556008146645,
+        "relaxed_precision": 0.23589001447178004,
+        "relaxed_recall": 0.36961451247165533,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 12,
+      "engine": "bardsai-eu-pii",
+      "lane": "identifiers",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.28888888888888886,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.3118279569892473,
+        "relaxed_f2": 0.18389346861128725,
+        "relaxed_precision": 0.06962785114045618,
+        "relaxed_recall": 0.3118279569892473,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "bardsai-eu-pii",
+      "lane": "address",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 1.0,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.6829268292682927,
+        "relaxed_f2": 0.5685279187817259,
+        "relaxed_precision": 0.3404255319148936,
+        "relaxed_recall": 0.6829268292682927,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "bardsai-eu-pii",
+      "lane": "negative",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": null,
+        "negative_lane_fp_count": 513,
+        "negative_lane_fp_per_1000_tokens": 33.37236533957845,
+        "protected_recall_relaxed": null,
+        "relaxed_f2": null,
+        "relaxed_precision": 0.0,
+        "relaxed_recall": null,
+        "residual_identifiability_rate": null
+      }
+    },
+    {
+      "documents": 231,
+      "engine": "bardsai-eu-pii",
+      "lane": "robustness",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.5488721804511278,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.6124872751951137,
+        "relaxed_f2": 0.45759968610525276,
+        "relaxed_precision": 0.22577132486388385,
+        "relaxed_recall": 0.6156384031672715,
+        "residual_identifiability_rate": 0.03571428571428571
+      }
+    },
+    {
+      "documents": 14,
+      "engine": "bardsai-eu-pii",
+      "lane": "pdf",
+      "scope": "public",
+      "summary": {
+        "direct_identifier_recall_relaxed": 0.5909090909090909,
+        "negative_lane_fp_count": 0,
+        "negative_lane_fp_per_1000_tokens": null,
+        "protected_recall_relaxed": 0.644808743169399,
+        "relaxed_f2": 0.49227013832384053,
+        "relaxed_precision": 0.2515592515592516,
+        "relaxed_recall": 0.6470588235294118,
+        "residual_identifiability_rate": null
+      }
+    }
+  ],
+  "schema_version": 1,
+  "source_commit": "29b51c335b26454b5c9271df9eeb343dcd28a8d4"
+}

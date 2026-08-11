@@ -1,0 +1,330 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pl-pii-bench.example/schemas/release-manifest.schema.json",
+  "title": "pl-pii-bench release manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "benchmark_version",
+    "generated_at",
+    "repository",
+    "environment",
+    "corpora",
+    "engine_registry",
+    "matrix",
+    "runs",
+    "public_artifacts_sha256",
+    "artifacts_sha256"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "benchmark_version": {
+      "type": "string",
+      "pattern": "^v[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["commit", "dirty"],
+      "properties": {
+        "commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "dirty": {
+          "type": "boolean"
+        }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "python",
+        "platform",
+        "harness_version",
+        "anonimator_version",
+        "presidio_analyzer_version",
+        "spacy_version",
+        "spacy_model",
+        "spacy_model_version"
+      ],
+      "properties": {
+        "python": {"type": "string", "minLength": 1},
+        "platform": {"type": "string", "minLength": 1},
+        "harness_version": {"type": "string", "minLength": 1},
+        "anonimator_version": {"type": "string", "minLength": 1},
+        "presidio_analyzer_version": {"type": "string", "minLength": 1},
+        "spacy_version": {"type": "string", "minLength": 1},
+        "spacy_model": {"const": "pl_core_news_lg"},
+        "spacy_model_version": {"type": "string", "minLength": 1}
+      }
+    },
+    "corpora": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["public", "holdout"],
+      "properties": {
+        "public": {"$ref": "#/$defs/corpus"},
+        "holdout": {"$ref": "#/$defs/corpus"}
+      }
+    },
+    "engine_registry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "engines"],
+      "properties": {
+        "version": {"type": "integer", "minimum": 1},
+        "engines": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/engine"},
+          "allOf": [
+            {"contains": {"properties": {"id": {"const": "anonimator"}}, "required": ["id"]}},
+            {"contains": {"properties": {"id": {"const": "presidio"}}, "required": ["id"]}},
+            {"contains": {"properties": {"id": {"const": "spacy-pl"}}, "required": ["id"]}},
+            {"contains": {"properties": {"id": {"const": "gliner-pii-polish"}}, "required": ["id"]}},
+            {"contains": {"properties": {"id": {"const": "bardsai-eu-pii"}}, "required": ["id"]}}
+          ]
+        }
+      }
+    },
+    "matrix": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["public_lanes", "holdout_lanes", "engine_ids", "run_count"],
+      "properties": {
+        "public_lanes": {
+          "type": "array",
+          "prefixItems": [
+            {"const": "core"},
+            {"const": "inflection"},
+            {"const": "identifiers"},
+            {"const": "address"},
+            {"const": "negative"},
+            {"const": "robustness"},
+            {"const": "pdf"}
+          ],
+          "items": false
+        },
+        "holdout_lanes": {
+          "type": "array",
+          "prefixItems": [
+            {"const": "core"},
+            {"const": "identifiers"},
+            {"const": "address"},
+            {"const": "negative"}
+          ],
+          "items": false
+        },
+        "engine_ids": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/engine_id"}
+        },
+        "run_count": {"type": "integer", "minimum": 1}
+      }
+    },
+    "runs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/run"}
+    },
+    "artifacts_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "public_artifacts_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "$defs": {
+    "engine_id": {
+      "enum": [
+        "anonimator",
+        "presidio",
+        "spacy-pl",
+        "gliner-pii-polish",
+        "bardsai-eu-pii"
+      ]
+    },
+    "engine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "display_name",
+        "adapter",
+        "public_lanes",
+        "holdout_lanes",
+        "reproducibility"
+      ],
+      "properties": {
+        "id": {"$ref": "#/$defs/engine_id"},
+        "display_name": {"type": "string", "minLength": 1},
+        "adapter": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+        "public_lanes": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/lane"}
+        },
+        "holdout_lanes": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/lane"}
+        },
+        "reproducibility": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["dependency_group", "execution"],
+          "properties": {
+            "dependency_group": {"type": "string", "minLength": 1},
+            "execution": {"enum": ["maintainer-attested", "open-adapter"]},
+            "model_id": {"type": "string", "minLength": 1},
+            "model_revision": {"type": "string", "pattern": "^[0-9a-f]{40}$"}
+          }
+        }
+      }
+    },
+    "lane": {
+      "enum": [
+        "core",
+        "inflection",
+        "identifiers",
+        "address",
+        "negative",
+        "robustness",
+        "pdf"
+      ]
+    },
+    "corpus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256", "documents", "lanes", "validated_at"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "documents": {"type": "integer", "minimum": 1},
+        "lanes": {
+          "type": "object",
+          "additionalProperties": {"type": "integer", "minimum": 1}
+        },
+        "validated_at": {"type": "string", "format": "date-time"}
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256", "bytes"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "bytes": {"type": "integer", "minimum": 1}
+      }
+    },
+    "run": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scope",
+        "engine",
+        "lane",
+        "corpus_version",
+        "command",
+        "started_at",
+        "completed_at",
+        "duration_seconds",
+        "documents",
+        "corpus_sha256",
+        "summary",
+        "artifacts"
+      ],
+      "properties": {
+        "scope": {"enum": ["public", "holdout"]},
+        "engine": {"$ref": "#/$defs/engine_id"},
+        "lane": {
+          "enum": [
+            "core",
+            "inflection",
+            "identifiers",
+            "address",
+            "negative",
+            "robustness",
+            "pdf"
+          ]
+        },
+        "corpus_version": {"type": "string", "minLength": 1},
+        "command": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["adapter", "scorer"],
+          "properties": {
+            "adapter": {
+              "type": "array",
+              "minItems": 1,
+              "items": {"type": "string"}
+            },
+            "scorer": {
+              "type": "array",
+              "minItems": 1,
+              "items": {"type": "string"}
+            }
+          }
+        },
+        "started_at": {"type": "string", "format": "date-time"},
+        "completed_at": {"type": "string", "format": "date-time"},
+        "duration_seconds": {"type": "number", "minimum": 0},
+        "documents": {"type": "integer", "minimum": 1},
+        "corpus_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "harness_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "summary": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "relaxed_recall",
+            "relaxed_precision",
+            "relaxed_f2",
+            "direct_identifier_recall_relaxed",
+            "protected_recall_relaxed",
+            "residual_identifiability_rate",
+            "negative_lane_fp_count"
+          ],
+          "properties": {
+            "relaxed_recall": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+            "relaxed_precision": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+            "relaxed_f2": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+            "direct_identifier_recall_relaxed": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+            "protected_recall_relaxed": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+            "residual_identifiability_rate": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+            "negative_lane_fp_count": {"type": "integer", "minimum": 0},
+            "negative_lane_fp_per_1000_tokens": {"type": ["number", "null"], "minimum": 0}
+          }
+        },
+        "artifacts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["predictions", "report_json", "report_markdown"],
+          "properties": {
+            "predictions": {"$ref": "#/$defs/artifact"},
+            "report_json": {"$ref": "#/$defs/artifact"},
+            "report_markdown": {"$ref": "#/$defs/artifact"}
+          }
+        }
+      }
+    }
+  }
+}

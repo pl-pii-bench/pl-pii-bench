@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-dowod",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-dowod",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają wskazaną wartość: Dowód: PXG358101.\nPole 03 formularza, serię i numer dowodu osobistego: PXH758102.\n04 | rejestr | serię i numer dowodu osobistego | PXJ258103 | sprawdzono\nW odpowiedzi na pismo prosimy podać serię i numer dowodu osobistego: PXK-658104.\n§ 6. Strony potwierdzają serię i numer dowodu osobistego: PXL-058105.\nPole 07 formularza, serię i numer dowodu osobistego: PXM 458106.\n08 | rejestr | serię i numer dowodu osobistego | PXN 858107 | sprawdzono\nW odpowiedzi na pismo prosimy podać serię i numer dowodu osobistego: PXP-358108.\n§ 1. Strony potwierdzają serię i numer dowodu osobistego: PXR858109.\nPole 11 formularza, serię i numer dowodu osobistego: PXS958110.\n12 | rejestr | wskazana wartość | Dowód: PXT358111 | sprawdzono\nW odpowiedzi na pismo prosimy podać serię i numer dowodu osobistego: PXU758112.\n§ 5. Strony potwierdzają serię i numer dowodu osobistego: PXV 158113.\nPole 15 formularza, serię i numer dowodu osobistego: PXW558114.\n16 | rejestr | serię i numer dowodu osobistego | PXX 958115 | sprawdzono\nW odpowiedzi na pismo prosimy podać serię i numer dowodu osobistego: PXY 358116.\n§ 9. Strony potwierdzają serię i numer dowodu osobistego: PXZ 758117.\nPole 19 formularza, serię i numer dowodu osobistego: PYA-858118.\n20 | rejestr | wskazana wartość | Dowód: PYB258119 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: Dowód: PYC358120.\n§ 4. Strony potwierdzają wskazaną wartość: Dowód: PYD758121.\nPole 03 formularza, serię i numer dowodu osobistego: PYE-158122.\n24 | rejestr | serię i numer dowodu osobistego | PYF-558123 | sprawdzono\nW odpowiedzi na pismo prosimy podać serię i numer dowodu osobistego: PYG 958124.\n§ 8. Strony potwierdzają wskazaną wartość: Dowód: PYH358125.\nPole 07 formularza, wskazana wartość: Dowód: PYJ858126.\n28 | rejestr | serię i numer dowodu osobistego | PYK258127 | sprawdzono\nW odpowiedzi na pismo prosimy podać serię i numer dowodu osobistego: PYL 658128.\n§ 3. Strony potwierdzają serię i numer dowodu osobistego: PYM058129.\nPole 11 formularza, serię i numer dowodu osobistego: PYN-158130.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Dowód: PXG358101",
+      "label": "DOWOD",
+      "start": 103,
+      "end": 119,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-001",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "PXH758102",
+      "label": "DOWOD",
+      "start": 174,
+      "end": 183,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-002",
+      "id_format": "bare"
+    },
+    {
+      "text": "PXJ258103",
+      "label": "DOWOD",
+      "start": 234,
+      "end": 243,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-003",
+      "id_format": "bare"
+    },
+    {
+      "text": "PXK-658104",
+      "label": "DOWOD",
+      "start": 326,
+      "end": 336,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-004",
+      "id_format": "dashed"
+    },
+    {
+      "text": "PXL-058105",
+      "label": "DOWOD",
+      "start": 396,
+      "end": 406,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-005",
+      "id_format": "dashed"
+    },
+    {
+      "text": "PXM 458106",
+      "label": "DOWOD",
+      "start": 461,
+      "end": 471,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-006",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PXN 858107",
+      "label": "DOWOD",
+      "start": 522,
+      "end": 532,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-007",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PXP-358108",
+      "label": "DOWOD",
+      "start": 615,
+      "end": 625,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-008",
+      "id_format": "dashed"
+    },
+    {
+      "text": "PXR858109",
+      "label": "DOWOD",
+      "start": 685,
+      "end": 694,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-009",
+      "id_format": "bare"
+    },
+    {
+      "text": "PXS958110",
+      "label": "DOWOD",
+      "start": 749,
+      "end": 758,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-010",
+      "id_format": "bare"
+    },
+    {
+      "text": "Dowód: PXT358111",
+      "label": "DOWOD",
+      "start": 794,
+      "end": 810,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-011",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "PXU758112",
+      "label": "DOWOD",
+      "start": 893,
+      "end": 902,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-012",
+      "id_format": "bare"
+    },
+    {
+      "text": "PXV 158113",
+      "label": "DOWOD",
+      "start": 962,
+      "end": 972,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-013",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PXW558114",
+      "label": "DOWOD",
+      "start": 1027,
+      "end": 1036,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-014",
+      "id_format": "bare"
+    },
+    {
+      "text": "PXX 958115",
+      "label": "DOWOD",
+      "start": 1087,
+      "end": 1097,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-015",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PXY 358116",
+      "label": "DOWOD",
+      "start": 1180,
+      "end": 1190,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-016",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PXZ 758117",
+      "label": "DOWOD",
+      "start": 1250,
+      "end": 1260,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-017",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PYA-858118",
+      "label": "DOWOD",
+      "start": 1315,
+      "end": 1325,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-018",
+      "id_format": "dashed"
+    },
+    {
+      "text": "Dowód: PYB258119",
+      "label": "DOWOD",
+      "start": 1361,
+      "end": 1377,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-019",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "Dowód: PYC358120",
+      "label": "DOWOD",
+      "start": 1445,
+      "end": 1461,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-020",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "Dowód: PYD758121",
+      "label": "DOWOD",
+      "start": 1506,
+      "end": 1522,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-021",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "PYE-158122",
+      "label": "DOWOD",
+      "start": 1577,
+      "end": 1587,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-022",
+      "id_format": "dashed"
+    },
+    {
+      "text": "PYF-558123",
+      "label": "DOWOD",
+      "start": 1638,
+      "end": 1648,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-023",
+      "id_format": "dashed"
+    },
+    {
+      "text": "PYG 958124",
+      "label": "DOWOD",
+      "start": 1731,
+      "end": 1741,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-024",
+      "id_format": "spaced"
+    },
+    {
+      "text": "Dowód: PYH358125",
+      "label": "DOWOD",
+      "start": 1786,
+      "end": 1802,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-025",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "Dowód: PYJ858126",
+      "label": "DOWOD",
+      "start": 1842,
+      "end": 1858,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-026",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "PYK258127",
+      "label": "DOWOD",
+      "start": 1909,
+      "end": 1918,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-027",
+      "id_format": "bare"
+    },
+    {
+      "text": "PYL 658128",
+      "label": "DOWOD",
+      "start": 2001,
+      "end": 2011,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-028",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PYM058129",
+      "label": "DOWOD",
+      "start": 2071,
+      "end": 2080,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-029",
+      "id_format": "bare"
+    },
+    {
+      "text": "PYN-158130",
+      "label": "DOWOD",
+      "start": 2135,
+      "end": 2145,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "dowod-030",
+      "id_format": "dashed"
+    }
+  ]
+}

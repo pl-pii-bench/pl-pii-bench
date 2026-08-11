@@ -1,0 +1,136 @@
+{
+  "schema_version": 2,
+  "benchmark_version": "v1.0.0",
+  "generated_at": "2026-07-27T00:00:00Z",
+  "repository": {
+    "commit": "0000000000000000000000000000000000000000",
+    "dirty": false
+  },
+  "environment": {
+    "python": "3.11.0",
+    "platform": "macOS-arm64",
+    "harness_version": "0.1.0",
+    "anonimator_version": "0.1.0",
+    "presidio_analyzer_version": "2.2.0",
+    "spacy_version": "3.8.0",
+    "spacy_model": "pl_core_news_lg",
+    "spacy_model_version": "3.8.0"
+  },
+  "engine_registry": {
+    "version": 1,
+    "engines": [
+      {
+        "id": "anonimator",
+        "display_name": "Anonimator",
+        "adapter": "anonimator",
+        "public_lanes": ["core"],
+        "holdout_lanes": ["core"],
+        "reproducibility": {
+          "dependency_group": "product-attested",
+          "execution": "maintainer-attested"
+        }
+      },
+      {
+        "id": "presidio",
+        "display_name": "Presidio",
+        "adapter": "presidio",
+        "public_lanes": ["core"],
+        "holdout_lanes": ["core"],
+        "reproducibility": {
+          "dependency_group": "presidio",
+          "execution": "open-adapter"
+        }
+      },
+      {
+        "id": "spacy-pl",
+        "display_name": "spaCy PL",
+        "adapter": "spacy_pl",
+        "public_lanes": ["core"],
+        "holdout_lanes": ["core"],
+        "reproducibility": {
+          "dependency_group": "spacy-pl",
+          "execution": "open-adapter"
+        }
+      },
+      {
+        "id": "gliner-pii-polish",
+        "display_name": "GLiNER PII Polish",
+        "adapter": "gliner_pii_polish",
+        "public_lanes": ["core"],
+        "holdout_lanes": ["core"],
+        "reproducibility": {
+          "dependency_group": "gliner-pii-polish",
+          "execution": "open-adapter"
+        }
+      },
+      {
+        "id": "bardsai-eu-pii",
+        "display_name": "BardsAI EU PII",
+        "adapter": "bardsai_eu_pii",
+        "public_lanes": ["core"],
+        "holdout_lanes": ["core"],
+        "reproducibility": {
+          "dependency_group": "bardsai-eu-pii",
+          "execution": "open-adapter",
+          "model_id": "bardsai/eu-pii-anonimization-multilang-v2-preview",
+          "model_revision": "8e0b19766bb0dd4916d096b4f540dd46c138c760"
+        }
+      }
+    ]
+  },
+  "corpora": {
+    "public": {
+      "path": "corpus",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "documents": 1,
+      "lanes": {"core": 1},
+      "validated_at": "2026-07-27T00:00:00Z"
+    },
+    "holdout": {
+      "path": "../products/anonimator/bench/corpus/holdout",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "documents": 1,
+      "lanes": {"core": 1},
+      "validated_at": "2026-07-27T00:00:00Z"
+    }
+  },
+  "matrix": {
+    "public_lanes": ["core", "inflection", "identifiers", "address", "negative", "robustness", "pdf"],
+    "holdout_lanes": ["core", "identifiers", "address"],
+    "engine_ids": ["anonimator", "presidio", "spacy-pl", "gliner-pii-polish", "bardsai-eu-pii"],
+    "run_count": 1
+  },
+  "runs": [
+    {
+      "scope": "public",
+      "engine": "anonimator",
+      "lane": "core",
+      "corpus_version": "1.0.0",
+      "command": {
+        "adapter": ["python", "adapters/anonimator.py"],
+        "scorer": ["python", "eval/score.py"]
+      },
+      "started_at": "2026-07-27T00:00:00Z",
+      "completed_at": "2026-07-27T00:00:01Z",
+      "duration_seconds": 1.0,
+      "documents": 1,
+      "corpus_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "summary": {
+        "relaxed_recall": 1.0,
+        "relaxed_precision": 1.0,
+        "relaxed_f2": 1.0,
+        "direct_identifier_recall_relaxed": 1.0,
+        "protected_recall_relaxed": 1.0,
+        "residual_identifiability_rate": 0.0,
+        "negative_lane_fp_count": 0
+      },
+      "artifacts": {
+        "predictions": {"path": "results/predictions.jsonl", "sha256": "0000000000000000000000000000000000000000000000000000000000000000", "bytes": 1},
+        "report_json": {"path": "results/report.json", "sha256": "0000000000000000000000000000000000000000000000000000000000000000", "bytes": 1},
+        "report_markdown": {"path": "results/report.md", "sha256": "0000000000000000000000000000000000000000000000000000000000000000", "bytes": 1}
+      }
+    }
+  ],
+  "public_artifacts_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "artifacts_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+}

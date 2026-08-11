@@ -1,0 +1,138 @@
+{
+  "doc_id": "core-odpis-krs-high-robustness-light-obfuscation-interdigit-space",
+  "clean_doc_id": "core-odpis-krs-high",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "odpis-krs",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed",
+    "protection_mix": false,
+    "noise": "light-obfuscation",
+    "noise_detail": "interdigit-space"
+  },
+  "text": "ODPIS PEŁNY Z REJESTRU PRZEDSIĘBIORCÓW\nKRAJOWEGO REJESTRU SĄDOWEGO\n\nFirma: Innowacje Technologiczne Spółka z ograniczoną odpowiedzialnością\nNazwa skrócona: Innowacje Technologiczne Sp. z o.o.\nNIP: 8 9 4 3 2 1 7 6 5 1\nREGON: 5 1 4 3 8 2 9 6 6\n\nZARZĄD:\nCzłonek Zarządu: Marek Nowak, PESEL 7 0 0 1 0 1 1 0 0 0 4\nCzłonek Zarządu: Anna Kowalska, PESEL 7 1 0 2 0 4 1 1 1 1 0\nCzłonek Zarządu: Piotr Zalewski, PESEL 7 2 0 3 0 7 1 2 2 2 6\nCzłonek Zarządu: Beata Szymańska, PESEL 7 3 0 4 1 0 1 3 3 3 1\n\nKapitał zakładowy Innowacje Technologiczne Sp. z o.o. wynosi 50 000,00 PLN.\n",
+  "entities": [
+    {
+      "text": "Innowacje Technologiczne Spółka z ograniczoną odpowiedzialnością",
+      "label": "ORG",
+      "start": 75,
+      "end": 139,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Innowacje Technologiczne Sp. z o.o.",
+      "label": "ORG",
+      "start": 156,
+      "end": 191,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "8 9 4 3 2 1 7 6 5 1",
+      "label": "NIP",
+      "start": 197,
+      "end": 216,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "5 1 4 3 8 2 9 6 6",
+      "label": "REGON",
+      "start": 224,
+      "end": 241,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Marek Nowak",
+      "label": "PERSON",
+      "start": 268,
+      "end": 279,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "7 0 0 1 0 1 1 0 0 0 4",
+      "label": "PESEL",
+      "start": 287,
+      "end": 308,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "Anna Kowalska",
+      "label": "PERSON",
+      "start": 326,
+      "end": 339,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "7 1 0 2 0 4 1 1 1 1 0",
+      "label": "PESEL",
+      "start": 347,
+      "end": 368,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2"
+    },
+    {
+      "text": "Piotr Zalewski",
+      "label": "PERSON",
+      "start": 386,
+      "end": 400,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "nom"
+    },
+    {
+      "text": "7 2 0 3 0 7 1 2 2 2 6",
+      "label": "PESEL",
+      "start": 408,
+      "end": 429,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3"
+    },
+    {
+      "text": "Beata Szymańska",
+      "label": "PERSON",
+      "start": 447,
+      "end": 462,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p4",
+      "case": "nom"
+    },
+    {
+      "text": "7 3 0 4 1 0 1 3 3 3 1",
+      "label": "PESEL",
+      "start": 470,
+      "end": 491,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p4"
+    },
+    {
+      "text": "Innowacje Technologiczne Sp. z o.o.",
+      "label": "ORG",
+      "start": 511,
+      "end": 546,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    }
+  ]
+}

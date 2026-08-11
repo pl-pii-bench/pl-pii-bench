@@ -1,0 +1,115 @@
+{
+  "doc_id": "tabular-001",
+  "pdf": "tabular-001.pdf",
+  "text": "KSIEGA PRZYCHODOW I ROZCHODOW (KPiR)\nNIP: 1338908381 REGON: 637940260\nPodmiot: Firma Testowa Sp. z o.o.\nData Nr dok. Kontrahent Kategoria Kwota VAT\n02.01.2024FV/001/2024 Delta Instal Sp. z o.o. Uslugi 7 500.00 23%\n15.01.2024FV/002/2024 Marek Nowicki INSTAL-SERWIS Towary 12 300.00 23%\n20.01.2024FV/003/2024 Delta Instal Sp. z o.o. Uslugi 4 200.00 8%\n05.02.2024FV/004/2024 Marek Nowicki INSTAL-SERWIS Towary 9 800.00 23%\n10.02.2024FV/005/2024 Delta Instal Sp. z o.o. Uslugi 6 500.00 23%\n18.02.2024FV/006/2024 Marek Nowicki INSTAL-SERWIS Towary 15 200.00 23%\nDane kontrahenta:\nNazwa: Delta Instal Sp. z o.o.\nNIP: 5423511615\nREGON: 559407817\nAdres: ul. Testowa 15, 00-001 Warszawa",
+  "entities": [
+    {
+      "text": "1338908381",
+      "label": "NIP",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "e1",
+      "start": 42,
+      "end": 52
+    },
+    {
+      "text": "637940260",
+      "label": "REGON",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "e2",
+      "start": 60,
+      "end": 69
+    },
+    {
+      "text": "Firma Testowa Sp. z o.o.",
+      "label": "ORG",
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "e3",
+      "start": 79,
+      "end": 103
+    },
+    {
+      "text": "Delta Instal Sp. z o.o.",
+      "label": "ORG",
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "e4",
+      "start": 170,
+      "end": 193
+    },
+    {
+      "text": "Delta Instal Sp. z o.o.",
+      "label": "ORG",
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "e4",
+      "start": 307,
+      "end": 330
+    },
+    {
+      "text": "Delta Instal Sp. z o.o.",
+      "label": "ORG",
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "e4",
+      "start": 442,
+      "end": 465
+    },
+    {
+      "text": "Delta Instal Sp. z o.o.",
+      "label": "ORG",
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "e4",
+      "start": 582,
+      "end": 605
+    },
+    {
+      "text": "Marek Nowicki INSTAL-SERWIS",
+      "label": "ORG",
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "e5",
+      "start": 236,
+      "end": 263
+    },
+    {
+      "text": "Marek Nowicki INSTAL-SERWIS",
+      "label": "ORG",
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "e5",
+      "start": 372,
+      "end": 399
+    },
+    {
+      "text": "Marek Nowicki INSTAL-SERWIS",
+      "label": "ORG",
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "e5",
+      "start": 508,
+      "end": 535
+    },
+    {
+      "text": "5423511615",
+      "label": "NIP",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "e6",
+      "start": 611,
+      "end": 621
+    },
+    {
+      "text": "559407817",
+      "label": "REGON",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "e7",
+      "start": 629,
+      "end": 638
+    }
+  ]
+}

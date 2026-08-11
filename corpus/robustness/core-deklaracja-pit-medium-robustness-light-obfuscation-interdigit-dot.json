@@ -1,0 +1,153 @@
+{
+  "doc_id": "core-deklaracja-pit-medium-robustness-light-obfuscation-interdigit-dot",
+  "clean_doc_id": "core-deklaracja-pit-medium",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "deklaracja-pit",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "mixed",
+    "protection_mix": true,
+    "noise": "light-obfuscation",
+    "noise_detail": "interdigit-dot"
+  },
+  "text": "MINISTERSTWO FINANSÓW\nPIT-37\n\nUrząd Skarbowy w Poznaniu\n\nB. DANE PODATNIKA\nNazwisko i imię: Marek Nowak\nPESEL: 7.9.0.3.0.8.3.5.3.4.4\nData urodzenia: 8 marca 1979\nAdres zamieszkania: Wrocław\n\nC. MAŁŻONEK\nNazwisko i imię: Anna Kowalska\nPESEL: 8.1.1.1.2.5.6.8.4.4.6\n\nD. PŁATNIK\nNazwa: Spółdzielnia Pracy Budowlanych \"MURAL\" Sp. z o.o.\nNIP: 9.4.7.3.2.8.1.6.5.1\n\nF. ODLICZENIA\nUlga nr 1 rozliczona na rzecz Marka Nowaka.\nUlga nr 2 rozliczona na rzecz Marka Nowaka.\nUlga nr 3 rozliczona na rzecz Marka Nowaka.\n\nJa, Marek Nowak, oświadczam, że dane zawarte w niniejszym zeznaniu są prawdziwe.\nAnna Kowalska (współmałżonek) — podpis: ..................................\n",
+  "entities": [
+    {
+      "text": "Urząd Skarbowy w Poznaniu",
+      "label": "ORG",
+      "start": 30,
+      "end": 55,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Marek Nowak",
+      "label": "PERSON",
+      "start": 92,
+      "end": 103,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "7.9.0.3.0.8.3.5.3.4.4",
+      "label": "PESEL",
+      "start": 111,
+      "end": 132,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "8 marca 1979",
+      "label": "DOB",
+      "start": 149,
+      "end": 161,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "p1",
+      "date_format": "long-pl"
+    },
+    {
+      "text": "Wrocław",
+      "label": "LOC",
+      "start": 182,
+      "end": 189,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Anna Kowalska",
+      "label": "PERSON",
+      "start": 220,
+      "end": 233,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "8.1.1.1.2.5.6.8.4.4.6",
+      "label": "PESEL",
+      "start": 241,
+      "end": 262,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2"
+    },
+    {
+      "text": "Spółdzielnia Pracy Budowlanych \"MURAL\" Sp. z o.o.",
+      "label": "ORG",
+      "start": 282,
+      "end": 331,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "9.4.7.3.2.8.1.6.5.1",
+      "label": "NIP",
+      "start": 337,
+      "end": 356,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "Marka Nowaka",
+      "label": "PERSON",
+      "start": 402,
+      "end": 414,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Marka Nowaka",
+      "label": "PERSON",
+      "start": 446,
+      "end": 458,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Marka Nowaka",
+      "label": "PERSON",
+      "start": 490,
+      "end": 502,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Marek Nowak",
+      "label": "PERSON",
+      "start": 509,
+      "end": 520,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Anna Kowalska",
+      "label": "PERSON",
+      "start": 586,
+      "end": 599,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    }
+  ]
+}

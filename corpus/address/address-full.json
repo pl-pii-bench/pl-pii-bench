@@ -1,0 +1,182 @@
+{
+  "doc_id": "address-full",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-full",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Marek Nowak wskazał adres: ul. Kwiatowej 15/2, 30-001 Kraków. Anna Zielińska wskazał adres: ul. Słoneczna 7, 80-180 Gdańsk. Piotr Mazur wskazał adres: ul. Polna 24, 20-078 Lublin. Zofia Wójcik wskazał adres: ul. Parkowa 31, 40-007 Katowice. ",
+  "entities": [
+    {
+      "text": "Marek Nowak",
+      "label": "PERSON",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "full-1",
+      "case": "nom"
+    },
+    {
+      "text": "ul. Kwiatowej 15/2",
+      "label": "LOC",
+      "start": 27,
+      "end": 45,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-1",
+      "case": "gen",
+      "address_form": "full"
+    },
+    {
+      "text": "30-001",
+      "label": "POSTAL",
+      "start": 47,
+      "end": 53,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-1",
+      "address_form": "full"
+    },
+    {
+      "text": "Kraków",
+      "label": "LOC",
+      "start": 54,
+      "end": 60,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-1",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "Anna Zielińska",
+      "label": "PERSON",
+      "start": 62,
+      "end": 76,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "full-2",
+      "case": "nom"
+    },
+    {
+      "text": "ul. Słoneczna 7",
+      "label": "LOC",
+      "start": 92,
+      "end": 107,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-2",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "80-180",
+      "label": "POSTAL",
+      "start": 109,
+      "end": 115,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-2",
+      "address_form": "full"
+    },
+    {
+      "text": "Gdańsk",
+      "label": "LOC",
+      "start": 116,
+      "end": 122,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-2",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "Piotr Mazur",
+      "label": "PERSON",
+      "start": 124,
+      "end": 135,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "full-3",
+      "case": "nom"
+    },
+    {
+      "text": "ul. Polna 24",
+      "label": "LOC",
+      "start": 151,
+      "end": 163,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-3",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "20-078",
+      "label": "POSTAL",
+      "start": 165,
+      "end": 171,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-3",
+      "address_form": "full"
+    },
+    {
+      "text": "Lublin",
+      "label": "LOC",
+      "start": 172,
+      "end": 178,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-3",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "Zofia Wójcik",
+      "label": "PERSON",
+      "start": 180,
+      "end": 192,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "full-4",
+      "case": "nom"
+    },
+    {
+      "text": "ul. Parkowa 31",
+      "label": "LOC",
+      "start": 208,
+      "end": 222,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-4",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "40-007",
+      "label": "POSTAL",
+      "start": 224,
+      "end": 230,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-4",
+      "address_form": "full"
+    },
+    {
+      "text": "Katowice",
+      "label": "LOC",
+      "start": 231,
+      "end": 239,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "full-4",
+      "case": "nom",
+      "address_form": "full"
+    }
+  ]
+}

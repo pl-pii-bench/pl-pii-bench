@@ -1,0 +1,84 @@
+{
+  "doc_id": "core-pismo-urzedowe-low-robustness-spacing-damage-missing-entity-whitespace",
+  "clean_doc_id": "core-pismo-urzedowe-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "pismo-urzedowe",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "prose",
+    "protection_mix": true,
+    "noise": "spacing-damage",
+    "noise_detail": "missing-entity-whitespace"
+  },
+  "text": "UrządMiejskiwGdańsku\nWydział Komunikacji\n\nGdańsk, dnia 10 kwietnia 2024 r.\n\nDECYZJA NR WK.5410.127.2024\n\nPo rozpatrzeniu wniosku Pani AnnyKowalskiej, PESEL 78110264825,\nlegitymującej się dowodem osobistym nr CDM891043,\n\norzekam:\n\n1. Ustalono okoliczność nr 1 potwierdzającą zasadność wniosku AnnyKowalskiej.\n\nUZASADNIENIE\n\nPani AnnaKowalska złożyła wniosek w związku z upływem terminu ważności dokumentu.\n\nz up. Prezydenta Miasta Gdańska\n\nPiotrZalewski\nKierownik Wydziału Komunikacji\n",
+  "entities": [
+    {
+      "text": "UrządMiejskiwGdańsku",
+      "label": "ORG",
+      "start": 0,
+      "end": 20,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "AnnyKowalskiej",
+      "label": "PERSON",
+      "start": 134,
+      "end": 148,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "78110264825",
+      "label": "PESEL",
+      "start": 156,
+      "end": 167,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "CDM891043",
+      "label": "DOWOD",
+      "start": 208,
+      "end": 217,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "AnnyKowalskiej",
+      "label": "PERSON",
+      "start": 292,
+      "end": 306,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "AnnaKowalska",
+      "label": "PERSON",
+      "start": 328,
+      "end": 340,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "PiotrZalewski",
+      "label": "PERSON",
+      "start": 439,
+      "end": 452,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    }
+  ]
+}

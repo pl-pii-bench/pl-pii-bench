@@ -1,0 +1,1899 @@
+{
+  "benchmark_version": "v1.0.0",
+  "package": "github",
+  "payload_file_count": 378,
+  "payload_files": [
+    {
+      "bytes": 1798,
+      "path": ".github/workflows/ci.yml",
+      "sha256": "0b67d2d45785b0dc5cd2797fc9c67ade34aa6cf503669697045bd1125f2d771f"
+    },
+    {
+      "bytes": 839,
+      "path": "DATA_LICENSE",
+      "sha256": "b7557d63554f3c4a86150313fa4eb5d69eccebfb3ccd94ebada9951832fb4aa7"
+    },
+    {
+      "bytes": 11358,
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "bytes": 14579,
+      "path": "README.md",
+      "sha256": "5d5d1fdd0de81f0a9207391152eead1179763da8bac8f222f9bc978a56e5d6ee"
+    },
+    {
+      "bytes": 1155,
+      "path": "RESULTS.md",
+      "sha256": "830e01d6335d076fcfc3760e5252001b516ed90ce28deca39b845fa8dc348473"
+    },
+    {
+      "bytes": 0,
+      "path": "adapters/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 17642,
+      "path": "adapters/anonimator.py",
+      "sha256": "21c9a17e24de3c2deb41de1ede52e13c7f1ffb7cfb0e4c0099b7718b83f6cd0b"
+    },
+    {
+      "bytes": 1770,
+      "path": "adapters/bardsai_eu_pii.py",
+      "sha256": "2f70f075a82d1a9e860ccbf39d6dbad4e04c281b613f3107d3bb42a6383c4dff"
+    },
+    {
+      "bytes": 2080,
+      "path": "adapters/gliner_pii_polish.py",
+      "sha256": "099e70fdd9715de61d15ee66aab5d63f2d21b29f5a564c5960ccae0f7a746b55"
+    },
+    {
+      "bytes": 4117,
+      "path": "adapters/open_model.py",
+      "sha256": "dcb8f7441669aa81e017f59e816c60a114fd2855941b17cb0e336320cf4c9245"
+    },
+    {
+      "bytes": 8913,
+      "path": "adapters/presidio.py",
+      "sha256": "cdb90126e195e1a9355ae2c662f2279698b34b6fa9d3f0d185911c00f1f2125f"
+    },
+    {
+      "bytes": 1624,
+      "path": "adapters/spacy_pl.py",
+      "sha256": "31459c36d17115ff6cb331c729eb9df9092efecfa490c4c58efc0fb93f023dd4"
+    },
+    {
+      "bytes": 4699,
+      "path": "corpus/address/address-admin-unit.json",
+      "sha256": "85242425eea93d959ee44c5e2a1b54eac194032d202f5beaffaea119ae219278"
+    },
+    {
+      "bytes": 2445,
+      "path": "corpus/address/address-al-prefix.json",
+      "sha256": "966e3adafe96dc4d8e3630030b54d50ff837876d7348fad329d7fa215e17b66e"
+    },
+    {
+      "bytes": 4306,
+      "path": "corpus/address/address-bare-city.json",
+      "sha256": "8e93cc99614d0fffa627ac6c813e355568b8ceb3b87ba0b78b1a23d51ceb135e"
+    },
+    {
+      "bytes": 3347,
+      "path": "corpus/address/address-building-letter.json",
+      "sha256": "acfae4e7c9a8ad114b04bbe5b4a05ba7021fa8a9bb18115658a5b6ebb6b72fef"
+    },
+    {
+      "bytes": 3463,
+      "path": "corpus/address/address-flat-unit.json",
+      "sha256": "39aff0ba6cef0ee2883b3a5119b8e6ee560ca7f2ca75141166cc1932c26c4dd2"
+    },
+    {
+      "bytes": 4240,
+      "path": "corpus/address/address-full.json",
+      "sha256": "bfc1d8926d8372c8b8be7667e34573787c8b6a866a2046e899dc94c9973414da"
+    },
+    {
+      "bytes": 4183,
+      "path": "corpus/address/address-inflected.json",
+      "sha256": "afd7a088c4924c8212cf7e789f0dda77ce0e5f53ff36608a7621d255f31719b0"
+    },
+    {
+      "bytes": 3454,
+      "path": "corpus/address/address-letterhead-block.json",
+      "sha256": "14087a8528e947e59671e742597473232935393a511a7827e37bb9eaffb99260"
+    },
+    {
+      "bytes": 2343,
+      "path": "corpus/address/address-loc-in-org.json",
+      "sha256": "28e3ff07f30f5e1a9429a294cf7de1347d65a17db8f1575654c1e1a8ba26c3be"
+    },
+    {
+      "bytes": 3624,
+      "path": "corpus/address/address-osiedle-block.json",
+      "sha256": "7bbdc2ca1bc38486982b541f52239e8bfe92fcca0402fa6caa98732c13ed9ec1"
+    },
+    {
+      "bytes": 3128,
+      "path": "corpus/address/address-person-named-streets.json",
+      "sha256": "df667d0e965739eaeccb4cae10329b1b54f1fac572af4f49fdd2199fa9248798"
+    },
+    {
+      "bytes": 2505,
+      "path": "corpus/address/address-pl-prefix.json",
+      "sha256": "f0a7b3bd8bb2652133d2b01f837d9a09e38b1b9e0b184841d300274f36d5e674"
+    },
+    {
+      "bytes": 3266,
+      "path": "corpus/address/address-po-box.json",
+      "sha256": "92b7cab370ec8186d16165f85301dbda4cab930fd4b0f10677537f9400fb0248"
+    },
+    {
+      "bytes": 3100,
+      "path": "corpus/address/address-street-only.json",
+      "sha256": "522b4ce398e537946849d682903b374f87c9a7bf719e767d3b006f5bb9fbfbc6"
+    },
+    {
+      "bytes": 16816,
+      "path": "corpus/annotation-guidelines.md",
+      "sha256": "04524f2b440555cfa8442853667aa07ea81591c7f307ba5daa0dfd7fa8b99026"
+    },
+    {
+      "bytes": 5250,
+      "path": "corpus/core/core-deklaracja-pit-high.json",
+      "sha256": "a1a83a3fd96cc161ad59286a6531547fb0abaf64b5ca08d883f596c0fad312e3"
+    },
+    {
+      "bytes": 3411,
+      "path": "corpus/core/core-deklaracja-pit-low.json",
+      "sha256": "25e525decd7ecba35301539f017da028a425a897224b7e1e963e58d6d18d8cfa"
+    },
+    {
+      "bytes": 3949,
+      "path": "corpus/core/core-deklaracja-pit-medium.json",
+      "sha256": "379f15a4aa58241b8447669e11ce03c0ab60f4b643fbdc05102ef797808f2738"
+    },
+    {
+      "bytes": 11512,
+      "path": "corpus/core/core-faktura-vat-high-alt1.json",
+      "sha256": "96ee4f2e75b47e888f941d32d369d28f84b064f4784f3985752e9370070dd5f9"
+    },
+    {
+      "bytes": 11507,
+      "path": "corpus/core/core-faktura-vat-high.json",
+      "sha256": "f75887e6e39f9fcc656259ac450c3e04f2f6cbff9660daacf8a23304565a8044"
+    },
+    {
+      "bytes": 3061,
+      "path": "corpus/core/core-faktura-vat-low.json",
+      "sha256": "3629908de8139af24602af39d6cfd3c9ba4d66b68e77a6b2bac4dbb26c508632"
+    },
+    {
+      "bytes": 3201,
+      "path": "corpus/core/core-faktura-vat-medium.json",
+      "sha256": "8ceaac6bc4f6cc1759616f0fa0ce5017bfbde30093e09eaf40d31398d7bb6ff6"
+    },
+    {
+      "bytes": 3199,
+      "path": "corpus/core/core-kpir-ledger-high-alt1.json",
+      "sha256": "889dc59f95bcc20b89a18cd0d234be12bb16a0ae2a9b7232c5670ff4279f68d4"
+    },
+    {
+      "bytes": 3194,
+      "path": "corpus/core/core-kpir-ledger-high.json",
+      "sha256": "5d576e7f08532fd0b34ab94ecd48f3894bcc73aff35971bbb1d2a0594a4ac753"
+    },
+    {
+      "bytes": 1114,
+      "path": "corpus/core/core-kpir-ledger-low.json",
+      "sha256": "53824191257886eda8463a24e8f533b59652225fb73e14f6432dbcc24cc76dad"
+    },
+    {
+      "bytes": 1696,
+      "path": "corpus/core/core-kpir-ledger-medium.json",
+      "sha256": "d50b1f0e2665089a4f3177bef9bb86ac3430db41994c8332f4afa31ff1c5178f"
+    },
+    {
+      "bytes": 3521,
+      "path": "corpus/core/core-odpis-krs-high.json",
+      "sha256": "5bd0cbc74e75a2123e04211113b3cd6cbb0632ad7ce842344c57f61626e791f9"
+    },
+    {
+      "bytes": 2110,
+      "path": "corpus/core/core-odpis-krs-low.json",
+      "sha256": "485fed8613b90d2e2beb736024476edf166efd7a1c3b38787cb8c9aa740dcee1"
+    },
+    {
+      "bytes": 3052,
+      "path": "corpus/core/core-odpis-krs-medium.json",
+      "sha256": "dbd8f1ab5c3927b7eb70b49cc72887df30f5e147ac0692a651e6ba03aec22947"
+    },
+    {
+      "bytes": 4402,
+      "path": "corpus/core/core-pismo-urzedowe-high.json",
+      "sha256": "6f70cba2cf90986d27079f9475ec37c86f10cc7753cb745a07f61def3dc3cfd0"
+    },
+    {
+      "bytes": 2250,
+      "path": "corpus/core/core-pismo-urzedowe-low.json",
+      "sha256": "e9746dbe2b7540841f56ca430e78a9686fd2f664d6ec738c90ed7804746f9d1d"
+    },
+    {
+      "bytes": 2870,
+      "path": "corpus/core/core-pismo-urzedowe-medium.json",
+      "sha256": "d3717aa806a1ac9e4e55be64310fe1da1063ec618416b8989e95b92a6e9bb8e3"
+    },
+    {
+      "bytes": 3075,
+      "path": "corpus/core/core-protokol-zebrania-high.json",
+      "sha256": "9bf2cd8482875c30545cc21ed75373ac888d3cfc09a85731065083490c69bea0"
+    },
+    {
+      "bytes": 2043,
+      "path": "corpus/core/core-protokol-zebrania-low.json",
+      "sha256": "68888493629477b0f4087d5065d41e7ae4cdb43938d4c7855c09afead8fc0cfb"
+    },
+    {
+      "bytes": 3079,
+      "path": "corpus/core/core-protokol-zebrania-medium.json",
+      "sha256": "685ea3c4cb9050c9f2f3594d20d6dd7681b71fe168761fac2a212d6eb180d4d5"
+    },
+    {
+      "bytes": 5883,
+      "path": "corpus/core/core-umowa-o-prace-high.json",
+      "sha256": "9ded647746536629de5aa4a162c75cf55de54eeee5dde3be4e1d26f85b8ed93a"
+    },
+    {
+      "bytes": 4294,
+      "path": "corpus/core/core-umowa-o-prace-low.json",
+      "sha256": "b81db41f67b7bfac0703ff7122725854ece16402e63965409072e5cfe4d24ba5"
+    },
+    {
+      "bytes": 4371,
+      "path": "corpus/core/core-umowa-o-prace-medium.json",
+      "sha256": "b19927dfc8e9a655cc11da16f45c196b7fa83850a14351150a381fb7417da6eb"
+    },
+    {
+      "bytes": 2897,
+      "path": "corpus/core/core-umowa-zlecenie-high.json",
+      "sha256": "4e883a8e3addd5158e25f34c278060dde8544bdbd67d9b776099554d55981f7a"
+    },
+    {
+      "bytes": 2333,
+      "path": "corpus/core/core-umowa-zlecenie-low.json",
+      "sha256": "f83d05e5710360e7e13e57087b9f00e12d782ae79e674916409094547222a618"
+    },
+    {
+      "bytes": 2499,
+      "path": "corpus/core/core-umowa-zlecenie-medium.json",
+      "sha256": "8e58582bdd54c8eb52314dcc59fe167468027ec6475fbe23eb48c60717d90fee"
+    },
+    {
+      "bytes": 5622,
+      "path": "corpus/core/core-wyciag-bankowy-high-alt1.json",
+      "sha256": "5b6b31ee7ad2c168f3f60fa45b601f60e50b3c1671a519938805ee265317d491"
+    },
+    {
+      "bytes": 5617,
+      "path": "corpus/core/core-wyciag-bankowy-high.json",
+      "sha256": "851daba6bad67124865ea762c09a9bef8d19c5672cdab80e291175a3a6bad691"
+    },
+    {
+      "bytes": 1695,
+      "path": "corpus/core/core-wyciag-bankowy-low.json",
+      "sha256": "4d2f3d8982abf557fb8c70b20a09d5e73e3778d1d07874acbf15370b6e5e6761"
+    },
+    {
+      "bytes": 2791,
+      "path": "corpus/core/core-wyciag-bankowy-medium.json",
+      "sha256": "f92c304451f4a090acb216b5c72de5bb21318d21e42f89251225927ea918e76d"
+    },
+    {
+      "bytes": 3595,
+      "path": "corpus/core/core-wyrok-001.json",
+      "sha256": "9928434b9541014f108342972c77e70dace2e705aec3a32bf7de574a13bc67b0"
+    },
+    {
+      "bytes": 6210,
+      "path": "corpus/core/core-wyrok-high.json",
+      "sha256": "56a4ca46ebfa9bf85d20a87a0a0bb5497900e2d031121b4eea59c4c5459c207f"
+    },
+    {
+      "bytes": 2250,
+      "path": "corpus/core/core-wyrok-low.json",
+      "sha256": "0bc5349843f3adc8e8e4217c6bb38d49f5dbcd2c25f6f530bfc6247a4a10217c"
+    },
+    {
+      "bytes": 9724,
+      "path": "corpus/identifiers/identifiers-dowod.json",
+      "sha256": "983f93ebf72596b01f5e397100c89fabd67bee203db7305ac621cdeeb50fce74"
+    },
+    {
+      "bytes": 10065,
+      "path": "corpus/identifiers/identifiers-driving-license.json",
+      "sha256": "7230d7c5167c8cfdad0e59e56feb755d3262c369654fc3bedca5f49d6b64b703"
+    },
+    {
+      "bytes": 11128,
+      "path": "corpus/identifiers/identifiers-email.json",
+      "sha256": "41241d2d1f5ce2cc6f5d56cce15d4962ae5ca95796748a53b7eef1177f592c19"
+    },
+    {
+      "bytes": 10701,
+      "path": "corpus/identifiers/identifiers-iban.json",
+      "sha256": "1fab68bbda0a1a9c2d28fdf571a719f3e10e2a6f375ee0f3c98ccc6d9806f1f2"
+    },
+    {
+      "bytes": 9184,
+      "path": "corpus/identifiers/identifiers-nip.json",
+      "sha256": "a66dbecc176caa5d8eb2234911c73bffcb1fc164ead8f1f030ab02c8108a3b36"
+    },
+    {
+      "bytes": 9544,
+      "path": "corpus/identifiers/identifiers-passport.json",
+      "sha256": "345b035f26a9fe1d8edede09d02a40a31a59aa15141dfcd06e64735eb114b639"
+    },
+    {
+      "bytes": 10461,
+      "path": "corpus/identifiers/identifiers-payment-card.json",
+      "sha256": "521e6f89834d3d1fe8a31423f69087eeb190a9073ad9e1b87e61626966cca049"
+    },
+    {
+      "bytes": 9362,
+      "path": "corpus/identifiers/identifiers-pesel.json",
+      "sha256": "55b34bbd5712a163c2c5c172f8b469d8e07c61a36a8bb1a85a0876e321a77dab"
+    },
+    {
+      "bytes": 9656,
+      "path": "corpus/identifiers/identifiers-phone.json",
+      "sha256": "623abcce28d541b57211aa909e2c47454dc8ff7e29f1bdcc9a69760ccb15b618"
+    },
+    {
+      "bytes": 9249,
+      "path": "corpus/identifiers/identifiers-regon.json",
+      "sha256": "463d32b4917975bc49953e4284ed3b3e9e0a14eab9eb12fd37e2a3d340fee92b"
+    },
+    {
+      "bytes": 10071,
+      "path": "corpus/identifiers/identifiers-vehicle-plate.json",
+      "sha256": "de0beaff16b044f92d5d165d7487f7504c662e7983dec4357fa78f067c41e5f4"
+    },
+    {
+      "bytes": 9707,
+      "path": "corpus/identifiers/identifiers-vin.json",
+      "sha256": "ec4f53de51dfe6b5feb8849839b9162cf9347992562bb6d6ad656a943bb89744"
+    },
+    {
+      "bytes": 67379,
+      "path": "corpus/inflection/inflection.jsonl",
+      "sha256": "5b15af089d7143a45cef59a51dbf974a94793cfa7fd1dab399b7ac477d830dbe"
+    },
+    {
+      "bytes": 12259,
+      "path": "corpus/negative/lookalike-001.json",
+      "sha256": "7152ad26f5df8dbb598a550176d8e80d394c9b6222782c1b7e99075d84786839"
+    },
+    {
+      "bytes": 10293,
+      "path": "corpus/negative/lookalike-002-ledger.json",
+      "sha256": "f43135718e4bdf69a633b24343953e594d3617c7475c72c7bfd9fbedae0883eb"
+    },
+    {
+      "bytes": 10834,
+      "path": "corpus/negative/lookalike-003-legal.json",
+      "sha256": "9d90413de3c2d6f61f23be67cd6f0d0b1e3a6901db927df638d7f1fe5f40e489"
+    },
+    {
+      "bytes": 10762,
+      "path": "corpus/negative/negative-date-serial-lookalike.json",
+      "sha256": "4cd64890f82144dcb76df66cdbeae9e606dbc798ad9b9debd09eebf558fcb67b"
+    },
+    {
+      "bytes": 12958,
+      "path": "corpus/negative/negative-domain-address-collision.json",
+      "sha256": "b140e964e28fd5c3974c0b58a7d82bcdf0927a39606decd994f707ee18de7c19"
+    },
+    {
+      "bytes": 13084,
+      "path": "corpus/negative/negative-institutional-fund-terms.json",
+      "sha256": "9be96cf39193796b2e26078375d941d963d8c43e32efbce9e43d69b4cf9ba7b9"
+    },
+    {
+      "bytes": 10386,
+      "path": "corpus/negative/negative-invoice-order-numbers.json",
+      "sha256": "9017a0d8c95a50ffd3b15e744d18d4d87456146000a88eb4f4582336cdc6bc50"
+    },
+    {
+      "bytes": 12168,
+      "path": "corpus/negative/negative-legal-form-enumeration.json",
+      "sha256": "5d501d005827aad71311de07a6436f53b31097ed91567bca52620036cf8be280"
+    },
+    {
+      "bytes": 10568,
+      "path": "corpus/negative/negative-network-product-codes.json",
+      "sha256": "659a128c27ab66db18185cb80897f9e9f71cf470a48e222f37de1f628df7ed17"
+    },
+    {
+      "bytes": 11530,
+      "path": "corpus/negative/negative-part-serials.json",
+      "sha256": "144978792504644f6b8187519795aa70c02a2201da551d5c4a90c7272b7933ca"
+    },
+    {
+      "bytes": 9482,
+      "path": "corpus/negative/negative-plate-context-lookalike.json",
+      "sha256": "3c20bc27e2ff5bdaa35caf6e0e135b2bd2086f83019f7b2c57a051f77b1a4771"
+    },
+    {
+      "bytes": 9787,
+      "path": "corpus/negative/negative-standards-room-codes.json",
+      "sha256": "1fa673802235e38432dc5ac1af689079da022c0be087bf1155d897cb423ba9b6"
+    },
+    {
+      "bytes": 12698,
+      "path": "corpus/negative/negative-titles-programmes-forms.json",
+      "sha256": "662c52c4deae762d9753844cb5bc516f0d2600ddf87e9ab99e456d9e18ee1558"
+    },
+    {
+      "bytes": 12666,
+      "path": "corpus/negative/negative-urls-handles-paths.json",
+      "sha256": "4267d7a7025dbe227933a74edbe5b8df38a6d80dbad3fb20aeed5d5a37fe6029"
+    },
+    {
+      "bytes": 2791,
+      "path": "corpus/pdf/boundary-001.json",
+      "sha256": "e69e3135ba1a8d31587a805184f2473425bf2fa341e89460192014ec21590f6b"
+    },
+    {
+      "bytes": 3576,
+      "path": "corpus/pdf/boundary-001.pdf",
+      "sha256": "299b39fe8b02821c579bc3bca0ea2463dc4814010241dbc9797c7c1a4803ee1e"
+    },
+    {
+      "bytes": 4554,
+      "path": "corpus/pdf/core-deklaracja-pit-high.json",
+      "sha256": "2ba3d07c1c6633a05a4d2acfe62edd1816d170c361bd996b0a48bd5f9842ab44"
+    },
+    {
+      "bytes": 33889,
+      "path": "corpus/pdf/core-deklaracja-pit-high.pdf",
+      "sha256": "488395919ee06c6e8eb38c182afc5f1698e5f31af61b437f5ae4a61eafd61b76"
+    },
+    {
+      "bytes": 11172,
+      "path": "corpus/pdf/core-faktura-vat-high.json",
+      "sha256": "ed3e4a6a6cdcf80ee7659bd1343213b6834d68294e6dd52253f02343e4297232"
+    },
+    {
+      "bytes": 33126,
+      "path": "corpus/pdf/core-faktura-vat-high.pdf",
+      "sha256": "71b22729e76ebbfbb813f626539d2cc94788a0dad5fcd02c71aed301f557d65b"
+    },
+    {
+      "bytes": 3060,
+      "path": "corpus/pdf/core-kpir-ledger-high.json",
+      "sha256": "d5dbbc61ef6600c46fb3e6367b82f661d33ae1f2dc4c7f46afe613cc06992ec2"
+    },
+    {
+      "bytes": 33417,
+      "path": "corpus/pdf/core-kpir-ledger-high.pdf",
+      "sha256": "4fb677c05c0f5aaa18b02f392251cb960ef4ddf7b9c16ddc8db1c2b941e40d01"
+    },
+    {
+      "bytes": 3299,
+      "path": "corpus/pdf/core-odpis-krs-high.json",
+      "sha256": "5054b30a2bb165824a9857d6097a4b9bf6748539bb3b07467be699ad03ce3555"
+    },
+    {
+      "bytes": 33843,
+      "path": "corpus/pdf/core-odpis-krs-high.pdf",
+      "sha256": "06f05d07480245c9d99c63535b267e9afb11f1f1c54be56d863d00092fa7d320"
+    },
+    {
+      "bytes": 4022,
+      "path": "corpus/pdf/core-pismo-urzedowe-high.json",
+      "sha256": "db7bf27d9b17551ef61e5649e2b49eb8ad4dc963f9320b9ce0061f02e276d4df"
+    },
+    {
+      "bytes": 33512,
+      "path": "corpus/pdf/core-pismo-urzedowe-high.pdf",
+      "sha256": "61e5b84cbf1f010d4a7c4289ccca763deed9aa54f4daeae16fd8c4e7ea5ed070"
+    },
+    {
+      "bytes": 2746,
+      "path": "corpus/pdf/core-protokol-zebrania-high.json",
+      "sha256": "e3bfa2d0e8c9a309632b7e67bdef1f65998eeefee068257df6f1afa71a20f6d7"
+    },
+    {
+      "bytes": 34554,
+      "path": "corpus/pdf/core-protokol-zebrania-high.pdf",
+      "sha256": "3a67f1b0afb3b4f8b0c877caec17dbff925bb738e9784d48f1782e80d046e4c1"
+    },
+    {
+      "bytes": 5387,
+      "path": "corpus/pdf/core-umowa-o-prace-high.json",
+      "sha256": "02d345854a7ba058356f723e5ba31de5a39323f9d203465ebf9e8b16444938c0"
+    },
+    {
+      "bytes": 34457,
+      "path": "corpus/pdf/core-umowa-o-prace-high.pdf",
+      "sha256": "cc1893dcd529b104fd0d5216d91263829fd6e6b1bfeb11aeb91e6500a2831a37"
+    },
+    {
+      "bytes": 2692,
+      "path": "corpus/pdf/core-umowa-zlecenie-high.json",
+      "sha256": "3b25ec019eb06f1f7171f75969e469746d073f139e7f19bdc629041d4851f5cb"
+    },
+    {
+      "bytes": 34155,
+      "path": "corpus/pdf/core-umowa-zlecenie-high.pdf",
+      "sha256": "5d9cfa8aadb4e78236933203cb8044c882832ee5b0c030cee77977e776cfccfb"
+    },
+    {
+      "bytes": 5174,
+      "path": "corpus/pdf/core-wyciag-bankowy-high.json",
+      "sha256": "c9530e0b2f1199bd5c3e37d85343635cc129f72402eaf2e6380cc183499885a9"
+    },
+    {
+      "bytes": 33402,
+      "path": "corpus/pdf/core-wyciag-bankowy-high.pdf",
+      "sha256": "cd28cab3c162b3641984ab86d6078da8af48ace1370f82270f55927c548c4fde"
+    },
+    {
+      "bytes": 3278,
+      "path": "corpus/pdf/core-wyrok-001.json",
+      "sha256": "40bbc52b84c576944a2fd3ec6c149b5a35e678469b6e670200d9269bc962d141"
+    },
+    {
+      "bytes": 33724,
+      "path": "corpus/pdf/core-wyrok-001.pdf",
+      "sha256": "20f1817d0126dac7c4fac58d6502475246a5000a82b5ee0c3518ccb2d857295e"
+    },
+    {
+      "bytes": 1281,
+      "path": "corpus/pdf/ligature-001.json",
+      "sha256": "19ac3d046ca254d8264781fdb57f9b2ce6d29c0fe35b939c0222129cbcdcb8c7"
+    },
+    {
+      "bytes": 32524,
+      "path": "corpus/pdf/ligature-001.pdf",
+      "sha256": "2ec0903a21d0e0e1f8a16298622c5fc80330016c438bc0ac3fa7e49a90788e0f"
+    },
+    {
+      "bytes": 8792,
+      "path": "corpus/pdf/lowdensity-001.json",
+      "sha256": "01d953e69a7882793b581fd5de9dc09fd43b2d0ec52a89cb3dd1c30ecc23ec12"
+    },
+    {
+      "bytes": 2853,
+      "path": "corpus/pdf/lowdensity-001.pdf",
+      "sha256": "faeb4b873ab83c8fd02e07c99b535eb1cfe0fd902d462e90880f9faa40471a8b"
+    },
+    {
+      "bytes": 3193,
+      "path": "corpus/pdf/tabular-001.json",
+      "sha256": "9899670e4cf90f960272e66ba0e539b1096e686c8d42f347e3a4dae01dd77f56"
+    },
+    {
+      "bytes": 2200,
+      "path": "corpus/pdf/tabular-001.pdf",
+      "sha256": "41862e7ef99306d0c8aa08eaef20a8ae230d4ee058bf2d4ee514cea6c3032d5b"
+    },
+    {
+      "bytes": 5404,
+      "path": "corpus/robustness/core-deklaracja-pit-high-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "8cd9e23c323cc0e218bd31855135445d63a0cdc48923aab0281b14cf88598991"
+    },
+    {
+      "bytes": 5477,
+      "path": "corpus/robustness/core-deklaracja-pit-high-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "392f484cfa41e0b1fca6d5329ad78742870be5cfa15f581a75273c4aa640dcd8"
+    },
+    {
+      "bytes": 5481,
+      "path": "corpus/robustness/core-deklaracja-pit-high-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "1412dd48641e156198362906335b507fcd55ce897528db94fc2980524b37cce8"
+    },
+    {
+      "bytes": 5455,
+      "path": "corpus/robustness/core-deklaracja-pit-high-robustness-line-break-split-entity-wrap.json",
+      "sha256": "d6a29f52030cf37276edbc48a3e68bbc13fdf80971787bccbfd124d807d044e5"
+    },
+    {
+      "bytes": 5404,
+      "path": "corpus/robustness/core-deklaracja-pit-high-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "0d4c35e7bd8801f455a3fdd21e11814447f34942e433206f3455cff22694e16e"
+    },
+    {
+      "bytes": 5405,
+      "path": "corpus/robustness/core-deklaracja-pit-high-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "01e14162bd5fe57833f18fe29325cfbdc3e9b6b513a2071a6cbf9a29ef3e615b"
+    },
+    {
+      "bytes": 5392,
+      "path": "corpus/robustness/core-deklaracja-pit-high-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "9f860047c6f48bcf66e64f2a5a5bd7126713759c530d4d8677ab802be143887d"
+    },
+    {
+      "bytes": 3568,
+      "path": "corpus/robustness/core-deklaracja-pit-low-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "40744e39f34133ba8599b9705b8b3bb856e02a2c5af65227d8ef8d50e8178b8c"
+    },
+    {
+      "bytes": 3637,
+      "path": "corpus/robustness/core-deklaracja-pit-low-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "c0eddc1e0f6b4745b044634e17d733af0cc1b80bfe63bd9a5c6c1453c12e6935"
+    },
+    {
+      "bytes": 3641,
+      "path": "corpus/robustness/core-deklaracja-pit-low-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "c820761be129be56f567ba26b8a7115221882af5a7dfca2b8482a4ee7f96232c"
+    },
+    {
+      "bytes": 3601,
+      "path": "corpus/robustness/core-deklaracja-pit-low-robustness-line-break-split-entity-wrap.json",
+      "sha256": "f80136f494e111139995eae6143ff510b9999fc490ed9836c9415e6dd2500939"
+    },
+    {
+      "bytes": 3564,
+      "path": "corpus/robustness/core-deklaracja-pit-low-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "c03d02639b98ee19c6f736f2cc0d1380e674d0b173a124cd4bdcae3a572ec953"
+    },
+    {
+      "bytes": 3565,
+      "path": "corpus/robustness/core-deklaracja-pit-low-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "79ad3a73c44bab98407fa2afa52a52e39e12cc2cf69cef466946a53354e230fb"
+    },
+    {
+      "bytes": 3566,
+      "path": "corpus/robustness/core-deklaracja-pit-low-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "843da51f757a15cbe2947efc7c012e4b9211acd28e56615929ce70a586f3a115"
+    },
+    {
+      "bytes": 4109,
+      "path": "corpus/robustness/core-deklaracja-pit-medium-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "974460352474c84775074d8df1d6460bb15eb094c4b935443e9d88abde54c6ab"
+    },
+    {
+      "bytes": 4178,
+      "path": "corpus/robustness/core-deklaracja-pit-medium-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "fcf7f02580e74e1595da2333362e1d12cccbff52e2f3877da38afa06e9ee3e7a"
+    },
+    {
+      "bytes": 4182,
+      "path": "corpus/robustness/core-deklaracja-pit-medium-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "ab7afea6c2c6e457e2b18a2c52dff0bf7da844ca76fd06d2014c9f53fc830da4"
+    },
+    {
+      "bytes": 4144,
+      "path": "corpus/robustness/core-deklaracja-pit-medium-robustness-line-break-split-entity-wrap.json",
+      "sha256": "93ef2a578a8104aa0f8206cac68142f0b4cd3723311bfcb89d838f65eedfaeb8"
+    },
+    {
+      "bytes": 4105,
+      "path": "corpus/robustness/core-deklaracja-pit-medium-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "f71277cf961bd6c1fe1535246eec356b2ba7f3ab4d1516db68cf66860e4b0e09"
+    },
+    {
+      "bytes": 4106,
+      "path": "corpus/robustness/core-deklaracja-pit-medium-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "ce21740101147416d5ca93010b8af85d000b0c6af442281c967a0656b4780292"
+    },
+    {
+      "bytes": 4099,
+      "path": "corpus/robustness/core-deklaracja-pit-medium-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "a7ad2032cf76ab9ac993211feb79c1a4b435ec3b25fd5eafc386664450e83b5d"
+    },
+    {
+      "bytes": 11626,
+      "path": "corpus/robustness/core-faktura-vat-high-alt1-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "2bcf695f02f33d0c47d4d331186620b4cc8ea1b31f4175080d73b1df97e6d307"
+    },
+    {
+      "bytes": 12094,
+      "path": "corpus/robustness/core-faktura-vat-high-alt1-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "d9c90e8421dc547a9d01adfa9bd92ff2307586515a343b6ff71b5afd7c95d9c3"
+    },
+    {
+      "bytes": 12098,
+      "path": "corpus/robustness/core-faktura-vat-high-alt1-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "e8d43aa2cc9467028e3073e947aec911bbe616a39e9adcaa5c90f5d43f311859"
+    },
+    {
+      "bytes": 11804,
+      "path": "corpus/robustness/core-faktura-vat-high-alt1-robustness-line-break-split-entity-wrap.json",
+      "sha256": "55df0bf858ba387213af51a1ebc70e4c4e1057e168ab44d2def05dfb6d74e520"
+    },
+    {
+      "bytes": 11668,
+      "path": "corpus/robustness/core-faktura-vat-high-alt1-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "ce8551dff6fa991d0421a8c22c7b45a2d0340f377f2876e992cbb0aa24475a6e"
+    },
+    {
+      "bytes": 11669,
+      "path": "corpus/robustness/core-faktura-vat-high-alt1-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "744ca5a6979eb7504d6adffab51cb7fd083ef2ed951ef09b1583d577c7c60ee1"
+    },
+    {
+      "bytes": 11513,
+      "path": "corpus/robustness/core-faktura-vat-high-alt1-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "1b5937bb1ae894edbc00dac10b2368b7d23b05c5f8fa70d85fcf1c64049aeb1d"
+    },
+    {
+      "bytes": 11616,
+      "path": "corpus/robustness/core-faktura-vat-high-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "eaad37b83d69eb56ed2ae506ed0d91f3fc8062ad19b381ada1dca69f0716bfe5"
+    },
+    {
+      "bytes": 12084,
+      "path": "corpus/robustness/core-faktura-vat-high-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "a8d8c8e21df06bf160f0f3d9c9246d531475a54d9556e4e871937942f6a38249"
+    },
+    {
+      "bytes": 12088,
+      "path": "corpus/robustness/core-faktura-vat-high-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "1e43c689240d0c24eae59655a4c4f6ba6134c485a471a2274b707fb6e31cd42c"
+    },
+    {
+      "bytes": 11794,
+      "path": "corpus/robustness/core-faktura-vat-high-robustness-line-break-split-entity-wrap.json",
+      "sha256": "edc1fe0923935be5c48717d7822323111eac0311bfc2f45731ee55d6a41706db"
+    },
+    {
+      "bytes": 11658,
+      "path": "corpus/robustness/core-faktura-vat-high-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "2169e17cd8fee8e0ca8d1f6947eec958a567fcb180804acf9d44025633ba8913"
+    },
+    {
+      "bytes": 11659,
+      "path": "corpus/robustness/core-faktura-vat-high-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "b9dd9d942773ad58e1fd7f7e9bc02d40d4c3f432239d44bd0224ceff6d6c5421"
+    },
+    {
+      "bytes": 11503,
+      "path": "corpus/robustness/core-faktura-vat-high-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "1e6acda07a927aa783d25298282e0efa71f2d08099f4730385847b2ebee2cc1a"
+    },
+    {
+      "bytes": 3224,
+      "path": "corpus/robustness/core-faktura-vat-low-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "7d715f035267c83b4f83692488b2904e7a6ed8e2058f7be47bf23220daebc006"
+    },
+    {
+      "bytes": 3345,
+      "path": "corpus/robustness/core-faktura-vat-low-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "4806e5e29355dd640ea39abec90355f9ac8000e0cd768009a7131bc02c89b221"
+    },
+    {
+      "bytes": 3349,
+      "path": "corpus/robustness/core-faktura-vat-low-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "990dc27a84e6a2e57932a47bcab3120c4ab7dc546569ab1a29e0227bd16c33dc"
+    },
+    {
+      "bytes": 3250,
+      "path": "corpus/robustness/core-faktura-vat-low-robustness-line-break-split-entity-wrap.json",
+      "sha256": "e5d8d4e34e64ec6161b85070beef599e8786f089ebffcac68b6aa15e6a8f5757"
+    },
+    {
+      "bytes": 3211,
+      "path": "corpus/robustness/core-faktura-vat-low-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "d2f0da5fbd410c1e30b3fe669887a402900cc9827f09a2856f3fca1c0087ecd2"
+    },
+    {
+      "bytes": 3212,
+      "path": "corpus/robustness/core-faktura-vat-low-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "002cd5846c90f56c4177c94afb19cef8f9a01e8f0e6301912fd973c878fa7276"
+    },
+    {
+      "bytes": 3201,
+      "path": "corpus/robustness/core-faktura-vat-low-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "a672c67e986c01d942ff6649837f67fac58527f5c229daf04613ddc03a0d349e"
+    },
+    {
+      "bytes": 3365,
+      "path": "corpus/robustness/core-faktura-vat-medium-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "bf3d3314bb6d4da02f01627d3095acb7912e29e45af07aa2b838ca92fd07eed9"
+    },
+    {
+      "bytes": 3488,
+      "path": "corpus/robustness/core-faktura-vat-medium-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "f599dd73a5b370932bbde9e79f23f28956ea2349fded8da10c91762754a8fc45"
+    },
+    {
+      "bytes": 3492,
+      "path": "corpus/robustness/core-faktura-vat-medium-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "fcd163c63a971fa57d65e9d9a0c04704e2d170ee9108f9b76931e0f78dba5847"
+    },
+    {
+      "bytes": 3393,
+      "path": "corpus/robustness/core-faktura-vat-medium-robustness-line-break-split-entity-wrap.json",
+      "sha256": "c312521cdfba73c377d551e458cd9421f2146046c3b51638119a3d4472a49c6c"
+    },
+    {
+      "bytes": 3354,
+      "path": "corpus/robustness/core-faktura-vat-medium-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "78d96fc943a852355b12f21efef3430117349c3a36ddfed00c09bec9a4d11eb0"
+    },
+    {
+      "bytes": 3355,
+      "path": "corpus/robustness/core-faktura-vat-medium-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "3642458ac2638fc71f1953a44b39eeb9f921c0237641fc2db58f844bbfb58fab"
+    },
+    {
+      "bytes": 3344,
+      "path": "corpus/robustness/core-faktura-vat-medium-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "b21f74c49e25887f3fb23a43f0fadc6f1acae6adca6ccdd6ca5df9b6861bab30"
+    },
+    {
+      "bytes": 3365,
+      "path": "corpus/robustness/core-kpir-ledger-high-alt1-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "9a285cc87e1c2defa6c6aeaec029fc9ebfc86ee723647597a388002e9e6be690"
+    },
+    {
+      "bytes": 3388,
+      "path": "corpus/robustness/core-kpir-ledger-high-alt1-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "5ed962994c253f0c79d7794840b36113e01bcb37545304592afade5fedb2b4bb"
+    },
+    {
+      "bytes": 3392,
+      "path": "corpus/robustness/core-kpir-ledger-high-alt1-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "8283b6767635c06fc9eeaa86940837341d9731e5b95634e5f512bda5ef54a7ee"
+    },
+    {
+      "bytes": 3384,
+      "path": "corpus/robustness/core-kpir-ledger-high-alt1-robustness-line-break-split-entity-wrap.json",
+      "sha256": "801a88a809682c16464875f40626e65049a343240b5abbac55b2cb581d141fcd"
+    },
+    {
+      "bytes": 3355,
+      "path": "corpus/robustness/core-kpir-ledger-high-alt1-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "a41dba8ccb4eafa426cdbf6452bf2bfb83a27f6765247bcab11cd774dfa009ce"
+    },
+    {
+      "bytes": 3356,
+      "path": "corpus/robustness/core-kpir-ledger-high-alt1-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "56c7fba5211559c9958d015a65ae78f6a2d09dcea8f71b7735509ab271e4739e"
+    },
+    {
+      "bytes": 3322,
+      "path": "corpus/robustness/core-kpir-ledger-high-alt1-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "9d9475cee9bace107470e95900ae7bfb3b560937d16534d28b3fac1bbcc55713"
+    },
+    {
+      "bytes": 3355,
+      "path": "corpus/robustness/core-kpir-ledger-high-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "205dfbec5fa291dac6181e47222d07322a1a02d83a73b04745f01f312ba279c2"
+    },
+    {
+      "bytes": 3378,
+      "path": "corpus/robustness/core-kpir-ledger-high-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "8b17e054f0ab2bca4c01e02a6f3af57d3d9315177db326b7659fc5feba4691c7"
+    },
+    {
+      "bytes": 3382,
+      "path": "corpus/robustness/core-kpir-ledger-high-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "d0b6677140609d67d93fe9b736152dc39fc85f9682648f0248b19e5b8b60b020"
+    },
+    {
+      "bytes": 3374,
+      "path": "corpus/robustness/core-kpir-ledger-high-robustness-line-break-split-entity-wrap.json",
+      "sha256": "9a4ea4a7fb46c68875de0915cfa5e82e8c8542996858fd9634659c4bd5d88d9b"
+    },
+    {
+      "bytes": 3345,
+      "path": "corpus/robustness/core-kpir-ledger-high-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "813659c26c9b64e5a6e29c12652c45049836969534cfdc047e3c1d161d2685ef"
+    },
+    {
+      "bytes": 3346,
+      "path": "corpus/robustness/core-kpir-ledger-high-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "ae3d894716f32bfe20bfa87d5eef862e5f1ed3ca7ddda852456d8a573948ccd3"
+    },
+    {
+      "bytes": 3312,
+      "path": "corpus/robustness/core-kpir-ledger-high-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "989e51ccc96b9260e052f5c4b996f6f7a7bd15072f82d017aa2a18bd8378242a"
+    },
+    {
+      "bytes": 1286,
+      "path": "corpus/robustness/core-kpir-ledger-low-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "b95ce48de0c2cd9d716f631d320a387b9b3bd465b01d96b1f1a2bff4bd5c9b3e"
+    },
+    {
+      "bytes": 1297,
+      "path": "corpus/robustness/core-kpir-ledger-low-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "c96ec157b5afeb4e0d534461425635c9dd76dfcf5ad6da09f8d65059369c7c88"
+    },
+    {
+      "bytes": 1301,
+      "path": "corpus/robustness/core-kpir-ledger-low-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "8f14873879b73952b58ed393a068c69ab97a25c6ce8db146ccc34fd6c2c66ab0"
+    },
+    {
+      "bytes": 1279,
+      "path": "corpus/robustness/core-kpir-ledger-low-robustness-line-break-split-entity-wrap.json",
+      "sha256": "5154d3d08ae371f2b6af00ca80da255a7bd5d74741d86a12e1a0f8825832d0cd"
+    },
+    {
+      "bytes": 1264,
+      "path": "corpus/robustness/core-kpir-ledger-low-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "baf167945d472f2194a9cab7d97eaee524a585051fa4ccd49ec649aa42d0253d"
+    },
+    {
+      "bytes": 1265,
+      "path": "corpus/robustness/core-kpir-ledger-low-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "17d92a4e10f3fa6933095e33d4797f01d9e09804e914edc33b032d5dc511fd2f"
+    },
+    {
+      "bytes": 1283,
+      "path": "corpus/robustness/core-kpir-ledger-low-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "aad9abd61936f53246c1c95d5a529fcaf5c3ae406a7226c8bb61d6e7f836e010"
+    },
+    {
+      "bytes": 1869,
+      "path": "corpus/robustness/core-kpir-ledger-medium-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "ee6579d86c9277ab4ec1eb8dc6ff77dfcb5d590696f57108bcecd1938f8181f0"
+    },
+    {
+      "bytes": 1882,
+      "path": "corpus/robustness/core-kpir-ledger-medium-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "93a890ebdb532f5e9b133c2f5838697de60802b893f192172492104870ab4038"
+    },
+    {
+      "bytes": 1886,
+      "path": "corpus/robustness/core-kpir-ledger-medium-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "64573cb0fd71ea5d8a17345483e47d0a5d9d28ce4f988581660aaed5ca4cb01b"
+    },
+    {
+      "bytes": 1868,
+      "path": "corpus/robustness/core-kpir-ledger-medium-robustness-line-break-split-entity-wrap.json",
+      "sha256": "d92b496865f2cec5673973c025424c4c320374937418279f899a31fac8389a99"
+    },
+    {
+      "bytes": 1849,
+      "path": "corpus/robustness/core-kpir-ledger-medium-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "2a80b18066851490f217c7438a56fdabcf2f41a22ed71df278563c1e0b06b4ce"
+    },
+    {
+      "bytes": 1850,
+      "path": "corpus/robustness/core-kpir-ledger-medium-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "6139ebd472f568efb8a0976c4697317f3ade1e89db677595276b88cc206d953e"
+    },
+    {
+      "bytes": 1852,
+      "path": "corpus/robustness/core-kpir-ledger-medium-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "0f53ee0e4ac3156df6831b6a425dd6b6cccbf3b432d950b068e631734d515200"
+    },
+    {
+      "bytes": 3667,
+      "path": "corpus/robustness/core-odpis-krs-high-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "601e5c26a5b3857122e910fde7c2b3922809d57fb02c466ac99c950efdb8c8ba"
+    },
+    {
+      "bytes": 3799,
+      "path": "corpus/robustness/core-odpis-krs-high-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "5fec4e175bdbcefe2905bc60521708e9657951d5778561a69ffe09033e2bef29"
+    },
+    {
+      "bytes": 3803,
+      "path": "corpus/robustness/core-odpis-krs-high-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "636afc60f1b4e9cc0e0a6dfde8a557f9935c766d71ead6f47f2e8c8617fe39ca"
+    },
+    {
+      "bytes": 3715,
+      "path": "corpus/robustness/core-odpis-krs-high-robustness-line-break-split-entity-wrap.json",
+      "sha256": "6139955310f4f421652806e87e8359cc5884ed871d904c4f879df0be8de61a41"
+    },
+    {
+      "bytes": 3670,
+      "path": "corpus/robustness/core-odpis-krs-high-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "8df10bcc4dd44525607f4951baf52cb8b271c505dbabf376b412e6e758edd5db"
+    },
+    {
+      "bytes": 3671,
+      "path": "corpus/robustness/core-odpis-krs-high-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "4b5707a78733e956e37fab97ef1ed6b41d79dbf30b44b9bcb5072818aad65c15"
+    },
+    {
+      "bytes": 3667,
+      "path": "corpus/robustness/core-odpis-krs-high-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "4f38e2782556c11d09e4518db477f879d16eb859aa65f286d94234e40a3f6ecf"
+    },
+    {
+      "bytes": 2263,
+      "path": "corpus/robustness/core-odpis-krs-low-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "3c35f97346d5d28cade51614ddd7cb801427021e5e6bda159a8e4761510b4810"
+    },
+    {
+      "bytes": 2327,
+      "path": "corpus/robustness/core-odpis-krs-low-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "696c9d31b5963c178595a2f92b85c5ec33674076a048a2912a971a7789eee324"
+    },
+    {
+      "bytes": 2331,
+      "path": "corpus/robustness/core-odpis-krs-low-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "b43c48ba5fdee924ebaa3573d0cd257d004e06ffd4c44867b6d2345115368840"
+    },
+    {
+      "bytes": 2285,
+      "path": "corpus/robustness/core-odpis-krs-low-robustness-line-break-split-entity-wrap.json",
+      "sha256": "df0d176c407025ddc8c86774ca6a9aa0ef07175791a8cc91c87c93202982d0be"
+    },
+    {
+      "bytes": 2258,
+      "path": "corpus/robustness/core-odpis-krs-low-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "01662a7396f151fb984ea5840d92c7fe30daeedd1b75f3dc41a69d14833f2e7a"
+    },
+    {
+      "bytes": 2259,
+      "path": "corpus/robustness/core-odpis-krs-low-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "58ae7e8bc566c54851fd6c6bf14b8cf3f1c8f2656972c6a6d620c4a997c5065f"
+    },
+    {
+      "bytes": 2261,
+      "path": "corpus/robustness/core-odpis-krs-low-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "e3c89eb05fa5fe80691894d5020056310c0941c8fd4c0348b65868fea3e38e9e"
+    },
+    {
+      "bytes": 3204,
+      "path": "corpus/robustness/core-odpis-krs-medium-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "0390a1831cea7cafa978c947ccadb9c4db363e1809b962f36d5027397797cf21"
+    },
+    {
+      "bytes": 3312,
+      "path": "corpus/robustness/core-odpis-krs-medium-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "702f798ec1a4fae828340e57be22b690d18f8a371ed61f50955075a89550b05b"
+    },
+    {
+      "bytes": 3316,
+      "path": "corpus/robustness/core-odpis-krs-medium-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "955915b9918fa8ec161380b233b3e4f2ca5d3a1263dc010cf005177b34e2b351"
+    },
+    {
+      "bytes": 3242,
+      "path": "corpus/robustness/core-odpis-krs-medium-robustness-line-break-split-entity-wrap.json",
+      "sha256": "887cdfa2060e0f512e2a2964ab78805f48ef9738ed6b24e90db3bb6123cb07c8"
+    },
+    {
+      "bytes": 3203,
+      "path": "corpus/robustness/core-odpis-krs-medium-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "bc280fa13cbab66f4de1656d07ae5fa32eccdc038bc834ccc2a40907c4ffe524"
+    },
+    {
+      "bytes": 3204,
+      "path": "corpus/robustness/core-odpis-krs-medium-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "944c458d616c50eeec8bb0de9d4a49f0ffb15961946a62494043b7e024f8377f"
+    },
+    {
+      "bytes": 3202,
+      "path": "corpus/robustness/core-odpis-krs-medium-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "38cc3b3d5c4a2bc4e5833dc6a33479e56ccab3e5eb0f316c98c3ac87e3c01ae3"
+    },
+    {
+      "bytes": 4516,
+      "path": "corpus/robustness/core-pismo-urzedowe-high-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "182dd8cc324f5c0a51c19e94e1354842771795802554c6aaa0ed97e245a220e4"
+    },
+    {
+      "bytes": 4602,
+      "path": "corpus/robustness/core-pismo-urzedowe-high-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "699e45b6fc229663e070337e423fe28e33e744e5b2b6f4ba2ea0823c3c57d4b9"
+    },
+    {
+      "bytes": 4606,
+      "path": "corpus/robustness/core-pismo-urzedowe-high-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "095f0d41c8c6e84889e3b0b3f1197c17a70b37ad4623939fa3512f368dabf613"
+    },
+    {
+      "bytes": 4596,
+      "path": "corpus/robustness/core-pismo-urzedowe-high-robustness-line-break-split-entity-wrap.json",
+      "sha256": "c86832a5bab33d8c30eecf24552a6e0a2f672e94c6659668e7ecfd962b168e7b"
+    },
+    {
+      "bytes": 4556,
+      "path": "corpus/robustness/core-pismo-urzedowe-high-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "4492ccfd2ee680d5aedde7424d8f31630608188959ef88bc287a208a1a363a8b"
+    },
+    {
+      "bytes": 4557,
+      "path": "corpus/robustness/core-pismo-urzedowe-high-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "e008d7141f702b9798ff4524fc07b717c0251ab23e5a0996f05423f6f0f80800"
+    },
+    {
+      "bytes": 4558,
+      "path": "corpus/robustness/core-pismo-urzedowe-high-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "485b838f5d1ea8280def6b663f74e0788cc30ca092ebb6f2469d4d6ddc9d36c1"
+    },
+    {
+      "bytes": 2405,
+      "path": "corpus/robustness/core-pismo-urzedowe-low-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "d659e991b8a6191608809e0c3ebb9a956981f83ae99106b43901412658e562f4"
+    },
+    {
+      "bytes": 2448,
+      "path": "corpus/robustness/core-pismo-urzedowe-low-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "ea379442af0b7723a59038f5d7b0d6915fb2054232327b280e31aed175f0373b"
+    },
+    {
+      "bytes": 2452,
+      "path": "corpus/robustness/core-pismo-urzedowe-low-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "8321e50233bdf6eceeb4a54f1a1bd0be2eec37cec327b320a23a74df6f4f15af"
+    },
+    {
+      "bytes": 2428,
+      "path": "corpus/robustness/core-pismo-urzedowe-low-robustness-line-break-split-entity-wrap.json",
+      "sha256": "901507c63f4c68bf599b00f3922fe0099a831fd4543c1e933bf03c0be3fa8f02"
+    },
+    {
+      "bytes": 2403,
+      "path": "corpus/robustness/core-pismo-urzedowe-low-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "a2e911daeb122096749fee3dbcb01bd8d1fab64ddc694203f2e373dc82860c62"
+    },
+    {
+      "bytes": 2404,
+      "path": "corpus/robustness/core-pismo-urzedowe-low-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "51cd1ae40e656ee94e05df9a5cf72cf22d1e3d3701942f38a24bc98f4134bae9"
+    },
+    {
+      "bytes": 2420,
+      "path": "corpus/robustness/core-pismo-urzedowe-low-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "2a1eef1412ae3681194855e81030146f73bafbd26ffc059e8ae3cab1ca094ccd"
+    },
+    {
+      "bytes": 3016,
+      "path": "corpus/robustness/core-pismo-urzedowe-medium-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "c8fcd3701f290808a00780451302c4617f7ec5e3a96cc201481fafb8deb7d83b"
+    },
+    {
+      "bytes": 3071,
+      "path": "corpus/robustness/core-pismo-urzedowe-medium-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "9d93e3e17c7b63701e985657bab7c58e4ff3caacbd8abbe83db2a7a24d5c9744"
+    },
+    {
+      "bytes": 3075,
+      "path": "corpus/robustness/core-pismo-urzedowe-medium-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "4ac95cc7da1c10a4a1aa01aaa78046bf3ffecc4b90688e96fc78f3f3a07e86c2"
+    },
+    {
+      "bytes": 3055,
+      "path": "corpus/robustness/core-pismo-urzedowe-medium-robustness-line-break-split-entity-wrap.json",
+      "sha256": "7ad06e50c0e18a82d5499246794a4164258b9e266685b8bfc7292a8e709e8fb1"
+    },
+    {
+      "bytes": 3026,
+      "path": "corpus/robustness/core-pismo-urzedowe-medium-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "3e84bef5334d338d8d65bde6487175081b0eb28b80bc0214eafbcde327784512"
+    },
+    {
+      "bytes": 3027,
+      "path": "corpus/robustness/core-pismo-urzedowe-medium-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "6681f406645678d008a44a2f45dc527770c4c3797ad73ba4e115751a2b0345c6"
+    },
+    {
+      "bytes": 3039,
+      "path": "corpus/robustness/core-pismo-urzedowe-medium-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "085d893f346dcbd42432febc39e552b1b405960f038b41e66c1c0bad3b4eb10f"
+    },
+    {
+      "bytes": 3230,
+      "path": "corpus/robustness/core-protokol-zebrania-high-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "018c926db03329660e44dee950a952c5691af3549fdc219dac8056bf9ae0570c"
+    },
+    {
+      "bytes": 3269,
+      "path": "corpus/robustness/core-protokol-zebrania-high-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "543d597e649a8e716180e5c4f7a1ed3a8a9501a513d5cfb29d40d85790499020"
+    },
+    {
+      "bytes": 3273,
+      "path": "corpus/robustness/core-protokol-zebrania-high-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "f20561e9fff1bbf84315364c9c6a325f8741da9d75c50cb49128e8d37db3da09"
+    },
+    {
+      "bytes": 3259,
+      "path": "corpus/robustness/core-protokol-zebrania-high-robustness-line-break-split-entity-wrap.json",
+      "sha256": "692a85c54a2818c79c6ae08ce7f3c73a7af64eb02485adb7657a4d48bc3c6e98"
+    },
+    {
+      "bytes": 3232,
+      "path": "corpus/robustness/core-protokol-zebrania-high-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "9413d4f1fcce52399bd90225211e403aa37ade78f551f1a29005f7936b655d9e"
+    },
+    {
+      "bytes": 3233,
+      "path": "corpus/robustness/core-protokol-zebrania-high-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "cf53daad7b7550d081c71b20954077a6b3ec8f7226036ee8947cfb1dc90df432"
+    },
+    {
+      "bytes": 3233,
+      "path": "corpus/robustness/core-protokol-zebrania-high-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "ccb14ce65b5b46f59ec425be9dd4960490de5fe680f9b37defd691aac1787379"
+    },
+    {
+      "bytes": 2199,
+      "path": "corpus/robustness/core-protokol-zebrania-low-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "d5407e55b89f7edbed836095c87988d3cf992440fa18ef67282ed3c87a9b69d7"
+    },
+    {
+      "bytes": 2236,
+      "path": "corpus/robustness/core-protokol-zebrania-low-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "abd411184ae21ed28bc1676ebeb991b71cef8d80169159f484444d5e0c0f03ab"
+    },
+    {
+      "bytes": 2240,
+      "path": "corpus/robustness/core-protokol-zebrania-low-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "da18c6ce17a436a124e16384e1dda2a7492b22d88af20cd96b69b7baa0f204c2"
+    },
+    {
+      "bytes": 2218,
+      "path": "corpus/robustness/core-protokol-zebrania-low-robustness-line-break-split-entity-wrap.json",
+      "sha256": "bc11b4cc596266f401b022a1984539c86c9b98ed25289175c8702163129ad5e5"
+    },
+    {
+      "bytes": 2199,
+      "path": "corpus/robustness/core-protokol-zebrania-low-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "d74e22e3267d0d946ad3d27413167085c0e2c9c5d70f52a3a651821a625b3c8e"
+    },
+    {
+      "bytes": 2200,
+      "path": "corpus/robustness/core-protokol-zebrania-low-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "e5e4b1a73e94d2cdf2d9e5d1f5307c470e88fd8616628369ff4166bb05284696"
+    },
+    {
+      "bytes": 2208,
+      "path": "corpus/robustness/core-protokol-zebrania-low-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "49e9fd32d84136b1871773d472560bb1c7296b7e54f2ca701f6a979aaae8ca7c"
+    },
+    {
+      "bytes": 3236,
+      "path": "corpus/robustness/core-protokol-zebrania-medium-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "3a3fdf87da970ea3b7724d4a71e0c66444db13190b06e2fccac9414d3af27fc4"
+    },
+    {
+      "bytes": 3275,
+      "path": "corpus/robustness/core-protokol-zebrania-medium-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "13ca14eb816d42ab018755bb1445ea1bc68f9efa6976bbb858e5017193561a7a"
+    },
+    {
+      "bytes": 3279,
+      "path": "corpus/robustness/core-protokol-zebrania-medium-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "af26ba10ede50eaf24d825999ca64a2e41f4bf3e47794f627dc01e29e60b0df9"
+    },
+    {
+      "bytes": 3265,
+      "path": "corpus/robustness/core-protokol-zebrania-medium-robustness-line-break-split-entity-wrap.json",
+      "sha256": "cf2f7ba48481928676386c9720ee81b8aeda645faf2ab28158a08933c346bfcf"
+    },
+    {
+      "bytes": 3238,
+      "path": "corpus/robustness/core-protokol-zebrania-medium-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "ebdc496063d547611eaf76be09ea21346847fa18199d7656a167e6e3f05d968a"
+    },
+    {
+      "bytes": 3239,
+      "path": "corpus/robustness/core-protokol-zebrania-medium-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "68fc0cbe21ad42e27340c1da68be5c49c3b55b071aa9d57cdec3f3e93b075673"
+    },
+    {
+      "bytes": 3239,
+      "path": "corpus/robustness/core-protokol-zebrania-medium-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "d3635d6760d54011e350551aee7a566bee4cefb61ca4240c5cf9c90217b3a7d5"
+    },
+    {
+      "bytes": 5989,
+      "path": "corpus/robustness/core-umowa-o-prace-high-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "9011f6a2a6083ddf7766a40e95684a7a8ec246b8ffe71b5f00798ef68a9d35b4"
+    },
+    {
+      "bytes": 6116,
+      "path": "corpus/robustness/core-umowa-o-prace-high-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "3fd274f6381ad0b8a271a936a70f536b06f3f8ecb6da848d28f54619beea59c1"
+    },
+    {
+      "bytes": 6120,
+      "path": "corpus/robustness/core-umowa-o-prace-high-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "3f8933553f25375c2499d672fb5d25c8e658ba200a5bb81ab3c95cfd147f1f6a"
+    },
+    {
+      "bytes": 6091,
+      "path": "corpus/robustness/core-umowa-o-prace-high-robustness-line-break-split-entity-wrap.json",
+      "sha256": "7e2b2e3a94a4e30007e5b59098393c88a8860bc0213a1e66464c31442946be31"
+    },
+    {
+      "bytes": 6036,
+      "path": "corpus/robustness/core-umowa-o-prace-high-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "9a2d6dc4254a63661d9e5c4554b07154e94c5e4dfb8a9453359672a6758307fd"
+    },
+    {
+      "bytes": 6037,
+      "path": "corpus/robustness/core-umowa-o-prace-high-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "f07569fb5f1f00a9355c238b3daf79b4717aead3a79093623106bdbfa198f262"
+    },
+    {
+      "bytes": 6027,
+      "path": "corpus/robustness/core-umowa-o-prace-high-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "e4c6f803fd3693aa8e302d91644e74caddb2dbcb90d01b0f787a048a8ef78b06"
+    },
+    {
+      "bytes": 4438,
+      "path": "corpus/robustness/core-umowa-o-prace-low-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "35d14de30638e42987510fe6047be189ed7593526e8bbed06b3d691c10c6b100"
+    },
+    {
+      "bytes": 4525,
+      "path": "corpus/robustness/core-umowa-o-prace-low-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "bc72eb4a4357659185a176e8e0580ba8ac64df3140415bfdae0f5c2fcf9af261"
+    },
+    {
+      "bytes": 4529,
+      "path": "corpus/robustness/core-umowa-o-prace-low-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "2073007854ba0fc631a14634326fb24f16e0235400b1e817342f6426d1a4d2e1"
+    },
+    {
+      "bytes": 4493,
+      "path": "corpus/robustness/core-umowa-o-prace-low-robustness-line-break-split-entity-wrap.json",
+      "sha256": "136ec6168e3f6c589cd9a58f9f1850eaa83fecb16e9726a5d4126a3674b9234f"
+    },
+    {
+      "bytes": 4446,
+      "path": "corpus/robustness/core-umowa-o-prace-low-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "43088f0c9e3d29bbffd91546109c8bdbef0fc623366dcf86a05ae661a8d04df6"
+    },
+    {
+      "bytes": 4447,
+      "path": "corpus/robustness/core-umowa-o-prace-low-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "0b3205343f7d2209b9f61d5b62e4a21ea5efa90ddabb62818dc4fbf4a5dde52e"
+    },
+    {
+      "bytes": 4449,
+      "path": "corpus/robustness/core-umowa-o-prace-low-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "61d13485ae618f00775a06382b048a5ce694a54b8a4d4d758c1641bacf85bc28"
+    },
+    {
+      "bytes": 4509,
+      "path": "corpus/robustness/core-umowa-o-prace-medium-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "27d909d6d67d2d38bd50e5fe6f55bb03f7bc16e3f16e6c4f25be002097120c72"
+    },
+    {
+      "bytes": 4605,
+      "path": "corpus/robustness/core-umowa-o-prace-medium-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "5334bed8d7c2bc190bc017bab35bb10baa1726fc203c718991ebc6714b4cee59"
+    },
+    {
+      "bytes": 4609,
+      "path": "corpus/robustness/core-umowa-o-prace-medium-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "f069aadc8738278bff99cc7e632955d54448a6b37b74314c84f0f0344f4157f4"
+    },
+    {
+      "bytes": 4571,
+      "path": "corpus/robustness/core-umowa-o-prace-medium-robustness-line-break-split-entity-wrap.json",
+      "sha256": "239c4306865cb637ed1cf1aed284e46a3b5105ceb15840e8aff8a56a1437dba6"
+    },
+    {
+      "bytes": 4526,
+      "path": "corpus/robustness/core-umowa-o-prace-medium-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "eb9e95b3f970fa51c63a6d353e49f496659d3ca890f6075fb0638b75e7430e6f"
+    },
+    {
+      "bytes": 4527,
+      "path": "corpus/robustness/core-umowa-o-prace-medium-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "65d6f3d3744ae7664e8efbfc5707caff9f64353e94b0723e7ef2b151673b23cc"
+    },
+    {
+      "bytes": 4527,
+      "path": "corpus/robustness/core-umowa-o-prace-medium-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "cafd12a03a1120084a8c027463141c04f27d87d1dc63bfe063954512d485cad4"
+    },
+    {
+      "bytes": 3045,
+      "path": "corpus/robustness/core-umowa-zlecenie-high-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "53e8aa456a04f36f171183c4cb25f33d03a43c90349abdd789fb7b6a82515fd7"
+    },
+    {
+      "bytes": 3120,
+      "path": "corpus/robustness/core-umowa-zlecenie-high-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "fe4c4ed14dbc427b9d7853df3e7e8e165647d1d4c9792e16573a2aa38199f9be"
+    },
+    {
+      "bytes": 3124,
+      "path": "corpus/robustness/core-umowa-zlecenie-high-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "c31828768f661216687b04a4492f4ee4eb635c601ed0ef9710d256d0baa1416e"
+    },
+    {
+      "bytes": 3078,
+      "path": "corpus/robustness/core-umowa-zlecenie-high-robustness-line-break-split-entity-wrap.json",
+      "sha256": "a32109e41220033654936a53c7b515e31dd2d12293874250786fefc18e72d0c7"
+    },
+    {
+      "bytes": 3051,
+      "path": "corpus/robustness/core-umowa-zlecenie-high-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "ada8132d945dd1598959f3ee004f818aaf28b659fb1d65893ea56d35f65cc3b5"
+    },
+    {
+      "bytes": 3052,
+      "path": "corpus/robustness/core-umowa-zlecenie-high-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "843f04044133066bf6f1f8dadaf2b4cd63c5008aec15616a955402e4359afac4"
+    },
+    {
+      "bytes": 3066,
+      "path": "corpus/robustness/core-umowa-zlecenie-high-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "c7e836c51c04da71f79766dee1f8538641ac77a6822799751e86995c5754e411"
+    },
+    {
+      "bytes": 2487,
+      "path": "corpus/robustness/core-umowa-zlecenie-low-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "63cf3f8130ca05df09c120e075a24dd4cd1fbd4ec5d2e65d6bc192f963a2ea50"
+    },
+    {
+      "bytes": 2555,
+      "path": "corpus/robustness/core-umowa-zlecenie-low-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "781255c0a84e508847b90cd46c4e3f9166595ec8eb25286978293250d7f86ad4"
+    },
+    {
+      "bytes": 2559,
+      "path": "corpus/robustness/core-umowa-zlecenie-low-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "9770e793c7de22306e3dc42fcccd1e1911dbee53c1dc1972b87b1768344043fd"
+    },
+    {
+      "bytes": 2513,
+      "path": "corpus/robustness/core-umowa-zlecenie-low-robustness-line-break-split-entity-wrap.json",
+      "sha256": "aceafafa541e5c66c235ea35cf2a67d480ab779facaef8da5b236b1ede327c5c"
+    },
+    {
+      "bytes": 2486,
+      "path": "corpus/robustness/core-umowa-zlecenie-low-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "6d2f2b30fe1171ea070874c36827bf32a71e149766acb59d64946a7b344abebe"
+    },
+    {
+      "bytes": 2487,
+      "path": "corpus/robustness/core-umowa-zlecenie-low-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "741d6c6cdf1685575ae5a7b1e8ca001582d8cb7b3df3a27188a1c882b9703b85"
+    },
+    {
+      "bytes": 2501,
+      "path": "corpus/robustness/core-umowa-zlecenie-low-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "bce0ba875bf68454810be1b2e05233f2ec5ea574ea4cf7d3b26fbf403b02de29"
+    },
+    {
+      "bytes": 2654,
+      "path": "corpus/robustness/core-umowa-zlecenie-medium-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "07f5c36ce92b98356cc4e4ce71737e7abbcfe047cbba6414f9afad3339487cf7"
+    },
+    {
+      "bytes": 2724,
+      "path": "corpus/robustness/core-umowa-zlecenie-medium-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "ad604692737500eefe45f6065412a654c838445072b4c4d4125f61e7fffd726b"
+    },
+    {
+      "bytes": 2728,
+      "path": "corpus/robustness/core-umowa-zlecenie-medium-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "0c027603d24af2ac875d93cb2a9574d58afe024fff951e45b6e8aab3dd4507f4"
+    },
+    {
+      "bytes": 2682,
+      "path": "corpus/robustness/core-umowa-zlecenie-medium-robustness-line-break-split-entity-wrap.json",
+      "sha256": "e497b835f461fe163a4a73f43c86defc7a9f5ca90667dac4be2face975951d1c"
+    },
+    {
+      "bytes": 2655,
+      "path": "corpus/robustness/core-umowa-zlecenie-medium-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "afb75b9e86a5ae79a74cb48eb3cab6e3bec939c363c74dcdac4bd3fa453f1eab"
+    },
+    {
+      "bytes": 2656,
+      "path": "corpus/robustness/core-umowa-zlecenie-medium-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "db5754e9e6823ffddd4fca43215ea3fda72c2f4f12542f76e91bdb7228474a55"
+    },
+    {
+      "bytes": 2670,
+      "path": "corpus/robustness/core-umowa-zlecenie-medium-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "678445417b199c698b871acfd1437f6fbfdf1df8858490cc92221fcfd15a0743"
+    },
+    {
+      "bytes": 5799,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-alt1-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "6e43ad87cab5f579ade67fce3051e40a3ed3b831bd286411631b32746466af33"
+    },
+    {
+      "bytes": 6253,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-alt1-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "f766fda2ba2e6ad7b5a1f098dd9023ca05d0d8dc6a26a906ab0731cf9105cc46"
+    },
+    {
+      "bytes": 6257,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-alt1-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "489cba1405468c50ec77e8d7b1ce230d6147aa6ba54d2f5ebf4902610735bee6"
+    },
+    {
+      "bytes": 5845,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-alt1-robustness-line-break-split-entity-wrap.json",
+      "sha256": "74f2c47eaffc10c211dd3b993f49f813b995984b78dfe7aa2dec28c46d1382c3"
+    },
+    {
+      "bytes": 5781,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-alt1-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "cc0a32b6a8902485ca6117589d790ae071f06ba8049720f4972d302065f7a3d9"
+    },
+    {
+      "bytes": 5782,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-alt1-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "d2449e331697f7b84be85771785f14ca6f4a85edd1fc16b12b22ae7a13869ae2"
+    },
+    {
+      "bytes": 5770,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-alt1-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "dc7f2f1669a0bab917dc7b75c012669276a081c1a91d1c9b0d81d5b704400899"
+    },
+    {
+      "bytes": 5789,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "2d81a0b8346f4b5b3b6cea88559a916a7c6829d37e0ae9a737f1390bd16360e0"
+    },
+    {
+      "bytes": 6243,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "caf6d30fe698b3ba81a69ae9e4159a48d160deb4d7677b15c28d17127dbbd743"
+    },
+    {
+      "bytes": 6247,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "9554b9790b85c5a862f34326bb47920d158a223e9aa73d93c0bf0f24fd608083"
+    },
+    {
+      "bytes": 5835,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-robustness-line-break-split-entity-wrap.json",
+      "sha256": "6e8268e729459709368c015e618bd05f9c09038b8beb10a15a3ca576c911d6b1"
+    },
+    {
+      "bytes": 5771,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "b54949a4fbd4ade6b27e3bcd309edf3e65e730b1af8edbb773371c0ad6adbfd8"
+    },
+    {
+      "bytes": 5772,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "3e1f0127d056c222987ba41bab1e1f5c2552f07ba936c7d697cc6fe54831fa09"
+    },
+    {
+      "bytes": 5760,
+      "path": "corpus/robustness/core-wyciag-bankowy-high-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "7e4cfb8034d4f28fe0305665bf15c23fbbe8375325dd74dde6d68c45e04bc7d4"
+    },
+    {
+      "bytes": 1872,
+      "path": "corpus/robustness/core-wyciag-bankowy-low-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "e2c91554d26ef32557a100ddfdae6cd1ac6b1309eef7b8266324d25472b552e2"
+    },
+    {
+      "bytes": 1963,
+      "path": "corpus/robustness/core-wyciag-bankowy-low-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "3673f827eaff3d355ca4d38c686fa599942be612ba4c40de1a53c00fa1b8c579"
+    },
+    {
+      "bytes": 1967,
+      "path": "corpus/robustness/core-wyciag-bankowy-low-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "fde064e101c3f7f5b9c289da9c1626b5759223a23a3f1219d3576f499ffbcb76"
+    },
+    {
+      "bytes": 1869,
+      "path": "corpus/robustness/core-wyciag-bankowy-low-robustness-line-break-split-entity-wrap.json",
+      "sha256": "09607d5b2da58589750c8d81fc644409fbf3b69a0ee6b7bb0997787d49cd49e0"
+    },
+    {
+      "bytes": 1848,
+      "path": "corpus/robustness/core-wyciag-bankowy-low-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "067d1a19fade95eaa059bc71e849ad68b0e181a765c61e43f74376c8fcfb591b"
+    },
+    {
+      "bytes": 1849,
+      "path": "corpus/robustness/core-wyciag-bankowy-low-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "0337a958d227a81016ce0bc7df95c4a50b92cb00694d106c9ce63e8f4e483af4"
+    },
+    {
+      "bytes": 1867,
+      "path": "corpus/robustness/core-wyciag-bankowy-low-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "657d75f4e6ee414e899ef1765eee8aea7f0780a4bd4a4e34ccf1049f6b1e32df"
+    },
+    {
+      "bytes": 2971,
+      "path": "corpus/robustness/core-wyciag-bankowy-medium-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "a39d32274fda2450054bd0f432c10db7c71ff21a6427ac43a6fa73f9171bca0f"
+    },
+    {
+      "bytes": 3162,
+      "path": "corpus/robustness/core-wyciag-bankowy-medium-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "5d8ec5b66e6ccffc35556bfc834fca628eb861fc3e5839511ef77e14ba714e5a"
+    },
+    {
+      "bytes": 3166,
+      "path": "corpus/robustness/core-wyciag-bankowy-medium-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "37d892d6a9dcb6b6a5f60bb6f99a18fd55044fca8abd30db78a84ea15d5adbdd"
+    },
+    {
+      "bytes": 2980,
+      "path": "corpus/robustness/core-wyciag-bankowy-medium-robustness-line-break-split-entity-wrap.json",
+      "sha256": "720e98c465082012bd4edcb5a838b0d5a98f04d11818a98f91039d2ac5b692bf"
+    },
+    {
+      "bytes": 2947,
+      "path": "corpus/robustness/core-wyciag-bankowy-medium-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "79b37676e292b3dc13bf6e215ac58ece5b231a0fc32ec3863042ee76891a604c"
+    },
+    {
+      "bytes": 2948,
+      "path": "corpus/robustness/core-wyciag-bankowy-medium-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "d13ace0b3a628ee70611f387ac4925af4df13751d195f1b32334da4fb2b996fb"
+    },
+    {
+      "bytes": 2962,
+      "path": "corpus/robustness/core-wyciag-bankowy-medium-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "f606fb4db6a56344326996e2658cd8e6955fd212c2c9f83324ef8bf387155756"
+    },
+    {
+      "bytes": 3726,
+      "path": "corpus/robustness/core-wyrok-001-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "ffd730d191bd37db04794351f860985ddc9816c9fa75785904ba284f2b89f3de"
+    },
+    {
+      "bytes": 3792,
+      "path": "corpus/robustness/core-wyrok-001-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "6caf907facf5057bf1f242dde236c3fc3a83055b72d065c0f24ec581e3a9d2fc"
+    },
+    {
+      "bytes": 3796,
+      "path": "corpus/robustness/core-wyrok-001-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "7a3fb1ddacc1532e7e268be1e62b19312c0a4c53b8cef6994bfe53b1d7773dd8"
+    },
+    {
+      "bytes": 3774,
+      "path": "corpus/robustness/core-wyrok-001-robustness-line-break-split-entity-wrap.json",
+      "sha256": "014114fb8fcb18341ff30093a6ff32173c07e9dce39630fb52c47200c045c559"
+    },
+    {
+      "bytes": 3739,
+      "path": "corpus/robustness/core-wyrok-001-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "40639defba4b6bc6e1666392ea44730323beceab50180dbe31135c4d7e458258"
+    },
+    {
+      "bytes": 3740,
+      "path": "corpus/robustness/core-wyrok-001-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "8ec9a56b8da1bf8eb7b0f402c4462547fefe5292139cbd0fb448ba94f51a89ee"
+    },
+    {
+      "bytes": 3726,
+      "path": "corpus/robustness/core-wyrok-001-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "7d3d9a561b40754f0f167ac78a6a303c0ec0843b076b627829b855d08e4625a2"
+    },
+    {
+      "bytes": 6329,
+      "path": "corpus/robustness/core-wyrok-high-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "21d6fe713a2179585e52948642fccdf1613d00c7f2606f8191df919c1ae56d08"
+    },
+    {
+      "bytes": 6444,
+      "path": "corpus/robustness/core-wyrok-high-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "92d939500f61a2fbcd61d6f64499727af194caf9598930ec49e9c2c8d9a4be94"
+    },
+    {
+      "bytes": 6448,
+      "path": "corpus/robustness/core-wyrok-high-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "1bf4eade7bf48564b2cac677939d4cc25386246dfe9d66656e7f623096a854b4"
+    },
+    {
+      "bytes": 6416,
+      "path": "corpus/robustness/core-wyrok-high-robustness-line-break-split-entity-wrap.json",
+      "sha256": "d4f59e7d5bc3b241f951d5f0d3c40e02173992030bc2808986a5b9647236ed11"
+    },
+    {
+      "bytes": 6355,
+      "path": "corpus/robustness/core-wyrok-high-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "be130fda57542bd472b89c43c46e3dc0748684c520a74e60f9fb06cc46af4559"
+    },
+    {
+      "bytes": 6356,
+      "path": "corpus/robustness/core-wyrok-high-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "91c2ebe8be6f9936c421c70e435773a845a66d6039e8be7c1ce408427913aece"
+    },
+    {
+      "bytes": 6328,
+      "path": "corpus/robustness/core-wyrok-high-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "835cee0230847d4f6e579acd4588b3a4feb6faa7b1fd742bc33bf6fc145fb72d"
+    },
+    {
+      "bytes": 2392,
+      "path": "corpus/robustness/core-wyrok-low-robustness-diacritic-loss-pl-diacritics-to-ascii.json",
+      "sha256": "dd91cc6ca8834c9493ec9095c0d915f4fc3a90e4b9f42d69d9a8791067f6712f"
+    },
+    {
+      "bytes": 2429,
+      "path": "corpus/robustness/core-wyrok-low-robustness-light-obfuscation-interdigit-dot.json",
+      "sha256": "19907f4b54f7e83d5f1877cdc21bec973150731296201bcebc8287e1146dc257"
+    },
+    {
+      "bytes": 2433,
+      "path": "corpus/robustness/core-wyrok-low-robustness-light-obfuscation-interdigit-space.json",
+      "sha256": "572a256a0aaf1aa069cb6c93d5a805c93dd06573c70fce3aecbf2bf29357c8eb"
+    },
+    {
+      "bytes": 2417,
+      "path": "corpus/robustness/core-wyrok-low-robustness-line-break-split-entity-wrap.json",
+      "sha256": "b6b36e6d18539e0ff26a7a528186eca49882d5dabbc1317fcde638976299304c"
+    },
+    {
+      "bytes": 2394,
+      "path": "corpus/robustness/core-wyrok-low-robustness-ocr-confusion-one-to-letter-l.json",
+      "sha256": "56d93b7a774fe9cad5dc1882bfaa0dbfe4b04bcfdb9160ec5c2da5991101d0db"
+    },
+    {
+      "bytes": 2395,
+      "path": "corpus/robustness/core-wyrok-low-robustness-ocr-confusion-zero-to-letter-o.json",
+      "sha256": "2cfc0b85023496841ddebcc43313d08c6642f73922342dda639ab473f039f752"
+    },
+    {
+      "bytes": 2393,
+      "path": "corpus/robustness/core-wyrok-low-robustness-spacing-damage-missing-entity-whitespace.json",
+      "sha256": "ebcb092ef13c46f863a955715331bf80a79decd3414d5fc64244a14687318b56"
+    },
+    {
+      "bytes": 26,
+      "path": "eval/__init__.py",
+      "sha256": "4459107a003bbd383c511237be03965bf8cfc9f5b66e733f80542d244eff7eb1"
+    },
+    {
+      "bytes": 6981,
+      "path": "eval/loader.py",
+      "sha256": "e7b4461fe2fb363d8c697e9ba86bdd9bf8d52c755147dd03a4ae7271be0d8702"
+    },
+    {
+      "bytes": 3294,
+      "path": "eval/matching.py",
+      "sha256": "f5564dde141d395af132d2d6159e4ff0eaa8c21c975d7e8df8742b1275f51b6e"
+    },
+    {
+      "bytes": 16648,
+      "path": "eval/metrics.py",
+      "sha256": "2fc69f84f3026fa0ec6ca24b70b8603865791873a9e72ec4a06851919ec9f4a8"
+    },
+    {
+      "bytes": 3856,
+      "path": "eval/predictions.py",
+      "sha256": "39d7954d9e87c365e8bbb463e5db82333e3bc8f02967f5343308c3ac39da79d8"
+    },
+    {
+      "bytes": 1101,
+      "path": "eval/reidentification_rules.py",
+      "sha256": "b6d1d10bf975cad858ad3e63cee0db44d289e70719f01982d00ddad13612d8c5"
+    },
+    {
+      "bytes": 8264,
+      "path": "eval/report.py",
+      "sha256": "c0f3c467007ef29e3abb83e682b88eabf3787aca8af27863d6e41e0c5622e38b"
+    },
+    {
+      "bytes": 4955,
+      "path": "eval/score.py",
+      "sha256": "92d86bebebabd62bcc9d20d871a329f16870001d1eaa5b26456ecb2c9e89fc6a"
+    },
+    {
+      "bytes": 849,
+      "path": "pyproject.toml",
+      "sha256": "3f6e318c0da624d22b10641fdcf8f7ff995cbd038eef872558528947413f20a7"
+    },
+    {
+      "bytes": 10158,
+      "path": "release-manifest.schema.json",
+      "sha256": "e8d7ad7307acb2e1294666a15a6660e90d46c36ce3e1079051de6dd7877f0533"
+    },
+    {
+      "bytes": 21733,
+      "path": "release-summary.json",
+      "sha256": "43c729f1f7556a24912d3dc7654e2362b11e0fb2d16e95ce69a0424299f91a67"
+    },
+    {
+      "bytes": 10842,
+      "path": "scripts/check-published-numbers.py",
+      "sha256": "b7336cda5a2037210060073231d47f5111177e83c08769463f8119488a890a73"
+    },
+    {
+      "bytes": 9568,
+      "path": "scripts/dataset-card-template.md",
+      "sha256": "c926a3d70138cf95cdbd2b10c6b8c1a21aa4ca9264b334181fa10ae10d259e7c"
+    },
+    {
+      "bytes": 1404,
+      "path": "scripts/make_perfect_predictions.py",
+      "sha256": "5590d1003e49130339cdf31330d257f743b39974bd10be39ccbba10e0e5dfcab"
+    },
+    {
+      "bytes": 22505,
+      "path": "scripts/package-release.py",
+      "sha256": "f37d06aff71467c48967b54bd4278d954e7bd18d33f104238f3198c81ce1446b"
+    },
+    {
+      "bytes": 28369,
+      "path": "scripts/run-release.py",
+      "sha256": "327b45c7717e802436f2c4c90229801a966ff660bbf920fe7007cfdeff868faa"
+    },
+    {
+      "bytes": 1589,
+      "path": "scripts/sync-corpus.sh",
+      "sha256": "48ff62e93d46a04e15972878a705725a677cd1e32444f2cd3a1025e74f975914"
+    },
+    {
+      "bytes": 7876,
+      "path": "tests/corpus_stats.py",
+      "sha256": "45c32b66193170e388210a85e38142311c43504276d65acdd511d1d86ef20334"
+    },
+    {
+      "bytes": 1148,
+      "path": "tests/fixtures/mini_corpus/core/mini-doc1.json",
+      "sha256": "997f3f5971b22ceb90fc1a4504d1df9cd642a4c4e3590e6701896cb61f570816"
+    },
+    {
+      "bytes": 289,
+      "path": "tests/fixtures/mini_corpus/negative/mini-neg1.json",
+      "sha256": "7c98faef968fefb2063aa9439d431f49b3d84055237fb863b29fa7b0e8e7b3b6"
+    },
+    {
+      "bytes": 183,
+      "path": "tests/fixtures/mini_mapping.jsonl",
+      "sha256": "0c6441a00e389468b0c57ed4120c408caf83e0ab3c47de380e038e05d18bad96"
+    },
+    {
+      "bytes": 443,
+      "path": "tests/fixtures/mini_predictions.jsonl",
+      "sha256": "e9d24fd36ad110274f1c3af09732fbf2749035890523d13cd4ec0784f7988474"
+    },
+    {
+      "bytes": 4539,
+      "path": "tests/fixtures/release-manifest-v2.json",
+      "sha256": "1b09fa16e931dcceedefcd79e45463cb440860e42b83bcc07306c40c18efdd1f"
+    },
+    {
+      "bytes": 8588,
+      "path": "tests/test_adapters_corpus_shapes.py",
+      "sha256": "9c05e1a4465d456b1e924bf9ff4618a028148af24fbe682776812023fefec67f"
+    },
+    {
+      "bytes": 7102,
+      "path": "tests/test_corpus_invariants.py",
+      "sha256": "7ad6d7e4d028e348323a412a69d4da79c5f28b53479bd154410795d71fc981cc"
+    },
+    {
+      "bytes": 2210,
+      "path": "tests/test_corpus_reproducibility.py",
+      "sha256": "2d1b7d3499503fae71ad45461f06b201c7193b2bdd331de8960a7de111219ce8"
+    },
+    {
+      "bytes": 6151,
+      "path": "tests/test_corpus_sizes.py",
+      "sha256": "4d11167e53dcee9e87725de42b7827d3940aa067f71f139b0748b3a296dddd13"
+    },
+    {
+      "bytes": 8772,
+      "path": "tests/test_metrics.py",
+      "sha256": "51616a8d1d7cdc5f4faac3a7df5f19b91465bab60885d7c7ecceabf69f726ddd"
+    },
+    {
+      "bytes": 2544,
+      "path": "tests/test_no_product_import.py",
+      "sha256": "e9e9289ec68b99e388d1e9d1f5272f959a039ad1e594f81ef0a68179d7dc9b0c"
+    },
+    {
+      "bytes": 3980,
+      "path": "tests/test_open_model_adapters.py",
+      "sha256": "6f9122ee74334aaa5f42115df70baa29af085ee98f887d2e49a52f37ee1408d6"
+    },
+    {
+      "bytes": 10773,
+      "path": "tests/test_release_package.py",
+      "sha256": "e376bf9765d8205916da9682575bb1f57c29683c1e32457e45fc44f6362c2246"
+    },
+    {
+      "bytes": 5853,
+      "path": "tests/test_release_runner.py",
+      "sha256": "0cc214adc12b1456970ace72c68d343b7675b387c0f54bc680f9c8ee9d532967"
+    }
+  ],
+  "schema_version": 1,
+  "source_commit": "29b51c335b26454b5c9271df9eeb343dcd28a8d4"
+}

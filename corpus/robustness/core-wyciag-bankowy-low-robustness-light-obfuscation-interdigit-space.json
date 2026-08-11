@@ -1,0 +1,66 @@
+{
+  "doc_id": "core-wyciag-bankowy-low-robustness-light-obfuscation-interdigit-space",
+  "clean_doc_id": "core-wyciag-bankowy-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "wyciag-bankowy",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "table-heavy",
+    "protection_mix": false,
+    "noise": "light-obfuscation",
+    "noise_detail": "interdigit-space"
+  },
+  "text": "PKO BANK POLSKI S.A.\nWYCIĄG Z RACHUNKU\n\nPosiadacz rachunku: Joanna Lis\nNumer rachunku: PL5 4 7 1 6 4 9 6 7 5 2 4 7 2 1 1 4 1 8 0 7 1 4 0 1 2\n\nData: 01.06.2024\nKontrahent: Artcore Solutions Sp. z o.o.\nNr rachunku: PL3 8 7 8 9 7 4 6 3 1 5 9 1 0 3 5 3 6 4 0 1 5 7 9 4 5\nKwota: -100,00 PLN\n\nDokument wygenerowany automatycznie. Posiadaczem rachunku jest Joanna Lis.\n",
+  "entities": [
+    {
+      "text": "Joanna Lis",
+      "label": "PERSON",
+      "start": 60,
+      "end": 70,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "PL5 4 7 1 6 4 9 6 7 5 2 4 7 2 1 1 4 1 8 0 7 1 4 0 1 2",
+      "label": "IBAN",
+      "start": 87,
+      "end": 140,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "id_format": "bare"
+    },
+    {
+      "text": "Artcore Solutions Sp. z o.o.",
+      "label": "ORG",
+      "start": 171,
+      "end": 199,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "PL3 8 7 8 9 7 4 6 3 1 5 9 1 0 3 5 3 6 4 0 1 5 7 9 4 5",
+      "label": "IBAN",
+      "start": 213,
+      "end": 266,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2",
+      "id_format": "bare"
+    },
+    {
+      "text": "Joanna Lis",
+      "label": "PERSON",
+      "start": 350,
+      "end": 360,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    }
+  ]
+}

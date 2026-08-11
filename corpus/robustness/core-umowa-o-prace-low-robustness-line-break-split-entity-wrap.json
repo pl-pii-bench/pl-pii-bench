@@ -1,0 +1,163 @@
+{
+  "doc_id": "core-umowa-o-prace-low-robustness-line-break-split-entity-wrap",
+  "clean_doc_id": "core-umowa-o-prace-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "umowa-o-prace",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "prose",
+    "protection_mix": false,
+    "noise": "line-break-split",
+    "noise_detail": "entity-wrap"
+  },
+  "text": "UMOWA O PRACĘ NR 12/2024\n\nzawarta w Poznaniu, dnia 02 stycznia 2024 r. pomiędzy Fabryka\nMebli Nowak Sp. z o.o., NIP 7342\n185851, REGON 12456\n7890,\nreprezentowaną przez Pana Henryk\nZając,\na Panem Tomaszem\nWróblem, zamieszkałym w\nCzęstochowie, urodzonym dnia 15.0\n7.1990, PESEL 900\n71523179, legitymującym się dowodem osobistym nr ABK323\n847.\n\n§ 1. WARUNKI ZATRUDNIENIA\n\nHenryk\nZając zatrudnia Tomasza\nWróbla na stanowisku Specjalisty ds. Technicznych.\nTomaszowi\nWróblowi przysługuje wynagrodzenie zasadnicze w wysokości 7 500,00 zł brutto miesięcznie.\n\n§ 2. OBOWIĄZKI\n\n1. Tomasz\nWróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 1.\n\n..................................         ..................................\nHenryk\nZając                                Tomasz\nWróbel\n",
+  "entities": [
+    {
+      "text": "Fabryka\nMebli Nowak Sp. z o.o.",
+      "label": "ORG",
+      "start": 80,
+      "end": 110,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "7342\n185851",
+      "label": "NIP",
+      "start": 116,
+      "end": 127,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "12456\n7890",
+      "label": "REGON",
+      "start": 135,
+      "end": 145,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Henryk\nZając",
+      "label": "PERSON",
+      "start": 173,
+      "end": 185,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Tomaszem\nWróblem",
+      "label": "PERSON",
+      "start": 195,
+      "end": 211,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "inst"
+    },
+    {
+      "text": "w\nCzęstochowie",
+      "label": "LOC",
+      "start": 226,
+      "end": 240,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "loc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "15.0\n7.1990",
+      "label": "DOB",
+      "start": 257,
+      "end": 268,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "p1",
+      "date_format": "numeric"
+    },
+    {
+      "text": "900\n71523179",
+      "label": "PESEL",
+      "start": 276,
+      "end": 288,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "ABK323\n847",
+      "label": "DOWOD",
+      "start": 329,
+      "end": 339,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "Henryk\nZając",
+      "label": "PERSON",
+      "start": 369,
+      "end": 381,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasza\nWróbla",
+      "label": "PERSON",
+      "start": 392,
+      "end": 406,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "acc"
+    },
+    {
+      "text": "Tomaszowi\nWróblowi",
+      "label": "PERSON",
+      "start": 451,
+      "end": 469,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "dat"
+    },
+    {
+      "text": "Tomasz\nWróbel",
+      "label": "PERSON",
+      "start": 571,
+      "end": 584,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Henryk\nZając",
+      "label": "PERSON",
+      "start": 723,
+      "end": 735,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz\nWróbel",
+      "label": "PERSON",
+      "start": 767,
+      "end": 780,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    }
+  ]
+}

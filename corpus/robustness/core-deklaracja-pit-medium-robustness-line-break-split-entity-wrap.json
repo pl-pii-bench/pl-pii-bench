@@ -1,0 +1,153 @@
+{
+  "doc_id": "core-deklaracja-pit-medium-robustness-line-break-split-entity-wrap",
+  "clean_doc_id": "core-deklaracja-pit-medium",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "deklaracja-pit",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "mixed",
+    "protection_mix": true,
+    "noise": "line-break-split",
+    "noise_detail": "entity-wrap"
+  },
+  "text": "MINISTERSTWO FINANSÓW\nPIT-37\n\nUrząd Skarbowy\nw Poznaniu\n\nB. DANE PODATNIKA\nNazwisko i imię: Marek\nNowak\nPESEL: 79030\n835344\nData urodzenia: 8 marca\n1979\nAdres zamieszkania: Wrocław\n\nC. MAŁŻONEK\nNazwisko i imię: Anna\nKowalska\nPESEL: 8111\n2568446\n\nD. PŁATNIK\nNazwa: Spółdzielnia Pracy Budowlanych \"MURAL\" Sp. z\no.o.\nNIP: 947\n3281651\n\nF. ODLICZENIA\nUlga nr 1 rozliczona na rzecz Marka\nNowaka.\nUlga nr 2 rozliczona na rzecz Marka\nNowaka.\nUlga nr 3 rozliczona na rzecz Marka\nNowaka.\n\nJa, Marek\nNowak, oświadczam, że dane zawarte w niniejszym zeznaniu są prawdziwe.\nAnna\nKowalska (współmałżonek) — podpis: ..................................\n",
+  "entities": [
+    {
+      "text": "Urząd Skarbowy\nw Poznaniu",
+      "label": "ORG",
+      "start": 30,
+      "end": 55,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Marek\nNowak",
+      "label": "PERSON",
+      "start": 92,
+      "end": 103,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "79030\n835344",
+      "label": "PESEL",
+      "start": 111,
+      "end": 123,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "8 marca\n1979",
+      "label": "DOB",
+      "start": 140,
+      "end": 152,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "p1",
+      "date_format": "long-pl"
+    },
+    {
+      "text": "Wrocław",
+      "label": "LOC",
+      "start": 173,
+      "end": 180,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Anna\nKowalska",
+      "label": "PERSON",
+      "start": 211,
+      "end": 224,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "8111\n2568446",
+      "label": "PESEL",
+      "start": 232,
+      "end": 244,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2"
+    },
+    {
+      "text": "Spółdzielnia Pracy Budowlanych \"MURAL\" Sp. z\no.o.",
+      "label": "ORG",
+      "start": 264,
+      "end": 313,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "947\n3281651",
+      "label": "NIP",
+      "start": 319,
+      "end": 330,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "Marka\nNowaka",
+      "label": "PERSON",
+      "start": 376,
+      "end": 388,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Marka\nNowaka",
+      "label": "PERSON",
+      "start": 420,
+      "end": 432,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Marka\nNowaka",
+      "label": "PERSON",
+      "start": 464,
+      "end": 476,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Marek\nNowak",
+      "label": "PERSON",
+      "start": 483,
+      "end": 494,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Anna\nKowalska",
+      "label": "PERSON",
+      "start": 560,
+      "end": 573,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    }
+  ]
+}

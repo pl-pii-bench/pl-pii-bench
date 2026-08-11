@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-passport",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-passport",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają numer paszportu: HX6 088035.\nPole 03 formularza, numer paszportu: HY6-088041.\n04 | rejestr | wskazana wartość | Paszport: HZ6088057 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: Paszport: JA6088069.\n§ 6. Strony potwierdzają wskazaną wartość: Paszport: JB6088075.\nPole 07 formularza, wskazana wartość: Paszport: JC6088081.\n08 | rejestr | numer paszportu | JD6 088097 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: Paszport: JE6088100.\n§ 1. Strony potwierdzają numer paszportu: JF6 088116.\nPole 11 formularza, numer paszportu: JG6-088122.\n12 | rejestr | numer paszportu | JH6088138 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer paszportu: JJ6 088147.\n§ 5. Strony potwierdzają wskazaną wartość: Paszport: JK6088153.\nPole 15 formularza, numer paszportu: JL6 088169.\n16 | rejestr | numer paszportu | JM6-088175 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer paszportu: JN6-088181.\n§ 9. Strony potwierdzają numer paszportu: JP6 088190.\nPole 19 formularza, numer paszportu: JR6088206.\n20 | rejestr | numer paszportu | JS6-088212 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer paszportu: JT6088228.\n§ 4. Strony potwierdzają numer paszportu: JU6-088234.\nPole 03 formularza, numer paszportu: JV6088240.\n24 | rejestr | numer paszportu | JW6088256 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer paszportu: JX6088262.\n§ 8. Strony potwierdzają wskazaną wartość: Paszport: JY6088278.\nPole 07 formularza, numer paszportu: JZ6088284.\n28 | rejestr | numer paszportu | KA6-088299 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer paszportu: KB6088302.\n§ 3. Strony potwierdzają numer paszportu: KC6 088318.\nPole 11 formularza, numer paszportu: KD6 088324.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "HX6 088035",
+      "label": "PASSPORT",
+      "start": 102,
+      "end": 112,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-001",
+      "id_format": "spaced"
+    },
+    {
+      "text": "HY6-088041",
+      "label": "PASSPORT",
+      "start": 151,
+      "end": 161,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-002",
+      "id_format": "dashed"
+    },
+    {
+      "text": "Paszport: HZ6088057",
+      "label": "PASSPORT",
+      "start": 197,
+      "end": 216,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-003",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "Paszport: JA6088069",
+      "label": "PASSPORT",
+      "start": 284,
+      "end": 303,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-004",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "Paszport: JB6088075",
+      "label": "PASSPORT",
+      "start": 348,
+      "end": 367,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-005",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "Paszport: JC6088081",
+      "label": "PASSPORT",
+      "start": 407,
+      "end": 426,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-006",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "JD6 088097",
+      "label": "PASSPORT",
+      "start": 461,
+      "end": 471,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-007",
+      "id_format": "spaced"
+    },
+    {
+      "text": "Paszport: JE6088100",
+      "label": "PASSPORT",
+      "start": 539,
+      "end": 558,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-008",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "JF6 088116",
+      "label": "PASSPORT",
+      "start": 602,
+      "end": 612,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-009",
+      "id_format": "spaced"
+    },
+    {
+      "text": "JG6-088122",
+      "label": "PASSPORT",
+      "start": 651,
+      "end": 661,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-010",
+      "id_format": "dashed"
+    },
+    {
+      "text": "JH6088138",
+      "label": "PASSPORT",
+      "start": 696,
+      "end": 705,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-011",
+      "id_format": "bare"
+    },
+    {
+      "text": "JJ6 088147",
+      "label": "PASSPORT",
+      "start": 772,
+      "end": 782,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-012",
+      "id_format": "spaced"
+    },
+    {
+      "text": "Paszport: JK6088153",
+      "label": "PASSPORT",
+      "start": 827,
+      "end": 846,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-013",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "JL6 088169",
+      "label": "PASSPORT",
+      "start": 885,
+      "end": 895,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-014",
+      "id_format": "spaced"
+    },
+    {
+      "text": "JM6-088175",
+      "label": "PASSPORT",
+      "start": 930,
+      "end": 940,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-015",
+      "id_format": "dashed"
+    },
+    {
+      "text": "JN6-088181",
+      "label": "PASSPORT",
+      "start": 1007,
+      "end": 1017,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-016",
+      "id_format": "dashed"
+    },
+    {
+      "text": "JP6 088190",
+      "label": "PASSPORT",
+      "start": 1061,
+      "end": 1071,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-017",
+      "id_format": "spaced"
+    },
+    {
+      "text": "JR6088206",
+      "label": "PASSPORT",
+      "start": 1110,
+      "end": 1119,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-018",
+      "id_format": "bare"
+    },
+    {
+      "text": "JS6-088212",
+      "label": "PASSPORT",
+      "start": 1154,
+      "end": 1164,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-019",
+      "id_format": "dashed"
+    },
+    {
+      "text": "JT6088228",
+      "label": "PASSPORT",
+      "start": 1231,
+      "end": 1240,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-020",
+      "id_format": "bare"
+    },
+    {
+      "text": "JU6-088234",
+      "label": "PASSPORT",
+      "start": 1284,
+      "end": 1294,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-021",
+      "id_format": "dashed"
+    },
+    {
+      "text": "JV6088240",
+      "label": "PASSPORT",
+      "start": 1333,
+      "end": 1342,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-022",
+      "id_format": "bare"
+    },
+    {
+      "text": "JW6088256",
+      "label": "PASSPORT",
+      "start": 1377,
+      "end": 1386,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-023",
+      "id_format": "bare"
+    },
+    {
+      "text": "JX6088262",
+      "label": "PASSPORT",
+      "start": 1453,
+      "end": 1462,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-024",
+      "id_format": "bare"
+    },
+    {
+      "text": "Paszport: JY6088278",
+      "label": "PASSPORT",
+      "start": 1507,
+      "end": 1526,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-025",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "JZ6088284",
+      "label": "PASSPORT",
+      "start": 1565,
+      "end": 1574,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-026",
+      "id_format": "bare"
+    },
+    {
+      "text": "KA6-088299",
+      "label": "PASSPORT",
+      "start": 1609,
+      "end": 1619,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-027",
+      "id_format": "dashed"
+    },
+    {
+      "text": "KB6088302",
+      "label": "PASSPORT",
+      "start": 1686,
+      "end": 1695,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-028",
+      "id_format": "bare"
+    },
+    {
+      "text": "KC6 088318",
+      "label": "PASSPORT",
+      "start": 1739,
+      "end": 1749,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-029",
+      "id_format": "spaced"
+    },
+    {
+      "text": "KD6 088324",
+      "label": "PASSPORT",
+      "start": 1788,
+      "end": 1798,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "passport-030",
+      "id_format": "spaced"
+    }
+  ]
+}

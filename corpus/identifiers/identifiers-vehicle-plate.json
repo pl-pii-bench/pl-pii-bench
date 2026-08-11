@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-vehicle-plate",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-vehicle-plate",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają numer rejestracyjny pojazdu: WX 22487A.\nPole 03 formularza, wskazana wartość: Nr rej.: WX 22488B.\n04 | rejestr | numer rejestracyjny pojazdu | WX22489C | sprawdzono\nW odpowiedzi na pismo prosimy podać numer rejestracyjny pojazdu: WX-22490D.\n§ 6. Strony potwierdzają numer rejestracyjny pojazdu: WX22491E.\nPole 07 formularza, wskazana wartość: Nr rej.: WX 22492F.\n08 | rejestr | numer rejestracyjny pojazdu | WX-22493G | sprawdzono\nW odpowiedzi na pismo prosimy podać numer rejestracyjny pojazdu: WX-22494H.\n§ 1. Strony potwierdzają numer rejestracyjny pojazdu: WX 22495J.\nPole 11 formularza, numer rejestracyjny pojazdu: WX22496K.\n12 | rejestr | numer rejestracyjny pojazdu | WX 22497L | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: Nr rej.: WX 22498M.\n§ 5. Strony potwierdzają numer rejestracyjny pojazdu: WX 22499N.\nPole 15 formularza, numer rejestracyjny pojazdu: WX 22500P.\n16 | rejestr | numer rejestracyjny pojazdu | WX-22501R | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: Nr rej.: WX 22502S.\n§ 9. Strony potwierdzają numer rejestracyjny pojazdu: WX-22503T.\nPole 19 formularza, numer rejestracyjny pojazdu: WX22504U.\n20 | rejestr | numer rejestracyjny pojazdu | WX22505V | sprawdzono\nW odpowiedzi na pismo prosimy podać numer rejestracyjny pojazdu: WX22506W.\n§ 4. Strony potwierdzają numer rejestracyjny pojazdu: WX 22507X.\nPole 03 formularza, numer rejestracyjny pojazdu: WX 22508Y.\n24 | rejestr | numer rejestracyjny pojazdu | WX-22509Z | sprawdzono\nW odpowiedzi na pismo prosimy podać numer rejestracyjny pojazdu: WX-22510A.\n§ 8. Strony potwierdzają wskazaną wartość: Nr rej.: WX 22511B.\nPole 07 formularza, numer rejestracyjny pojazdu: WX22512C.\n28 | rejestr | wskazana wartość | Nr rej.: WX 22513D | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: Nr rej.: WX 22514E.\n§ 3. Strony potwierdzają numer rejestracyjny pojazdu: WX 22515F.\nPole 11 formularza, numer rejestracyjny pojazdu: WX22516G.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "WX 22487A",
+      "label": "VEHICLE_PLATE",
+      "start": 114,
+      "end": 123,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-001",
+      "id_format": "spaced"
+    },
+    {
+      "text": "Nr rej.: WX 22488B",
+      "label": "VEHICLE_PLATE",
+      "start": 163,
+      "end": 181,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-002",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "WX22489C",
+      "label": "VEHICLE_PLATE",
+      "start": 228,
+      "end": 236,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-003",
+      "id_format": "bare"
+    },
+    {
+      "text": "WX-22490D",
+      "label": "VEHICLE_PLATE",
+      "start": 315,
+      "end": 324,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-004",
+      "id_format": "dashed"
+    },
+    {
+      "text": "WX22491E",
+      "label": "VEHICLE_PLATE",
+      "start": 380,
+      "end": 388,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-005",
+      "id_format": "bare"
+    },
+    {
+      "text": "Nr rej.: WX 22492F",
+      "label": "VEHICLE_PLATE",
+      "start": 428,
+      "end": 446,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-006",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "WX-22493G",
+      "label": "VEHICLE_PLATE",
+      "start": 493,
+      "end": 502,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-007",
+      "id_format": "dashed"
+    },
+    {
+      "text": "WX-22494H",
+      "label": "VEHICLE_PLATE",
+      "start": 581,
+      "end": 590,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-008",
+      "id_format": "dashed"
+    },
+    {
+      "text": "WX 22495J",
+      "label": "VEHICLE_PLATE",
+      "start": 646,
+      "end": 655,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-009",
+      "id_format": "spaced"
+    },
+    {
+      "text": "WX22496K",
+      "label": "VEHICLE_PLATE",
+      "start": 706,
+      "end": 714,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-010",
+      "id_format": "bare"
+    },
+    {
+      "text": "WX 22497L",
+      "label": "VEHICLE_PLATE",
+      "start": 761,
+      "end": 770,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-011",
+      "id_format": "spaced"
+    },
+    {
+      "text": "Nr rej.: WX 22498M",
+      "label": "VEHICLE_PLATE",
+      "start": 838,
+      "end": 856,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-012",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "WX 22499N",
+      "label": "VEHICLE_PLATE",
+      "start": 912,
+      "end": 921,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-013",
+      "id_format": "spaced"
+    },
+    {
+      "text": "WX 22500P",
+      "label": "VEHICLE_PLATE",
+      "start": 972,
+      "end": 981,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-014",
+      "id_format": "spaced"
+    },
+    {
+      "text": "WX-22501R",
+      "label": "VEHICLE_PLATE",
+      "start": 1028,
+      "end": 1037,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-015",
+      "id_format": "dashed"
+    },
+    {
+      "text": "Nr rej.: WX 22502S",
+      "label": "VEHICLE_PLATE",
+      "start": 1105,
+      "end": 1123,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-016",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "WX-22503T",
+      "label": "VEHICLE_PLATE",
+      "start": 1179,
+      "end": 1188,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-017",
+      "id_format": "dashed"
+    },
+    {
+      "text": "WX22504U",
+      "label": "VEHICLE_PLATE",
+      "start": 1239,
+      "end": 1247,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-018",
+      "id_format": "bare"
+    },
+    {
+      "text": "WX22505V",
+      "label": "VEHICLE_PLATE",
+      "start": 1294,
+      "end": 1302,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-019",
+      "id_format": "bare"
+    },
+    {
+      "text": "WX22506W",
+      "label": "VEHICLE_PLATE",
+      "start": 1381,
+      "end": 1389,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-020",
+      "id_format": "bare"
+    },
+    {
+      "text": "WX 22507X",
+      "label": "VEHICLE_PLATE",
+      "start": 1445,
+      "end": 1454,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-021",
+      "id_format": "spaced"
+    },
+    {
+      "text": "WX 22508Y",
+      "label": "VEHICLE_PLATE",
+      "start": 1505,
+      "end": 1514,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-022",
+      "id_format": "spaced"
+    },
+    {
+      "text": "WX-22509Z",
+      "label": "VEHICLE_PLATE",
+      "start": 1561,
+      "end": 1570,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-023",
+      "id_format": "dashed"
+    },
+    {
+      "text": "WX-22510A",
+      "label": "VEHICLE_PLATE",
+      "start": 1649,
+      "end": 1658,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-024",
+      "id_format": "dashed"
+    },
+    {
+      "text": "Nr rej.: WX 22511B",
+      "label": "VEHICLE_PLATE",
+      "start": 1703,
+      "end": 1721,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-025",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "WX22512C",
+      "label": "VEHICLE_PLATE",
+      "start": 1772,
+      "end": 1780,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-026",
+      "id_format": "bare"
+    },
+    {
+      "text": "Nr rej.: WX 22513D",
+      "label": "VEHICLE_PLATE",
+      "start": 1816,
+      "end": 1834,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-027",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "Nr rej.: WX 22514E",
+      "label": "VEHICLE_PLATE",
+      "start": 1902,
+      "end": 1920,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-028",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "WX 22515F",
+      "label": "VEHICLE_PLATE",
+      "start": 1976,
+      "end": 1985,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-029",
+      "id_format": "spaced"
+    },
+    {
+      "text": "WX22516G",
+      "label": "VEHICLE_PLATE",
+      "start": 2036,
+      "end": 2044,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vehicle_plate-030",
+      "id_format": "bare"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "doc_id": "ligature-001",
+  "pdf": "ligature-001.pdf",
+  "text": "DOKUMENT Z LIGATURAMI\nSpecyfikacja finansowa dotyczy konfliktu interesow stron.\nBeneficjentem platnosci jest Filip Konarski.\nIdentyfikacja: PESEL 88051061858, NIP 3164752552.\nKontakt do beneficjenta: filip.konarski@domena.pl.\nDodatkowy tekst dla kontekstu:\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea\ncommodo consequat. Duis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur.",
+  "entities": [
+    {
+      "text": "Filip Konarski",
+      "label": "PERSON",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "e1",
+      "start": 109,
+      "end": 123
+    },
+    {
+      "text": "88051061858",
+      "label": "PESEL",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "e2",
+      "start": 146,
+      "end": 157
+    },
+    {
+      "text": "3164752552",
+      "label": "NIP",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "e3",
+      "start": 163,
+      "end": 173
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "doc_id": "address-letterhead-block",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-letterhead-block",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "letterhead",
+    "protection_mix": false
+  },
+  "text": "Anna Zielińska\nul. Słoneczna 7\n80-180 Gdańsk\n\nJan Kaczmarek\nul. Bursztynowa 16\n81-577 Gdynia\n\nMaria Czarnecka\nul. Wiosenna 28\n15-427 Białystok\nProsimy o potwierdzenie odbioru.",
+  "entities": [
+    {
+      "text": "Anna Zielińska",
+      "label": "PERSON",
+      "start": 0,
+      "end": 14,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "letterhead-1",
+      "case": "nom"
+    },
+    {
+      "text": "ul. Słoneczna 7",
+      "label": "LOC",
+      "start": 15,
+      "end": 30,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "letterhead-1",
+      "case": "nom",
+      "address_form": "letterhead-block"
+    },
+    {
+      "text": "80-180",
+      "label": "POSTAL",
+      "start": 31,
+      "end": 37,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "letterhead-1",
+      "address_form": "letterhead-block"
+    },
+    {
+      "text": "Gdańsk",
+      "label": "LOC",
+      "start": 38,
+      "end": 44,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "letterhead-1",
+      "case": "nom",
+      "address_form": "letterhead-block"
+    },
+    {
+      "text": "Jan Kaczmarek",
+      "label": "PERSON",
+      "start": 46,
+      "end": 59,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "letterhead-2",
+      "case": "nom"
+    },
+    {
+      "text": "ul. Bursztynowa 16",
+      "label": "LOC",
+      "start": 60,
+      "end": 78,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "letterhead-2",
+      "case": "nom",
+      "address_form": "letterhead-block"
+    },
+    {
+      "text": "81-577",
+      "label": "POSTAL",
+      "start": 79,
+      "end": 85,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "letterhead-2",
+      "address_form": "letterhead-block"
+    },
+    {
+      "text": "Gdynia",
+      "label": "LOC",
+      "start": 86,
+      "end": 92,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "letterhead-2",
+      "case": "nom",
+      "address_form": "letterhead-block"
+    },
+    {
+      "text": "Maria Czarnecka",
+      "label": "PERSON",
+      "start": 94,
+      "end": 109,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "letterhead-3",
+      "case": "nom"
+    },
+    {
+      "text": "ul. Wiosenna 28",
+      "label": "LOC",
+      "start": 110,
+      "end": 125,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "letterhead-3",
+      "case": "nom",
+      "address_form": "letterhead-block"
+    },
+    {
+      "text": "15-427",
+      "label": "POSTAL",
+      "start": 126,
+      "end": 132,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "letterhead-3",
+      "address_form": "letterhead-block"
+    },
+    {
+      "text": "Białystok",
+      "label": "LOC",
+      "start": 133,
+      "end": 142,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "letterhead-3",
+      "case": "nom",
+      "address_form": "letterhead-block"
+    }
+  ]
+}

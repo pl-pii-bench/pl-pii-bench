@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-email",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-email",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają adres poczty elektronicznej: SPRAWA.260731@URZAD-PRZYKLAD.PL.\nPole 03 formularza, adres poczty elektronicznej: SPRAWA.260732@URZAD-PRZYKLAD.PL.\n04 | rejestr | adres poczty elektronicznej | SPRAWA.260733@URZAD-PRZYKLAD.PL | sprawdzono\nW odpowiedzi na pismo prosimy podać adres poczty elektronicznej: sprawa.260734@kontakt.urzad-przyklad.pl.\n§ 6. Strony potwierdzają adres poczty elektronicznej: sprawa.260735@urzad-przyklad.pl.\nPole 07 formularza, adres poczty elektronicznej: sprawa.260736@urzad-przyklad.pl.\n08 | rejestr | adres poczty elektronicznej | sprawa.260737@urzad-przyklad.pl | sprawdzono\nW odpowiedzi na pismo prosimy podać adres poczty elektronicznej: SPRAWA.260738@URZAD-PRZYKLAD.PL.\n§ 1. Strony potwierdzają adres poczty elektronicznej: sprawa.260739+sprawa@urzad-przyklad.pl.\nPole 11 formularza, adres poczty elektronicznej: sprawa.260740@kontakt.urzad-przyklad.pl.\n12 | rejestr | adres poczty elektronicznej | SPRAWA.260741@URZAD-PRZYKLAD.PL | sprawdzono\nW odpowiedzi na pismo prosimy podać adres poczty elektronicznej: sprawa.260742@urzad-przyklad.pl.\n§ 5. Strony potwierdzają adres poczty elektronicznej: sprawa.260743@kontakt.urzad-przyklad.pl.\nPole 15 formularza, adres poczty elektronicznej: sprawa.260744@kontakt.urzad-przyklad.pl.\n16 | rejestr | adres poczty elektronicznej | sprawa.260745@urzad-przyklad.pl | sprawdzono\nW odpowiedzi na pismo prosimy podać adres poczty elektronicznej: sprawa.260746+sprawa@urzad-przyklad.pl.\n§ 9. Strony potwierdzają adres poczty elektronicznej: sprawa.260747@urzad-przyklad.pl.\nPole 19 formularza, adres poczty elektronicznej: sprawa.260748+sprawa@urzad-przyklad.pl.\n20 | rejestr | adres poczty elektronicznej | sprawa.260749+sprawa@urzad-przyklad.pl | sprawdzono\nW odpowiedzi na pismo prosimy podać adres poczty elektronicznej: sprawa.260750+sprawa@urzad-przyklad.pl.\n§ 4. Strony potwierdzają adres poczty elektronicznej: SPRAWA.260751@URZAD-PRZYKLAD.PL.\nPole 03 formularza, adres poczty elektronicznej: sprawa.260752@kontakt.urzad-przyklad.pl.\n24 | rejestr | adres poczty elektronicznej | sprawa.260753@urzad-przyklad.pl | sprawdzono\nW odpowiedzi na pismo prosimy podać adres poczty elektronicznej: SPRAWA.260754@URZAD-PRZYKLAD.PL.\n§ 8. Strony potwierdzają adres poczty elektronicznej: sprawa.260755@kontakt.urzad-przyklad.pl.\nPole 07 formularza, adres poczty elektronicznej: sprawa.260756+sprawa@urzad-przyklad.pl.\n28 | rejestr | adres poczty elektronicznej | sprawa.260757@kontakt.urzad-przyklad.pl | sprawdzono\nW odpowiedzi na pismo prosimy podać adres poczty elektronicznej: sprawa.260758+sprawa@urzad-przyklad.pl.\n§ 3. Strony potwierdzają adres poczty elektronicznej: sprawa.260759+sprawa@urzad-przyklad.pl.\nPole 11 formularza, adres poczty elektronicznej: sprawa.260760@urzad-przyklad.pl.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "SPRAWA.260731@URZAD-PRZYKLAD.PL",
+      "label": "EMAIL",
+      "start": 114,
+      "end": 145,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-001",
+      "id_format": "uppercase"
+    },
+    {
+      "text": "SPRAWA.260732@URZAD-PRZYKLAD.PL",
+      "label": "EMAIL",
+      "start": 196,
+      "end": 227,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-002",
+      "id_format": "uppercase"
+    },
+    {
+      "text": "SPRAWA.260733@URZAD-PRZYKLAD.PL",
+      "label": "EMAIL",
+      "start": 274,
+      "end": 305,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-003",
+      "id_format": "uppercase"
+    },
+    {
+      "text": "sprawa.260734@kontakt.urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 384,
+      "end": 423,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-004",
+      "id_format": "subdomain"
+    },
+    {
+      "text": "sprawa.260735@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 479,
+      "end": 510,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-005",
+      "id_format": "plain"
+    },
+    {
+      "text": "sprawa.260736@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 561,
+      "end": 592,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-006",
+      "id_format": "plain"
+    },
+    {
+      "text": "sprawa.260737@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 639,
+      "end": 670,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-007",
+      "id_format": "plain"
+    },
+    {
+      "text": "SPRAWA.260738@URZAD-PRZYKLAD.PL",
+      "label": "EMAIL",
+      "start": 749,
+      "end": 780,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-008",
+      "id_format": "uppercase"
+    },
+    {
+      "text": "sprawa.260739+sprawa@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 836,
+      "end": 874,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-009",
+      "id_format": "plus-tag"
+    },
+    {
+      "text": "sprawa.260740@kontakt.urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 925,
+      "end": 964,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-010",
+      "id_format": "subdomain"
+    },
+    {
+      "text": "SPRAWA.260741@URZAD-PRZYKLAD.PL",
+      "label": "EMAIL",
+      "start": 1011,
+      "end": 1042,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-011",
+      "id_format": "uppercase"
+    },
+    {
+      "text": "sprawa.260742@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 1121,
+      "end": 1152,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-012",
+      "id_format": "plain"
+    },
+    {
+      "text": "sprawa.260743@kontakt.urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 1208,
+      "end": 1247,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-013",
+      "id_format": "subdomain"
+    },
+    {
+      "text": "sprawa.260744@kontakt.urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 1298,
+      "end": 1337,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-014",
+      "id_format": "subdomain"
+    },
+    {
+      "text": "sprawa.260745@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 1384,
+      "end": 1415,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-015",
+      "id_format": "plain"
+    },
+    {
+      "text": "sprawa.260746+sprawa@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 1494,
+      "end": 1532,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-016",
+      "id_format": "plus-tag"
+    },
+    {
+      "text": "sprawa.260747@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 1588,
+      "end": 1619,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-017",
+      "id_format": "plain"
+    },
+    {
+      "text": "sprawa.260748+sprawa@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 1670,
+      "end": 1708,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-018",
+      "id_format": "plus-tag"
+    },
+    {
+      "text": "sprawa.260749+sprawa@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 1755,
+      "end": 1793,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-019",
+      "id_format": "plus-tag"
+    },
+    {
+      "text": "sprawa.260750+sprawa@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 1872,
+      "end": 1910,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-020",
+      "id_format": "plus-tag"
+    },
+    {
+      "text": "SPRAWA.260751@URZAD-PRZYKLAD.PL",
+      "label": "EMAIL",
+      "start": 1966,
+      "end": 1997,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-021",
+      "id_format": "uppercase"
+    },
+    {
+      "text": "sprawa.260752@kontakt.urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 2048,
+      "end": 2087,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-022",
+      "id_format": "subdomain"
+    },
+    {
+      "text": "sprawa.260753@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 2134,
+      "end": 2165,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-023",
+      "id_format": "plain"
+    },
+    {
+      "text": "SPRAWA.260754@URZAD-PRZYKLAD.PL",
+      "label": "EMAIL",
+      "start": 2244,
+      "end": 2275,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-024",
+      "id_format": "uppercase"
+    },
+    {
+      "text": "sprawa.260755@kontakt.urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 2331,
+      "end": 2370,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-025",
+      "id_format": "subdomain"
+    },
+    {
+      "text": "sprawa.260756+sprawa@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 2421,
+      "end": 2459,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-026",
+      "id_format": "plus-tag"
+    },
+    {
+      "text": "sprawa.260757@kontakt.urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 2506,
+      "end": 2545,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-027",
+      "id_format": "subdomain"
+    },
+    {
+      "text": "sprawa.260758+sprawa@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 2624,
+      "end": 2662,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-028",
+      "id_format": "plus-tag"
+    },
+    {
+      "text": "sprawa.260759+sprawa@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 2718,
+      "end": 2756,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-029",
+      "id_format": "plus-tag"
+    },
+    {
+      "text": "sprawa.260760@urzad-przyklad.pl",
+      "label": "EMAIL",
+      "start": 2807,
+      "end": 2838,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "email-030",
+      "id_format": "plain"
+    }
+  ]
+}

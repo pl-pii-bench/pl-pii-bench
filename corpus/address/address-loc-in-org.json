@@ -1,0 +1,94 @@
+{
+  "doc_id": "address-loc-in-org",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-loc-in-org",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Opinie przekazały: Uniwersytet Warszawski; Sąd Rejonowy dla Warszawy-Woli; Urząd Miasta Krakowa; Politechnika Gdańska; Muzeum Narodowe w Warszawie; Teatr Wielki w Łodzi; Akademia Muzyczna w Katowicach; Biblioteka Uniwersytecka we Wrocławiu. ",
+  "entities": [
+    {
+      "text": "Uniwersytet Warszawski",
+      "label": "ORG",
+      "start": 19,
+      "end": 41,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org-1",
+      "case": "nom"
+    },
+    {
+      "text": "Sąd Rejonowy dla Warszawy-Woli",
+      "label": "ORG",
+      "start": 43,
+      "end": 73,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org-2",
+      "case": "nom"
+    },
+    {
+      "text": "Urząd Miasta Krakowa",
+      "label": "ORG",
+      "start": 75,
+      "end": 95,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org-3",
+      "case": "nom"
+    },
+    {
+      "text": "Politechnika Gdańska",
+      "label": "ORG",
+      "start": 97,
+      "end": 117,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org-4",
+      "case": "nom"
+    },
+    {
+      "text": "Muzeum Narodowe w Warszawie",
+      "label": "ORG",
+      "start": 119,
+      "end": 146,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org-5",
+      "case": "loc"
+    },
+    {
+      "text": "Teatr Wielki w Łodzi",
+      "label": "ORG",
+      "start": 148,
+      "end": 168,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org-6",
+      "case": "loc"
+    },
+    {
+      "text": "Akademia Muzyczna w Katowicach",
+      "label": "ORG",
+      "start": 170,
+      "end": 200,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org-7",
+      "case": "loc"
+    },
+    {
+      "text": "Biblioteka Uniwersytecka we Wrocławiu",
+      "label": "ORG",
+      "start": 202,
+      "end": 239,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org-8",
+      "case": "loc"
+    }
+  ]
+}

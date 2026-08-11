@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-driving-license",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-driving-license",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają numer prawa jazdy: 04 8736369.\nPole 03 formularza, numer prawa jazdy: 04-8736370.\n04 | rejestr | numer prawa jazdy | 04 8736371 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: Prawo jazdy: 048736372.\n§ 6. Strony potwierdzają numer prawa jazdy: 048736373.\nPole 07 formularza, numer prawa jazdy: 04-8736374.\n08 | rejestr | numer prawa jazdy | 04 8736375 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer prawa jazdy: 04-8736376.\n§ 1. Strony potwierdzają numer prawa jazdy: 048736377.\nPole 11 formularza, wskazana wartość: Prawo jazdy: 048736378.\n12 | rejestr | numer prawa jazdy | 048736379 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer prawa jazdy: 04-8736380.\n§ 5. Strony potwierdzają wskazaną wartość: Prawo jazdy: 048736381.\nPole 15 formularza, wskazana wartość: Prawo jazdy: 048736382.\n16 | rejestr | numer prawa jazdy | 048736383 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer prawa jazdy: 04 8736384.\n§ 9. Strony potwierdzają numer prawa jazdy: 04 8736385.\nPole 19 formularza, numer prawa jazdy: 048736386.\n20 | rejestr | numer prawa jazdy | 04-8736387 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer prawa jazdy: 048736388.\n§ 4. Strony potwierdzają numer prawa jazdy: 048736389.\nPole 03 formularza, numer prawa jazdy: 04-8736390.\n24 | rejestr | numer prawa jazdy | 048736391 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: Prawo jazdy: 048736392.\n§ 8. Strony potwierdzają wskazaną wartość: Prawo jazdy: 048736393.\nPole 07 formularza, numer prawa jazdy: 04-8736394.\n28 | rejestr | wskazana wartość | Prawo jazdy: 048736395 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer prawa jazdy: 04 8736396.\n§ 3. Strony potwierdzają numer prawa jazdy: 04-8736397.\nPole 11 formularza, numer prawa jazdy: 04 8736398.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "04 8736369",
+      "label": "DRIVING_LICENSE",
+      "start": 104,
+      "end": 114,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-001",
+      "id_format": "spaced"
+    },
+    {
+      "text": "04-8736370",
+      "label": "DRIVING_LICENSE",
+      "start": 155,
+      "end": 165,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-002",
+      "id_format": "dashed"
+    },
+    {
+      "text": "04 8736371",
+      "label": "DRIVING_LICENSE",
+      "start": 202,
+      "end": 212,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-003",
+      "id_format": "spaced"
+    },
+    {
+      "text": "Prawo jazdy: 048736372",
+      "label": "DRIVING_LICENSE",
+      "start": 280,
+      "end": 302,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-004",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "048736373",
+      "label": "DRIVING_LICENSE",
+      "start": 348,
+      "end": 357,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-005",
+      "id_format": "bare"
+    },
+    {
+      "text": "04-8736374",
+      "label": "DRIVING_LICENSE",
+      "start": 398,
+      "end": 408,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-006",
+      "id_format": "dashed"
+    },
+    {
+      "text": "04 8736375",
+      "label": "DRIVING_LICENSE",
+      "start": 445,
+      "end": 455,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-007",
+      "id_format": "spaced"
+    },
+    {
+      "text": "04-8736376",
+      "label": "DRIVING_LICENSE",
+      "start": 524,
+      "end": 534,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-008",
+      "id_format": "dashed"
+    },
+    {
+      "text": "048736377",
+      "label": "DRIVING_LICENSE",
+      "start": 580,
+      "end": 589,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-009",
+      "id_format": "bare"
+    },
+    {
+      "text": "Prawo jazdy: 048736378",
+      "label": "DRIVING_LICENSE",
+      "start": 629,
+      "end": 651,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-010",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "048736379",
+      "label": "DRIVING_LICENSE",
+      "start": 688,
+      "end": 697,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-011",
+      "id_format": "bare"
+    },
+    {
+      "text": "04-8736380",
+      "label": "DRIVING_LICENSE",
+      "start": 766,
+      "end": 776,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-012",
+      "id_format": "dashed"
+    },
+    {
+      "text": "Prawo jazdy: 048736381",
+      "label": "DRIVING_LICENSE",
+      "start": 821,
+      "end": 843,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-013",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "Prawo jazdy: 048736382",
+      "label": "DRIVING_LICENSE",
+      "start": 883,
+      "end": 905,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-014",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "048736383",
+      "label": "DRIVING_LICENSE",
+      "start": 942,
+      "end": 951,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-015",
+      "id_format": "bare"
+    },
+    {
+      "text": "04 8736384",
+      "label": "DRIVING_LICENSE",
+      "start": 1020,
+      "end": 1030,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-016",
+      "id_format": "spaced"
+    },
+    {
+      "text": "04 8736385",
+      "label": "DRIVING_LICENSE",
+      "start": 1076,
+      "end": 1086,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-017",
+      "id_format": "spaced"
+    },
+    {
+      "text": "048736386",
+      "label": "DRIVING_LICENSE",
+      "start": 1127,
+      "end": 1136,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-018",
+      "id_format": "bare"
+    },
+    {
+      "text": "04-8736387",
+      "label": "DRIVING_LICENSE",
+      "start": 1173,
+      "end": 1183,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-019",
+      "id_format": "dashed"
+    },
+    {
+      "text": "048736388",
+      "label": "DRIVING_LICENSE",
+      "start": 1252,
+      "end": 1261,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-020",
+      "id_format": "bare"
+    },
+    {
+      "text": "048736389",
+      "label": "DRIVING_LICENSE",
+      "start": 1307,
+      "end": 1316,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-021",
+      "id_format": "bare"
+    },
+    {
+      "text": "04-8736390",
+      "label": "DRIVING_LICENSE",
+      "start": 1357,
+      "end": 1367,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-022",
+      "id_format": "dashed"
+    },
+    {
+      "text": "048736391",
+      "label": "DRIVING_LICENSE",
+      "start": 1404,
+      "end": 1413,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-023",
+      "id_format": "bare"
+    },
+    {
+      "text": "Prawo jazdy: 048736392",
+      "label": "DRIVING_LICENSE",
+      "start": 1481,
+      "end": 1503,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-024",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "Prawo jazdy: 048736393",
+      "label": "DRIVING_LICENSE",
+      "start": 1548,
+      "end": 1570,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-025",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "04-8736394",
+      "label": "DRIVING_LICENSE",
+      "start": 1611,
+      "end": 1621,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-026",
+      "id_format": "dashed"
+    },
+    {
+      "text": "Prawo jazdy: 048736395",
+      "label": "DRIVING_LICENSE",
+      "start": 1657,
+      "end": 1679,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-027",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "04 8736396",
+      "label": "DRIVING_LICENSE",
+      "start": 1748,
+      "end": 1758,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-028",
+      "id_format": "spaced"
+    },
+    {
+      "text": "04-8736397",
+      "label": "DRIVING_LICENSE",
+      "start": 1804,
+      "end": 1814,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-029",
+      "id_format": "dashed"
+    },
+    {
+      "text": "04 8736398",
+      "label": "DRIVING_LICENSE",
+      "start": 1855,
+      "end": 1865,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "driving_license-030",
+      "id_format": "spaced"
+    }
+  ]
+}

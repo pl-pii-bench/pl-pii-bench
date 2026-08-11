@@ -1,0 +1,119 @@
+{
+  "doc_id": "core-faktura-vat-low-robustness-light-obfuscation-interdigit-space",
+  "clean_doc_id": "core-faktura-vat-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "faktura-vat",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "table-heavy",
+    "protection_mix": false,
+    "noise": "light-obfuscation",
+    "noise_detail": "interdigit-space"
+  },
+  "text": "FAKTURA VAT NR FV/2024/03/0047\n\nSPRZEDAWCA:\nTechnologia Przyszłości Sp. z o.o.\nNIP: 5 2 1 3 4 6 7 8 9 4\nREGON: 3 6 1 2 0 4 8 9 8\nNr konta: PL4 2 6 7 8 7 3 9 4 1 3 8 2 1 7 8 4 0 2 4 8 5 7 3 9 7\n\nNABYWCA:\nHandel i Logistyka Sp. z o.o.\nNIP: 6 4 8 3 7 2 1 5 9 3\nREGON: 2 7 4 8 3 6 1 5 7\n\nPOZYCJE FAKTURY:\n1.    Usługa konsultingowa etap 1        1 szt.   1000,00    23%\n\nWystawił: Marcin Kowalczyk, Kierownik Sprzedaży, Technologia Przyszłości Sp. z o.o.\nOdebrał: Joanna Brzezicka, Dyrektor Finansowy, Handel i Logistyka Sp. z o.o.\n",
+  "entities": [
+    {
+      "text": "Technologia Przyszłości Sp. z o.o.",
+      "label": "ORG",
+      "start": 44,
+      "end": 78,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "5 2 1 3 4 6 7 8 9 4",
+      "label": "NIP",
+      "start": 84,
+      "end": 103,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "3 6 1 2 0 4 8 9 8",
+      "label": "REGON",
+      "start": 111,
+      "end": 128,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "PL4 2 6 7 8 7 3 9 4 1 3 8 2 1 7 8 4 0 2 4 8 5 7 3 9 7",
+      "label": "IBAN",
+      "start": 139,
+      "end": 192,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1",
+      "id_format": "bare"
+    },
+    {
+      "text": "Handel i Logistyka Sp. z o.o.",
+      "label": "ORG",
+      "start": 203,
+      "end": 232,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "6 4 8 3 7 2 1 5 9 3",
+      "label": "NIP",
+      "start": 238,
+      "end": 257,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "2 7 4 8 3 6 1 5 7",
+      "label": "REGON",
+      "start": 265,
+      "end": 282,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "Marcin Kowalczyk",
+      "label": "PERSON",
+      "start": 377,
+      "end": 393,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Technologia Przyszłości Sp. z o.o.",
+      "label": "ORG",
+      "start": 416,
+      "end": 450,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Joanna Brzezicka",
+      "label": "PERSON",
+      "start": 460,
+      "end": 476,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Handel i Logistyka Sp. z o.o.",
+      "label": "ORG",
+      "start": 498,
+      "end": 527,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    }
+  ]
+}

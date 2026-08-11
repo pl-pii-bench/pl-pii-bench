@@ -1,0 +1,9 @@
+{
+  "doc_id": "mini-neg1",
+  "source": "hand-made test fixture",
+  "corpus_type": "test_negative",
+  "text": "Numer 12345 wygladajacy jak identyfikator nie przechodzi weryfikacji sumy kontrolnej.",
+  "entities": [],
+  "category": "lookalike-test",
+  "decoys": ["12345", "identyfikator"]
+}

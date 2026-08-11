@@ -1,0 +1,154 @@
+{
+  "doc_id": "core-pismo-urzedowe-high-robustness-diacritic-loss-pl-diacritics-to-ascii",
+  "clean_doc_id": "core-pismo-urzedowe-high",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "pismo-urzedowe",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "prose",
+    "protection_mix": true,
+    "noise": "diacritic-loss",
+    "noise_detail": "pl-diacritics-to-ascii"
+  },
+  "text": "Urzad Miejski w Gdansku\nWydzial Komunikacji\n\nGdansk, dnia 10 kwietnia 2024 r.\n\nDECYZJA NR WK.5410.127.2024\n\nPo rozpatrzeniu wniosku Pani Anny Kowalskiej, PESEL 78110264825,\nlegitymujacej sie dowodem osobistym nr CDM891043,\n\norzekam:\n\n1. Ustalono okolicznosc nr 1 potwierdzajaca zasadnosc wniosku Anny Kowalskiej.\n2. Ustalono okolicznosc nr 2 potwierdzajaca zasadnosc wniosku Anny Kowalskiej.\n3. Ustalono okolicznosc nr 3 potwierdzajaca zasadnosc wniosku Anny Kowalskiej.\n4. Ustalono okolicznosc nr 4 potwierdzajaca zasadnosc wniosku Anny Kowalskiej.\n5. Ustalono okolicznosc nr 5 potwierdzajaca zasadnosc wniosku Anny Kowalskiej.\n6. Ustalono okolicznosc nr 6 potwierdzajaca zasadnosc wniosku Anny Kowalskiej.\n7. Ustalono okolicznosc nr 7 potwierdzajaca zasadnosc wniosku Anny Kowalskiej.\n8. Ustalono okolicznosc nr 8 potwierdzajaca zasadnosc wniosku Anny Kowalskiej.\n\nUZASADNIENIE\n\nPani Anna Kowalska zlozyla wniosek w zwiazku z uplywem terminu waznosci dokumentu.\n\nz up. Prezydenta Miasta Gdanska\n\nPiotr Zalewski\nKierownik Wydzialu Komunikacji\n",
+  "entities": [
+    {
+      "text": "Urzad Miejski w Gdansku",
+      "label": "ORG",
+      "start": 0,
+      "end": 23,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 137,
+      "end": 152,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "78110264825",
+      "label": "PESEL",
+      "start": 160,
+      "end": 171,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "CDM891043",
+      "label": "DOWOD",
+      "start": 212,
+      "end": 221,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 296,
+      "end": 311,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 375,
+      "end": 390,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 454,
+      "end": 469,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 533,
+      "end": 548,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 612,
+      "end": 627,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 691,
+      "end": 706,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 770,
+      "end": 785,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 849,
+      "end": 864,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Anna Kowalska",
+      "label": "PERSON",
+      "start": 886,
+      "end": 899,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Piotr Zalewski",
+      "label": "PERSON",
+      "start": 998,
+      "end": 1012,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    }
+  ]
+}

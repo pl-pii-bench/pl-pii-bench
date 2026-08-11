@@ -1,0 +1,44 @@
+{
+  "doc_id": "boundary-001",
+  "pdf": "boundary-001.pdf",
+  "text": "DOKUMENT TESTOWY - PODZIAL STRONICY\nDokument weryfikuje wykrywanie encji rozdzielonych na granicy stron\npodczas ekstrakcji tekstu z plikow PDF.\nWniosek zlozyla pani Anna Nowakowska, ktora reprezentuje strone.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea\ncommodo consequat. Duis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur.\nSprawe prowadzi pracownik kancelarii, ktorym jest pan Jan\n\nKowalski, ktory zlozyl wniosek w imieniu strony postepowania.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea\ncommodo consequat. Duis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur.\nDowod osobisty strony: VXR319600\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea\ncommodo consequat. Duis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur.\nPelnomocnik legitymuje sie dowodem o numerze UDA643\n\n321 wydanym przez organ gminy.\nKoniec dokumentu testowego.",
+  "entities": [
+    {
+      "text": "Anna Nowakowska",
+      "label": "PERSON",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "e1",
+      "start": 165,
+      "end": 180
+    },
+    {
+      "text": "Jan\n\nKowalski",
+      "label": "PERSON",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "e2",
+      "start": 598,
+      "end": 611
+    },
+    {
+      "text": "VXR319600",
+      "label": "DOWOD",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "e3",
+      "start": 1023,
+      "end": 1032
+    },
+    {
+      "text": "UDA643\n\n321",
+      "label": "DOWOD",
+      "notes": "known-limitation: identifier split mid-number at a page boundary. In the committed extraction (pdfplumber 0.11.9, pages joined with a blank line), 'UDA643' and '321' are separated by two newlines from the page break, leaving a gap a naive checksum/regex recognizer may fail to bridge -- this is exactly the cross-page recovery-window join behavior the fixture exists to exercise.",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "e4",
+      "start": 1413,
+      "end": 1424
+    }
+  ]
+}

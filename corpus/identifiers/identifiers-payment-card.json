@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-payment-card",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-payment-card",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają numer karty płatniczej: 4001-6595-5647-6210.\nPole 03 formularza, numer karty płatniczej: 4001 6595 5647 6228.\n04 | rejestr | numer karty płatniczej | 4001659556476236 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: Karta: 4001 6595 5647 6244.\n§ 6. Strony potwierdzają numer karty płatniczej: 4001 6595 5647 6251.\nPole 07 formularza, numer karty płatniczej: 4001659556476269.\n08 | rejestr | numer karty płatniczej | 4001 6595 5647 6277 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer karty płatniczej: 4001659556476285.\n§ 1. Strony potwierdzają numer karty płatniczej: 4001-6595-5647-6293.\nPole 11 formularza, numer karty płatniczej: 4001-6595-5647-6301.\n12 | rejestr | numer karty płatniczej | 4001 6595 5647 6319 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer karty płatniczej: 4001659556476327.\n§ 5. Strony potwierdzają wskazaną wartość: Karta: 4001 6595 5647 6335.\nPole 15 formularza, wskazana wartość: Karta: 4001 6595 5647 6343.\n16 | rejestr | numer karty płatniczej | 4001659556476350 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: Karta: 4001 6595 5647 6368.\n§ 9. Strony potwierdzają wskazaną wartość: Karta: 4001 6595 5647 6376.\nPole 19 formularza, numer karty płatniczej: 4001-6595-5647-6384.\n20 | rejestr | numer karty płatniczej | 4001659556476392 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer karty płatniczej: 4001 6595 5647 6400.\n§ 4. Strony potwierdzają wskazaną wartość: Karta: 4001 6595 5647 6418.\nPole 03 formularza, numer karty płatniczej: 4001659556476426.\n24 | rejestr | numer karty płatniczej | 4001659556476434 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer karty płatniczej: 4001 6595 5647 6442.\n§ 8. Strony potwierdzają numer karty płatniczej: 4001-6595-5647-6459.\nPole 07 formularza, numer karty płatniczej: 4001 6595 5647 6467.\n28 | rejestr | numer karty płatniczej | 4001-6595-5647-6475 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer karty płatniczej: 4001-6595-5647-6483.\n§ 3. Strony potwierdzają wskazaną wartość: Karta: 4001 6595 5647 6491.\nPole 11 formularza, numer karty płatniczej: 4001 6595 5647 6509.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "4001-6595-5647-6210",
+      "label": "PAYMENT_CARD",
+      "start": 109,
+      "end": 128,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-001",
+      "id_format": "dashed"
+    },
+    {
+      "text": "4001 6595 5647 6228",
+      "label": "PAYMENT_CARD",
+      "start": 174,
+      "end": 193,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-002",
+      "id_format": "spaced"
+    },
+    {
+      "text": "4001659556476236",
+      "label": "PAYMENT_CARD",
+      "start": 235,
+      "end": 251,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-003",
+      "id_format": "bare"
+    },
+    {
+      "text": "Karta: 4001 6595 5647 6244",
+      "label": "PAYMENT_CARD",
+      "start": 319,
+      "end": 345,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-004",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "4001 6595 5647 6251",
+      "label": "PAYMENT_CARD",
+      "start": 396,
+      "end": 415,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-005",
+      "id_format": "spaced"
+    },
+    {
+      "text": "4001659556476269",
+      "label": "PAYMENT_CARD",
+      "start": 461,
+      "end": 477,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-006",
+      "id_format": "bare"
+    },
+    {
+      "text": "4001 6595 5647 6277",
+      "label": "PAYMENT_CARD",
+      "start": 519,
+      "end": 538,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-007",
+      "id_format": "spaced"
+    },
+    {
+      "text": "4001659556476285",
+      "label": "PAYMENT_CARD",
+      "start": 612,
+      "end": 628,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-008",
+      "id_format": "bare"
+    },
+    {
+      "text": "4001-6595-5647-6293",
+      "label": "PAYMENT_CARD",
+      "start": 679,
+      "end": 698,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-009",
+      "id_format": "dashed"
+    },
+    {
+      "text": "4001-6595-5647-6301",
+      "label": "PAYMENT_CARD",
+      "start": 744,
+      "end": 763,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-010",
+      "id_format": "dashed"
+    },
+    {
+      "text": "4001 6595 5647 6319",
+      "label": "PAYMENT_CARD",
+      "start": 805,
+      "end": 824,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-011",
+      "id_format": "spaced"
+    },
+    {
+      "text": "4001659556476327",
+      "label": "PAYMENT_CARD",
+      "start": 898,
+      "end": 914,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-012",
+      "id_format": "bare"
+    },
+    {
+      "text": "Karta: 4001 6595 5647 6335",
+      "label": "PAYMENT_CARD",
+      "start": 959,
+      "end": 985,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-013",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "Karta: 4001 6595 5647 6343",
+      "label": "PAYMENT_CARD",
+      "start": 1025,
+      "end": 1051,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-014",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "4001659556476350",
+      "label": "PAYMENT_CARD",
+      "start": 1093,
+      "end": 1109,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-015",
+      "id_format": "bare"
+    },
+    {
+      "text": "Karta: 4001 6595 5647 6368",
+      "label": "PAYMENT_CARD",
+      "start": 1177,
+      "end": 1203,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-016",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "Karta: 4001 6595 5647 6376",
+      "label": "PAYMENT_CARD",
+      "start": 1248,
+      "end": 1274,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-017",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "4001-6595-5647-6384",
+      "label": "PAYMENT_CARD",
+      "start": 1320,
+      "end": 1339,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-018",
+      "id_format": "dashed"
+    },
+    {
+      "text": "4001659556476392",
+      "label": "PAYMENT_CARD",
+      "start": 1381,
+      "end": 1397,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-019",
+      "id_format": "bare"
+    },
+    {
+      "text": "4001 6595 5647 6400",
+      "label": "PAYMENT_CARD",
+      "start": 1471,
+      "end": 1490,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-020",
+      "id_format": "spaced"
+    },
+    {
+      "text": "Karta: 4001 6595 5647 6418",
+      "label": "PAYMENT_CARD",
+      "start": 1535,
+      "end": 1561,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-021",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "4001659556476426",
+      "label": "PAYMENT_CARD",
+      "start": 1607,
+      "end": 1623,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-022",
+      "id_format": "bare"
+    },
+    {
+      "text": "4001659556476434",
+      "label": "PAYMENT_CARD",
+      "start": 1665,
+      "end": 1681,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-023",
+      "id_format": "bare"
+    },
+    {
+      "text": "4001 6595 5647 6442",
+      "label": "PAYMENT_CARD",
+      "start": 1755,
+      "end": 1774,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-024",
+      "id_format": "spaced"
+    },
+    {
+      "text": "4001-6595-5647-6459",
+      "label": "PAYMENT_CARD",
+      "start": 1825,
+      "end": 1844,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-025",
+      "id_format": "dashed"
+    },
+    {
+      "text": "4001 6595 5647 6467",
+      "label": "PAYMENT_CARD",
+      "start": 1890,
+      "end": 1909,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-026",
+      "id_format": "spaced"
+    },
+    {
+      "text": "4001-6595-5647-6475",
+      "label": "PAYMENT_CARD",
+      "start": 1951,
+      "end": 1970,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-027",
+      "id_format": "dashed"
+    },
+    {
+      "text": "4001-6595-5647-6483",
+      "label": "PAYMENT_CARD",
+      "start": 2044,
+      "end": 2063,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-028",
+      "id_format": "dashed"
+    },
+    {
+      "text": "Karta: 4001 6595 5647 6491",
+      "label": "PAYMENT_CARD",
+      "start": 2108,
+      "end": 2134,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-029",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "4001 6595 5647 6509",
+      "label": "PAYMENT_CARD",
+      "start": 2180,
+      "end": 2199,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "payment_card-030",
+      "id_format": "spaced"
+    }
+  ]
+}

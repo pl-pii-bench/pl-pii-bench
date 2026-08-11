@@ -1,0 +1,199 @@
+{
+  "doc_id": "core-wyciag-bankowy-high-alt1-robustness-light-obfuscation-interdigit-space",
+  "clean_doc_id": "core-wyciag-bankowy-high-alt1",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "wyciag-bankowy",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "table-heavy",
+    "protection_mix": false,
+    "noise": "light-obfuscation",
+    "noise_detail": "interdigit-space"
+  },
+  "text": "PKO BANK POLSKI S.A.\nWYCIĄG Z RACHUNKU\n\nPosiadacz rachunku: Joanna Lis\nNumer rachunku: PL8 9 7 6 9 3 3 5 6 0 9 7 9 4 2 9 8 7 7 7 2 5 8 2 1 4\n\nData: 01.06.2024\nKontrahent: Artcore Solutions Sp. z o.o.\nNr rachunku: PL6 4 1 2 4 6 1 8 6 4 9 4 6 7 9 6 7 8 3 8 7 0 8 5 4 9\nKwota: -100,00 PLN\n\nData: 02.06.2024\nKontrahent: Enea S.A.\nNr rachunku: PL2 6 1 7 8 1 7 5 5 5 0 5 7 5 8 8 2 9 9 1 7 2 7 5 2 1\nKwota: -137,00 PLN\n\nData: 03.06.2024\nKontrahent: Piotr Malinowski\nNr rachunku: PL4 6 0 5 1 9 6 0 4 2 4 1 0 2 1 4 1 9 5 1 0 2 6 2 0 5\nKwota: -174,00 PLN\n\nData: 04.06.2024\nKontrahent: Allegro.pl Sp. z o.o.\nNr rachunku: PL7 5 4 5 7 2 9 1 6 6 7 6 0 1 8 0 6 5 5 1 2 0 1 2 2 0\nKwota: -211,00 PLN\n\nData: 05.06.2024\nKontrahent: Consulto Group Sp. z o.o.\nNr rachunku: PL7 8 3 9 8 0 1 7 6 7 0 0 5 7 9 8 5 3 3 7 5 8 4 6 3 3\nKwota: -248,00 PLN\n\nData: 06.06.2024\nKontrahent: Anna Wojciechowska\nNr rachunku: PL7 7 6 2 5 8 4 7 9 7 6 1 8 9 0 5 7 9 7 3 5 3 8 2 2 2\nKwota: -285,00 PLN\n\nData: 07.06.2024\nKontrahent: Spółdzielnia Mieszkaniowa Południe\nNr rachunku: PL6 3 2 8 9 5 7 0 9 8 0 1 7 0 8 7 2 6 2 5 1 3 2 7 1 8\nKwota: -322,00 PLN\n\nData: 08.06.2024\nKontrahent: P4 Sp. z o.o.\nNr rachunku: PL2 7 1 3 6 5 9 5 6 7 4 8 3 1 8 5 7 5 4 5 6 0 0 7 3 8\nKwota: -359,00 PLN\n\nDokument wygenerowany automatycznie. Posiadaczem rachunku jest Joanna Lis.\n",
+  "entities": [
+    {
+      "text": "Joanna Lis",
+      "label": "PERSON",
+      "start": 60,
+      "end": 70,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "PL8 9 7 6 9 3 3 5 6 0 9 7 9 4 2 9 8 7 7 7 2 5 8 2 1 4",
+      "label": "IBAN",
+      "start": 87,
+      "end": 140,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "id_format": "bare"
+    },
+    {
+      "text": "Artcore Solutions Sp. z o.o.",
+      "label": "ORG",
+      "start": 171,
+      "end": 199,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "PL6 4 1 2 4 6 1 8 6 4 9 4 6 7 9 6 7 8 3 8 7 0 8 5 4 9",
+      "label": "IBAN",
+      "start": 213,
+      "end": 266,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2",
+      "id_format": "bare"
+    },
+    {
+      "text": "Enea S.A.",
+      "label": "ORG",
+      "start": 316,
+      "end": 325,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org3"
+    },
+    {
+      "text": "PL2 6 1 7 8 1 7 5 5 5 0 5 7 5 8 8 2 9 9 1 7 2 7 5 2 1",
+      "label": "IBAN",
+      "start": 339,
+      "end": 392,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org3",
+      "id_format": "bare"
+    },
+    {
+      "text": "Piotr Malinowski",
+      "label": "PERSON",
+      "start": 442,
+      "end": 458,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2"
+    },
+    {
+      "text": "PL4 6 0 5 1 9 6 0 4 2 4 1 0 2 1 4 1 9 5 1 0 2 6 2 0 5",
+      "label": "IBAN",
+      "start": 472,
+      "end": 525,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "id_format": "bare"
+    },
+    {
+      "text": "Allegro.pl Sp. z o.o.",
+      "label": "ORG",
+      "start": 575,
+      "end": 596,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org4"
+    },
+    {
+      "text": "PL7 5 4 5 7 2 9 1 6 6 7 6 0 1 8 0 6 5 5 1 2 0 1 2 2 0",
+      "label": "IBAN",
+      "start": 610,
+      "end": 663,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org4",
+      "id_format": "bare"
+    },
+    {
+      "text": "Consulto Group Sp. z o.o.",
+      "label": "ORG",
+      "start": 713,
+      "end": 738,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org5"
+    },
+    {
+      "text": "PL7 8 3 9 8 0 1 7 6 7 0 0 5 7 9 8 5 3 3 7 5 8 4 6 3 3",
+      "label": "IBAN",
+      "start": 752,
+      "end": 805,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org5",
+      "id_format": "bare"
+    },
+    {
+      "text": "Anna Wojciechowska",
+      "label": "PERSON",
+      "start": 855,
+      "end": 873,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3"
+    },
+    {
+      "text": "PL7 7 6 2 5 8 4 7 9 7 6 1 8 9 0 5 7 9 7 3 5 3 8 2 2 2",
+      "label": "IBAN",
+      "start": 887,
+      "end": 940,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "id_format": "bare"
+    },
+    {
+      "text": "Spółdzielnia Mieszkaniowa Południe",
+      "label": "ORG",
+      "start": 990,
+      "end": 1024,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org6"
+    },
+    {
+      "text": "PL6 3 2 8 9 5 7 0 9 8 0 1 7 0 8 7 2 6 2 5 1 3 2 7 1 8",
+      "label": "IBAN",
+      "start": 1038,
+      "end": 1091,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org6",
+      "id_format": "bare"
+    },
+    {
+      "text": "P4 Sp. z o.o.",
+      "label": "ORG",
+      "start": 1141,
+      "end": 1154,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org7"
+    },
+    {
+      "text": "PL2 7 1 3 6 5 9 5 6 7 4 8 3 1 8 5 7 5 4 5 6 0 0 7 3 8",
+      "label": "IBAN",
+      "start": 1168,
+      "end": 1221,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org7",
+      "id_format": "bare"
+    },
+    {
+      "text": "Joanna Lis",
+      "label": "PERSON",
+      "start": 1305,
+      "end": 1315,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    }
+  ]
+}

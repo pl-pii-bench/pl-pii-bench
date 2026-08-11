@@ -1,0 +1,18 @@
+{
+  "doc_id": "mini-doc1",
+  "lane": "core",
+  "axes": {"doc_type": "test-fixture", "format": "text", "pii_density": "low", "structure": "prose", "protection_mix": true},
+  "text": "Jan Kowalski, ur. 01.01.1990, mieszka we Wroclawiu. Pracuje w firmie Acme Sp. z o.o. Jego PESEL to 79030835344.",
+  "entities": [
+    {"text": "Jan Kowalski", "label": "PERSON", "start": 0, "end": 12,
+     "identifier_class": "direct", "protection": "protect", "entity_id": "p1", "case": "nom"},
+    {"text": "01.01.1990", "label": "DOB", "start": 18, "end": 28,
+     "identifier_class": "quasi", "protection": "protect", "entity_id": "p1", "date_format": "numeric"},
+    {"text": "we Wroclawiu", "label": "LOC", "start": 38, "end": 50,
+     "identifier_class": "quasi", "protection": "protect", "entity_id": "p1", "address_form": "bare-city", "case": "loc"},
+    {"text": "Acme Sp. z o.o.", "label": "ORG", "start": 69, "end": 84,
+     "identifier_class": "quasi", "protection": "keep", "entity_id": "org1"},
+    {"text": "79030835344", "label": "PESEL", "start": 99, "end": 110,
+     "identifier_class": "direct", "protection": "protect", "entity_id": "p1"}
+  ]
+}

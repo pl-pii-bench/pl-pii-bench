@@ -1,0 +1,84 @@
+{
+  "doc_id": "core-wyrok-low-robustness-diacritic-loss-pl-diacritics-to-ascii",
+  "clean_doc_id": "core-wyrok-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "wyrok",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "prose",
+    "protection_mix": true,
+    "noise": "diacritic-loss",
+    "noise_detail": "pl-diacritics-to-ascii"
+  },
+  "text": "Sad Rejonowy w Sopocie, I Wydzial Cywilny\n\nSygn. akt I C 88/24\n\nWYROK\nW IMIENIU RZECZYPOSPOLITEJ POLSKIEJ\n\nDnia 5 marca 2024 r.\n\nSad Rejonowy w Sopocie, I Wydzial Cywilny\nPrzewodniczacy: SSR Beata Szymanska\n\npo rozpoznaniu na posiedzeniu niejawnym sprawy z powodztwa Henryka Zajaca, PESEL 65071433005,\no zaplate,\n\norzeka:\n\n1. zasadza na rzecz Henryka Zajaca kwote 3 200,00 zl wraz z odsetkami ustawowymi za opoznienie.\n\nBeata Szymanska\nSedzia Sadu Rejonowego\n",
+  "entities": [
+    {
+      "text": "Sad Rejonowy w Sopocie, I Wydzial Cywilny",
+      "label": "ORG",
+      "start": 0,
+      "end": 41,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Sad Rejonowy w Sopocie, I Wydzial Cywilny",
+      "label": "ORG",
+      "start": 129,
+      "end": 170,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Beata Szymanska",
+      "label": "PERSON",
+      "start": 191,
+      "end": 206,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Henryka Zajaca",
+      "label": "PERSON",
+      "start": 267,
+      "end": 281,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "gen"
+    },
+    {
+      "text": "65071433005",
+      "label": "PESEL",
+      "start": 289,
+      "end": 300,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2"
+    },
+    {
+      "text": "Henryka Zajaca",
+      "label": "PERSON",
+      "start": 343,
+      "end": 357,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "gen"
+    },
+    {
+      "text": "Beata Szymanska",
+      "label": "PERSON",
+      "start": 420,
+      "end": 435,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    }
+  ]
+}

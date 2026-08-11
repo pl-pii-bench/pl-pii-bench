@@ -1,0 +1,133 @@
+{
+  "doc_id": "core-deklaracja-pit-low-robustness-ocr-confusion-zero-to-letter-o",
+  "clean_doc_id": "core-deklaracja-pit-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "deklaracja-pit",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "mixed",
+    "protection_mix": true,
+    "noise": "ocr-confusion",
+    "noise_detail": "0-to-O"
+  },
+  "text": "MINISTERSTWO FINANSÓW\nPIT-37\n\nUrząd Skarbowy w Poznaniu\n\nB. DANE PODATNIKA\nNazwisko i imię: Marek Nowak\nPESEL: 79O3O835344\nData urodzenia: O8.O3.1979\nAdres zamieszkania: Gdańsk\n\nC. MAŁŻONEK\nNazwisko i imię: Anna Kowalska\nPESEL: 81112568446\n\nD. PŁATNIK\nNazwa: Spółdzielnia Pracy Budowlanych \"MURAL\" Sp. z o.o.\nNIP: 9473281651\n\nF. ODLICZENIA\nUlga nr 1 rozliczona na rzecz Marka Nowaka.\n\nJa, Marek Nowak, oświadczam, że dane zawarte w niniejszym zeznaniu są prawdziwe.\nAnna Kowalska (współmałżonek) — podpis: ..................................\n",
+  "entities": [
+    {
+      "text": "Urząd Skarbowy w Poznaniu",
+      "label": "ORG",
+      "start": 30,
+      "end": 55,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Marek Nowak",
+      "label": "PERSON",
+      "start": 92,
+      "end": 103,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "79O3O835344",
+      "label": "PESEL",
+      "start": 111,
+      "end": 122,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "O8.O3.1979",
+      "label": "DOB",
+      "start": 139,
+      "end": 149,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "p1",
+      "date_format": "numeric"
+    },
+    {
+      "text": "Gdańsk",
+      "label": "LOC",
+      "start": 170,
+      "end": 176,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Anna Kowalska",
+      "label": "PERSON",
+      "start": 207,
+      "end": 220,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "81112568446",
+      "label": "PESEL",
+      "start": 228,
+      "end": 239,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2"
+    },
+    {
+      "text": "Spółdzielnia Pracy Budowlanych \"MURAL\" Sp. z o.o.",
+      "label": "ORG",
+      "start": 259,
+      "end": 308,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "9473281651",
+      "label": "NIP",
+      "start": 314,
+      "end": 324,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "Marka Nowaka",
+      "label": "PERSON",
+      "start": 370,
+      "end": 382,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Marek Nowak",
+      "label": "PERSON",
+      "start": 389,
+      "end": 400,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Anna Kowalska",
+      "label": "PERSON",
+      "start": 466,
+      "end": 479,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    }
+  ]
+}

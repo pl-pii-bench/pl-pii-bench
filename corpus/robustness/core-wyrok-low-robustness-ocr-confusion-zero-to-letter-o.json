@@ -1,0 +1,84 @@
+{
+  "doc_id": "core-wyrok-low-robustness-ocr-confusion-zero-to-letter-o",
+  "clean_doc_id": "core-wyrok-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "wyrok",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "prose",
+    "protection_mix": true,
+    "noise": "ocr-confusion",
+    "noise_detail": "0-to-O"
+  },
+  "text": "Sąd Rejonowy w Sopocie, I Wydział Cywilny\n\nSygn. akt I C 88/24\n\nWYROK\nW IMIENIU RZECZYPOSPOLITEJ POLSKIEJ\n\nDnia 5 marca 2O24 r.\n\nSąd Rejonowy w Sopocie, I Wydział Cywilny\nPrzewodniczący: SSR Beata Szymańska\n\npo rozpoznaniu na posiedzeniu niejawnym sprawy z powództwa Henryka Zająca, PESEL 65O71433OO5,\no zapłatę,\n\norzeka:\n\n1. zasądza na rzecz Henryka Zająca kwotę 3 2OO,OO zł wraz z odsetkami ustawowymi za opóźnienie.\n\nBeata Szymańska\nSędzia Sądu Rejonowego\n",
+  "entities": [
+    {
+      "text": "Sąd Rejonowy w Sopocie, I Wydział Cywilny",
+      "label": "ORG",
+      "start": 0,
+      "end": 41,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Sąd Rejonowy w Sopocie, I Wydział Cywilny",
+      "label": "ORG",
+      "start": 129,
+      "end": 170,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Beata Szymańska",
+      "label": "PERSON",
+      "start": 191,
+      "end": 206,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Henryka Zająca",
+      "label": "PERSON",
+      "start": 267,
+      "end": 281,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "gen"
+    },
+    {
+      "text": "65O71433OO5",
+      "label": "PESEL",
+      "start": 289,
+      "end": 300,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2"
+    },
+    {
+      "text": "Henryka Zająca",
+      "label": "PERSON",
+      "start": 343,
+      "end": 357,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "gen"
+    },
+    {
+      "text": "Beata Szymańska",
+      "label": "PERSON",
+      "start": 420,
+      "end": 435,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "doc_id": "core-wyrok-high-robustness-spacing-damage-missing-entity-whitespace",
+  "clean_doc_id": "core-wyrok-high",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "wyrok",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "prose",
+    "protection_mix": true,
+    "noise": "spacing-damage",
+    "noise_detail": "missing-entity-whitespace"
+  },
+  "text": "SądOkręgowywGdańsku,IXWydziałGospodarczy\n\nSygn. akt IX GC 512/24\n\nWYROK\nW IMIENIU RZECZYPOSPOLITEJ POLSKIEJ\n\nDnia 20 września 2024 r.\n\nSądOkręgowywGdańsku,IXWydziałGospodarczy w składzie:\nPrzewodniczący: SSO PiotrZalewski\nSędziowie: SSO JoannaLis, SSO TomaszWróbel\n\npo rozpoznaniu na rozprawie sprawy z powództwa MarkaNowaka, PESEL 78042261004,\noraz KatarzynyZielińskiej, PESEL 85090344003,\nprzeciwko AnnieKowalskiej, prowadzącej działalność gospodarczą pod firmą\n„KowalskaConsulting”, NIP 5860791239, REGON 319458261,\no zapłatę,\n\norzeka:\n\n1. zasądza od AnnyKowalskiej na rzecz MarkaNowaka kwotę 18 900,00 zł wraz z odsetkami ustawowymi za opóźnienie;\n2. zasądza od AnnyKowalskiej na rzecz KatarzynyZielińskiej kwotę 7 450,00 zł wraz z odsetkami ustawowymi za opóźnienie;\n3. zasądza od AnnyKowalskiej na rzecz MarkaNowaka oraz KatarzynyZielińskiej zwrot kosztów procesu.\n\nPiotrZalewski\nJoannaLis\nTomaszWróbel\n",
+  "entities": [
+    {
+      "text": "SądOkręgowywGdańsku,IXWydziałGospodarczy",
+      "label": "ORG",
+      "start": 0,
+      "end": 40,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "SądOkręgowywGdańsku,IXWydziałGospodarczy",
+      "label": "ORG",
+      "start": 135,
+      "end": 175,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "PiotrZalewski",
+      "label": "PERSON",
+      "start": 208,
+      "end": 221,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "JoannaLis",
+      "label": "PERSON",
+      "start": 237,
+      "end": 246,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "TomaszWróbel",
+      "label": "PERSON",
+      "start": 252,
+      "end": 264,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "nom"
+    },
+    {
+      "text": "MarkaNowaka",
+      "label": "PERSON",
+      "start": 313,
+      "end": 324,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p4",
+      "case": "gen"
+    },
+    {
+      "text": "78042261004",
+      "label": "PESEL",
+      "start": 332,
+      "end": 343,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p4"
+    },
+    {
+      "text": "KatarzynyZielińskiej",
+      "label": "PERSON",
+      "start": 350,
+      "end": 370,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p5",
+      "case": "gen"
+    },
+    {
+      "text": "85090344003",
+      "label": "PESEL",
+      "start": 378,
+      "end": 389,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p5"
+    },
+    {
+      "text": "AnnieKowalskiej",
+      "label": "PERSON",
+      "start": 401,
+      "end": 416,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p6",
+      "case": "dat"
+    },
+    {
+      "text": "KowalskaConsulting",
+      "label": "ORG",
+      "start": 465,
+      "end": 483,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "5860791239",
+      "label": "NIP",
+      "start": 490,
+      "end": 500,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "319458261",
+      "label": "REGON",
+      "start": 508,
+      "end": 517,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "AnnyKowalskiej",
+      "label": "PERSON",
+      "start": 554,
+      "end": 568,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p6",
+      "case": "gen"
+    },
+    {
+      "text": "MarkaNowaka",
+      "label": "PERSON",
+      "start": 578,
+      "end": 589,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p4",
+      "case": "gen"
+    },
+    {
+      "text": "AnnyKowalskiej",
+      "label": "PERSON",
+      "start": 666,
+      "end": 680,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p6",
+      "case": "gen"
+    },
+    {
+      "text": "KatarzynyZielińskiej",
+      "label": "PERSON",
+      "start": 690,
+      "end": 710,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p5",
+      "case": "gen"
+    },
+    {
+      "text": "AnnyKowalskiej",
+      "label": "PERSON",
+      "start": 786,
+      "end": 800,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p6",
+      "case": "gen"
+    },
+    {
+      "text": "MarkaNowaka",
+      "label": "PERSON",
+      "start": 810,
+      "end": 821,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p4",
+      "case": "gen"
+    },
+    {
+      "text": "KatarzynyZielińskiej",
+      "label": "PERSON",
+      "start": 827,
+      "end": 847,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p5",
+      "case": "gen"
+    },
+    {
+      "text": "PiotrZalewski",
+      "label": "PERSON",
+      "start": 872,
+      "end": 885,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "JoannaLis",
+      "label": "PERSON",
+      "start": 886,
+      "end": 895,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "TomaszWróbel",
+      "label": "PERSON",
+      "start": 896,
+      "end": 908,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "nom"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-pesel",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-pesel",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają wskazaną wartość: PESEL: 72010207313.\nPole 03 formularza, numer PESEL: 72051812729.\n04 | rejestr | numer PESEL | 721002-18135 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer PESEL: 73021 623549.\n§ 6. Strony potwierdzają numer PESEL: 73070328952.\nPole 07 formularza, numer PESEL: 73111 734368.\n08 | rejestr | numer PESEL | 74040 339776 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: PESEL: 74081845186.\n§ 1. Strony potwierdzają numer PESEL: 750102-50596.\nPole 11 formularza, wskazana wartość: PESEL: 75051956006.\n12 | rejestr | numer PESEL | 75100361414 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer PESEL: 76021 766825.\n§ 5. Strony potwierdzają numer PESEL: 76070372235.\nPole 15 formularza, numer PESEL: 76111777647.\n16 | rejestr | wskazana wartość | PESEL: 77040383059 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: PESEL: 77081888465.\n§ 9. Strony potwierdzają numer PESEL: 780102-93875.\nPole 19 formularza, wskazana wartość: PESEL: 78051999286.\n20 | rejestr | numer PESEL | 781003-04694 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer PESEL: 79021710108.\n§ 4. Strony potwierdzają numer PESEL: 790704-15511.\nPole 03 formularza, numer PESEL: 791118-20926.\n24 | rejestr | numer PESEL | 80040 326337 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer PESEL: 80081 831746.\n§ 8. Strony potwierdzają numer PESEL: 81010 237154.\nPole 07 formularza, numer PESEL: 81051942567.\n28 | rejestr | wskazana wartość | PESEL: 81100347972 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer PESEL: 820217-53387.\n§ 3. Strony potwierdzają wskazaną wartość: PESEL: 82070458790.\nPole 11 formularza, numer PESEL: 82111864205.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "PESEL: 72010207313",
+      "label": "PESEL",
+      "start": 103,
+      "end": 121,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-001",
+      "id_format": "labelled"
+    },
+    {
+      "text": "72051812729",
+      "label": "PESEL",
+      "start": 156,
+      "end": 167,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-002",
+      "id_format": "bare"
+    },
+    {
+      "text": "721002-18135",
+      "label": "PESEL",
+      "start": 198,
+      "end": 210,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-003",
+      "id_format": "dashed"
+    },
+    {
+      "text": "73021 623549",
+      "label": "PESEL",
+      "start": 273,
+      "end": 285,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-004",
+      "id_format": "spaced"
+    },
+    {
+      "text": "73070328952",
+      "label": "PESEL",
+      "start": 325,
+      "end": 336,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-005",
+      "id_format": "bare"
+    },
+    {
+      "text": "73111 734368",
+      "label": "PESEL",
+      "start": 371,
+      "end": 383,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-006",
+      "id_format": "spaced"
+    },
+    {
+      "text": "74040 339776",
+      "label": "PESEL",
+      "start": 414,
+      "end": 426,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-007",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PESEL: 74081845186",
+      "label": "PESEL",
+      "start": 494,
+      "end": 512,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-008",
+      "id_format": "labelled"
+    },
+    {
+      "text": "750102-50596",
+      "label": "PESEL",
+      "start": 552,
+      "end": 564,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-009",
+      "id_format": "dashed"
+    },
+    {
+      "text": "PESEL: 75051956006",
+      "label": "PESEL",
+      "start": 604,
+      "end": 622,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-010",
+      "id_format": "labelled"
+    },
+    {
+      "text": "75100361414",
+      "label": "PESEL",
+      "start": 653,
+      "end": 664,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-011",
+      "id_format": "bare"
+    },
+    {
+      "text": "76021 766825",
+      "label": "PESEL",
+      "start": 727,
+      "end": 739,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-012",
+      "id_format": "spaced"
+    },
+    {
+      "text": "76070372235",
+      "label": "PESEL",
+      "start": 779,
+      "end": 790,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-013",
+      "id_format": "bare"
+    },
+    {
+      "text": "76111777647",
+      "label": "PESEL",
+      "start": 825,
+      "end": 836,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-014",
+      "id_format": "bare"
+    },
+    {
+      "text": "PESEL: 77040383059",
+      "label": "PESEL",
+      "start": 872,
+      "end": 890,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-015",
+      "id_format": "labelled"
+    },
+    {
+      "text": "PESEL: 77081888465",
+      "label": "PESEL",
+      "start": 958,
+      "end": 976,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-016",
+      "id_format": "labelled"
+    },
+    {
+      "text": "780102-93875",
+      "label": "PESEL",
+      "start": 1016,
+      "end": 1028,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-017",
+      "id_format": "dashed"
+    },
+    {
+      "text": "PESEL: 78051999286",
+      "label": "PESEL",
+      "start": 1068,
+      "end": 1086,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-018",
+      "id_format": "labelled"
+    },
+    {
+      "text": "781003-04694",
+      "label": "PESEL",
+      "start": 1117,
+      "end": 1129,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-019",
+      "id_format": "dashed"
+    },
+    {
+      "text": "79021710108",
+      "label": "PESEL",
+      "start": 1192,
+      "end": 1203,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-020",
+      "id_format": "bare"
+    },
+    {
+      "text": "790704-15511",
+      "label": "PESEL",
+      "start": 1243,
+      "end": 1255,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-021",
+      "id_format": "dashed"
+    },
+    {
+      "text": "791118-20926",
+      "label": "PESEL",
+      "start": 1290,
+      "end": 1302,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-022",
+      "id_format": "dashed"
+    },
+    {
+      "text": "80040 326337",
+      "label": "PESEL",
+      "start": 1333,
+      "end": 1345,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-023",
+      "id_format": "spaced"
+    },
+    {
+      "text": "80081 831746",
+      "label": "PESEL",
+      "start": 1408,
+      "end": 1420,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-024",
+      "id_format": "spaced"
+    },
+    {
+      "text": "81010 237154",
+      "label": "PESEL",
+      "start": 1460,
+      "end": 1472,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-025",
+      "id_format": "spaced"
+    },
+    {
+      "text": "81051942567",
+      "label": "PESEL",
+      "start": 1507,
+      "end": 1518,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-026",
+      "id_format": "bare"
+    },
+    {
+      "text": "PESEL: 81100347972",
+      "label": "PESEL",
+      "start": 1554,
+      "end": 1572,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-027",
+      "id_format": "labelled"
+    },
+    {
+      "text": "820217-53387",
+      "label": "PESEL",
+      "start": 1635,
+      "end": 1647,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-028",
+      "id_format": "dashed"
+    },
+    {
+      "text": "PESEL: 82070458790",
+      "label": "PESEL",
+      "start": 1692,
+      "end": 1710,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-029",
+      "id_format": "labelled"
+    },
+    {
+      "text": "82111864205",
+      "label": "PESEL",
+      "start": 1745,
+      "end": 1756,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "pesel-030",
+      "id_format": "bare"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "doc_id": "address-flat-unit",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-flat-unit",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Wnioski przyjmujemy pod adresami: ul. Piękna 8 m. 12, 00-549 Warszawa; ul. Wilcza 21 lok. 3A, 00-544 Warszawa; ul. Jesionowa 14/6, 30-221 Kraków; ul. Sudecka 19 m. 5, 53-128 Wrocław. ",
+  "entities": [
+    {
+      "text": "ul. Piękna 8 m. 12",
+      "label": "LOC",
+      "start": 34,
+      "end": 52,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-1",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "00-549",
+      "label": "POSTAL",
+      "start": 54,
+      "end": 60,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-1",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "Warszawa",
+      "label": "LOC",
+      "start": 61,
+      "end": 69,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-1",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "ul. Wilcza 21 lok. 3A",
+      "label": "LOC",
+      "start": 71,
+      "end": 92,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-2",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "00-544",
+      "label": "POSTAL",
+      "start": 94,
+      "end": 100,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-2",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "Warszawa",
+      "label": "LOC",
+      "start": 101,
+      "end": 109,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-2",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "ul. Jesionowa 14/6",
+      "label": "LOC",
+      "start": 111,
+      "end": 129,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-3",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "30-221",
+      "label": "POSTAL",
+      "start": 131,
+      "end": 137,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-3",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "Kraków",
+      "label": "LOC",
+      "start": 138,
+      "end": 144,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-3",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "ul. Sudecka 19 m. 5",
+      "label": "LOC",
+      "start": 146,
+      "end": 165,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-4",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "53-128",
+      "label": "POSTAL",
+      "start": 167,
+      "end": 173,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-4",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "Wrocław",
+      "label": "LOC",
+      "start": 174,
+      "end": 181,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "flat-4",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    }
+  ]
+}

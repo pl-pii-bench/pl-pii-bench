@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-nip",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-nip",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają wskazaną wartość: NIP: 060-270-26-31.\nPole 03 formularza, numer NIP: 0602702648.\n04 | rejestr | wskazana wartość | NIP: 060-270-26-54 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer NIP: 060-270-26-60.\n§ 6. Strony potwierdzają numer NIP: 0602702677.\nPole 07 formularza, numer NIP: 060 270 26 83.\n08 | rejestr | numer NIP | 060-270-29-96 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer NIP: 060-270-27-08.\n§ 1. Strony potwierdzają numer NIP: 060-270-27-14.\nPole 11 formularza, numer NIP: 0602702720.\n12 | rejestr | numer NIP | 060-270-27-37 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: NIP: 060-270-27-43.\n§ 5. Strony potwierdzają wskazaną wartość: NIP: 060-270-30-56.\nPole 15 formularza, numer NIP: 060 270 27 66.\n16 | rejestr | numer NIP | 0602702772 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer NIP: 060 270 27 89.\n§ 9. Strony potwierdzają numer NIP: 060-270-27-95.\nPole 19 formularza, numer NIP: 060 270 28 03.\n20 | rejestr | numer NIP | 0602703116 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: NIP: 060-270-28-26.\n§ 4. Strony potwierdzają numer NIP: 0602702832.\nPole 03 formularza, numer NIP: 060 270 28 49.\n24 | rejestr | numer NIP | 060-270-28-55 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer NIP: 0602702861.\n§ 8. Strony potwierdzają numer NIP: 060-270-28-78.\nPole 07 formularza, numer NIP: 0602702884.\n28 | rejestr | numer NIP | 060 270 28 90 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer NIP: 060 270 29 09.\n§ 3. Strony potwierdzają wskazaną wartość: NIP: 060-270-29-15.\nPole 11 formularza, wskazana wartość: NIP: 060-270-29-21.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "NIP: 060-270-26-31",
+      "label": "NIP",
+      "start": 103,
+      "end": 121,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-001",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "0602702648",
+      "label": "NIP",
+      "start": 154,
+      "end": 164,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-002",
+      "id_format": "bare"
+    },
+    {
+      "text": "NIP: 060-270-26-54",
+      "label": "NIP",
+      "start": 200,
+      "end": 218,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-003",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "060-270-26-60",
+      "label": "NIP",
+      "start": 279,
+      "end": 292,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-004",
+      "id_format": "dashed"
+    },
+    {
+      "text": "0602702677",
+      "label": "NIP",
+      "start": 330,
+      "end": 340,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-005",
+      "id_format": "bare"
+    },
+    {
+      "text": "060 270 26 83",
+      "label": "NIP",
+      "start": 373,
+      "end": 386,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-006",
+      "id_format": "spaced"
+    },
+    {
+      "text": "060-270-29-96",
+      "label": "NIP",
+      "start": 415,
+      "end": 428,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-007",
+      "id_format": "dashed"
+    },
+    {
+      "text": "060-270-27-08",
+      "label": "NIP",
+      "start": 489,
+      "end": 502,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-008",
+      "id_format": "dashed"
+    },
+    {
+      "text": "060-270-27-14",
+      "label": "NIP",
+      "start": 540,
+      "end": 553,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-009",
+      "id_format": "dashed"
+    },
+    {
+      "text": "0602702720",
+      "label": "NIP",
+      "start": 586,
+      "end": 596,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-010",
+      "id_format": "bare"
+    },
+    {
+      "text": "060-270-27-37",
+      "label": "NIP",
+      "start": 625,
+      "end": 638,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-011",
+      "id_format": "dashed"
+    },
+    {
+      "text": "NIP: 060-270-27-43",
+      "label": "NIP",
+      "start": 706,
+      "end": 724,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-012",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "NIP: 060-270-30-56",
+      "label": "NIP",
+      "start": 769,
+      "end": 787,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-013",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "060 270 27 66",
+      "label": "NIP",
+      "start": 820,
+      "end": 833,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-014",
+      "id_format": "spaced"
+    },
+    {
+      "text": "0602702772",
+      "label": "NIP",
+      "start": 862,
+      "end": 872,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-015",
+      "id_format": "bare"
+    },
+    {
+      "text": "060 270 27 89",
+      "label": "NIP",
+      "start": 933,
+      "end": 946,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-016",
+      "id_format": "spaced"
+    },
+    {
+      "text": "060-270-27-95",
+      "label": "NIP",
+      "start": 984,
+      "end": 997,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-017",
+      "id_format": "dashed"
+    },
+    {
+      "text": "060 270 28 03",
+      "label": "NIP",
+      "start": 1030,
+      "end": 1043,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-018",
+      "id_format": "spaced"
+    },
+    {
+      "text": "0602703116",
+      "label": "NIP",
+      "start": 1072,
+      "end": 1082,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-019",
+      "id_format": "bare"
+    },
+    {
+      "text": "NIP: 060-270-28-26",
+      "label": "NIP",
+      "start": 1150,
+      "end": 1168,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-020",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "0602702832",
+      "label": "NIP",
+      "start": 1206,
+      "end": 1216,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-021",
+      "id_format": "bare"
+    },
+    {
+      "text": "060 270 28 49",
+      "label": "NIP",
+      "start": 1249,
+      "end": 1262,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-022",
+      "id_format": "spaced"
+    },
+    {
+      "text": "060-270-28-55",
+      "label": "NIP",
+      "start": 1291,
+      "end": 1304,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-023",
+      "id_format": "dashed"
+    },
+    {
+      "text": "0602702861",
+      "label": "NIP",
+      "start": 1365,
+      "end": 1375,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-024",
+      "id_format": "bare"
+    },
+    {
+      "text": "060-270-28-78",
+      "label": "NIP",
+      "start": 1413,
+      "end": 1426,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-025",
+      "id_format": "dashed"
+    },
+    {
+      "text": "0602702884",
+      "label": "NIP",
+      "start": 1459,
+      "end": 1469,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-026",
+      "id_format": "bare"
+    },
+    {
+      "text": "060 270 28 90",
+      "label": "NIP",
+      "start": 1498,
+      "end": 1511,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-027",
+      "id_format": "spaced"
+    },
+    {
+      "text": "060 270 29 09",
+      "label": "NIP",
+      "start": 1572,
+      "end": 1585,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-028",
+      "id_format": "spaced"
+    },
+    {
+      "text": "NIP: 060-270-29-15",
+      "label": "NIP",
+      "start": 1630,
+      "end": 1648,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-029",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "NIP: 060-270-29-21",
+      "label": "NIP",
+      "start": 1688,
+      "end": 1706,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "nip-030",
+      "id_format": "prefixed"
+    }
+  ]
+}

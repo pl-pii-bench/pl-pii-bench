@@ -1,0 +1,84 @@
+{
+  "doc_id": "core-pismo-urzedowe-low-robustness-light-obfuscation-interdigit-dot",
+  "clean_doc_id": "core-pismo-urzedowe-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "pismo-urzedowe",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "prose",
+    "protection_mix": true,
+    "noise": "light-obfuscation",
+    "noise_detail": "interdigit-dot"
+  },
+  "text": "Urząd Miejski w Gdańsku\nWydział Komunikacji\n\nGdańsk, dnia 10 kwietnia 2024 r.\n\nDECYZJA NR WK.5410.127.2024\n\nPo rozpatrzeniu wniosku Pani Anny Kowalskiej, PESEL 7.8.1.1.0.2.6.4.8.2.5,\nlegitymującej się dowodem osobistym nr CDM8.9.1.0.4.3,\n\norzekam:\n\n1. Ustalono okoliczność nr 1 potwierdzającą zasadność wniosku Anny Kowalskiej.\n\nUZASADNIENIE\n\nPani Anna Kowalska złożyła wniosek w związku z upływem terminu ważności dokumentu.\n\nz up. Prezydenta Miasta Gdańska\n\nPiotr Zalewski\nKierownik Wydziału Komunikacji\n",
+  "entities": [
+    {
+      "text": "Urząd Miejski w Gdańsku",
+      "label": "ORG",
+      "start": 0,
+      "end": 23,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 137,
+      "end": 152,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "7.8.1.1.0.2.6.4.8.2.5",
+      "label": "PESEL",
+      "start": 160,
+      "end": 181,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "CDM8.9.1.0.4.3",
+      "label": "DOWOD",
+      "start": 222,
+      "end": 236,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 311,
+      "end": 326,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "gen"
+    },
+    {
+      "text": "Anna Kowalska",
+      "label": "PERSON",
+      "start": 348,
+      "end": 361,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Piotr Zalewski",
+      "label": "PERSON",
+      "start": 460,
+      "end": 474,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    }
+  ]
+}

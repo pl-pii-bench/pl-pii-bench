@@ -1,0 +1,124 @@
+{
+  "doc_id": "address-person-named-streets",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-person-named-streets",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Trasa kontroli obejmuje al. Jana Pawła II 43 w Warszawie; ul. 3 Maja 7 w Katowicach; ul. Marii Skłodowskiej-Curie 9 w Lublinie; ul. Piłsudskiego 11 w Łodzi; ul. Sienkiewicza 18 w Białymstoku. ",
+  "entities": [
+    {
+      "text": "al. Jana Pawła II 43",
+      "label": "LOC",
+      "start": 24,
+      "end": 44,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "person-street-1",
+      "case": "acc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 45,
+      "end": 56,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "person-street-1",
+      "case": "loc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "ul. 3 Maja 7",
+      "label": "LOC",
+      "start": 58,
+      "end": 70,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "person-street-2",
+      "case": "acc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "w Katowicach",
+      "label": "LOC",
+      "start": 71,
+      "end": 83,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "person-street-2",
+      "case": "loc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "ul. Marii Skłodowskiej-Curie 9",
+      "label": "LOC",
+      "start": 85,
+      "end": 115,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "person-street-3",
+      "case": "acc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "w Lublinie",
+      "label": "LOC",
+      "start": 116,
+      "end": 126,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "person-street-3",
+      "case": "loc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "ul. Piłsudskiego 11",
+      "label": "LOC",
+      "start": 128,
+      "end": 147,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "person-street-4",
+      "case": "acc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "w Łodzi",
+      "label": "LOC",
+      "start": 148,
+      "end": 155,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "person-street-4",
+      "case": "loc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "ul. Sienkiewicza 18",
+      "label": "LOC",
+      "start": 157,
+      "end": 176,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "person-street-5",
+      "case": "acc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "w Białymstoku",
+      "label": "LOC",
+      "start": 177,
+      "end": 190,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "person-street-5",
+      "case": "loc",
+      "address_form": "bare-city"
+    }
+  ]
+}

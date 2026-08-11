@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-iban",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-iban",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają numer rachunku bankowego: PL50-0000-0000-0020-2607-9178-2193.\nPole 03 formularza, numer rachunku bankowego: PL23000000000020260791782194.\n04 | rejestr | wskazana wartość | IBAN: PL93 0000 0000 0020 2607 9178 2195 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer rachunku bankowego: PL66000000000020260791782196.\n§ 6. Strony potwierdzają numer rachunku bankowego: PL39 0000 0000 0020 2607 9178 2197.\nPole 07 formularza, numer rachunku bankowego: PL12 0000 0000 0020 2607 9178 2198.\n08 | rejestr | numer rachunku bankowego | PL82-0000-0000-0020-2607-9178-2199 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: 55000000000020260791782200.\n§ 1. Strony potwierdzają numer rachunku bankowego: PL28-0000-0000-0020-2607-9178-2201.\nPole 11 formularza, wskazana wartość: 98000000000020260791782202.\n12 | rejestr | numer rachunku bankowego | PL71 0000 0000 0020 2607 9178 2203 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer rachunku bankowego: PL44000000000020260791782204.\n§ 5. Strony potwierdzają numer rachunku bankowego: PL17-0000-0000-0020-2607-9178-2205.\nPole 15 formularza, wskazana wartość: IBAN: PL87 0000 0000 0020 2607 9178 2206.\n16 | rejestr | wskazana wartość | 60000000000020260791782207 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: IBAN: PL33 0000 0000 0020 2607 9178 2208.\n§ 9. Strony potwierdzają wskazaną wartość: 06000000000020260791782209.\nPole 19 formularza, wskazana wartość: IBAN: PL76 0000 0000 0020 2607 9178 2210.\n20 | rejestr | numer rachunku bankowego | PL49000000000020260791782211 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer rachunku bankowego: PL22 0000 0000 0020 2607 9178 2212.\n§ 4. Strony potwierdzają wskazaną wartość: 92000000000020260791782213.\nPole 03 formularza, numer rachunku bankowego: PL65 0000 0000 0020 2607 9178 2214.\n24 | rejestr | numer rachunku bankowego | PL38-0000-0000-0020-2607-9178-2215 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: IBAN: PL11 0000 0000 0020 2607 9178 2216.\n§ 8. Strony potwierdzają numer rachunku bankowego: PL81000000000020260791782217.\nPole 07 formularza, numer rachunku bankowego: PL54000000000020260791782218.\n28 | rejestr | numer rachunku bankowego | PL27 0000 0000 0020 2607 9178 2219 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: 97000000000020260791782220.\n§ 3. Strony potwierdzają wskazaną wartość: IBAN: PL70 0000 0000 0020 2607 9178 2221.\nPole 11 formularza, numer rachunku bankowego: PL43-0000-0000-0020-2607-9178-2222.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "PL50-0000-0000-0020-2607-9178-2193",
+      "label": "IBAN",
+      "start": 111,
+      "end": 145,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-001",
+      "id_format": "dashed"
+    },
+    {
+      "text": "PL23000000000020260791782194",
+      "label": "IBAN",
+      "start": 193,
+      "end": 221,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-002",
+      "id_format": "bare"
+    },
+    {
+      "text": "IBAN: PL93 0000 0000 0020 2607 9178 2195",
+      "label": "IBAN",
+      "start": 257,
+      "end": 297,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-003",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "PL66000000000020260791782196",
+      "label": "IBAN",
+      "start": 373,
+      "end": 401,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-004",
+      "id_format": "bare"
+    },
+    {
+      "text": "PL39 0000 0000 0020 2607 9178 2197",
+      "label": "IBAN",
+      "start": 454,
+      "end": 488,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-005",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PL12 0000 0000 0020 2607 9178 2198",
+      "label": "IBAN",
+      "start": 536,
+      "end": 570,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-006",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PL82-0000-0000-0020-2607-9178-2199",
+      "label": "IBAN",
+      "start": 614,
+      "end": 648,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-007",
+      "id_format": "dashed"
+    },
+    {
+      "text": "55000000000020260791782200",
+      "label": "IBAN",
+      "start": 716,
+      "end": 742,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-008",
+      "id_format": "nrb"
+    },
+    {
+      "text": "PL28-0000-0000-0020-2607-9178-2201",
+      "label": "IBAN",
+      "start": 795,
+      "end": 829,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-009",
+      "id_format": "dashed"
+    },
+    {
+      "text": "98000000000020260791782202",
+      "label": "IBAN",
+      "start": 869,
+      "end": 895,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-010",
+      "id_format": "nrb"
+    },
+    {
+      "text": "PL71 0000 0000 0020 2607 9178 2203",
+      "label": "IBAN",
+      "start": 939,
+      "end": 973,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-011",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PL44000000000020260791782204",
+      "label": "IBAN",
+      "start": 1049,
+      "end": 1077,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-012",
+      "id_format": "bare"
+    },
+    {
+      "text": "PL17-0000-0000-0020-2607-9178-2205",
+      "label": "IBAN",
+      "start": 1130,
+      "end": 1164,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-013",
+      "id_format": "dashed"
+    },
+    {
+      "text": "IBAN: PL87 0000 0000 0020 2607 9178 2206",
+      "label": "IBAN",
+      "start": 1204,
+      "end": 1244,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-014",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "60000000000020260791782207",
+      "label": "IBAN",
+      "start": 1280,
+      "end": 1306,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-015",
+      "id_format": "nrb"
+    },
+    {
+      "text": "IBAN: PL33 0000 0000 0020 2607 9178 2208",
+      "label": "IBAN",
+      "start": 1374,
+      "end": 1414,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-016",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "06000000000020260791782209",
+      "label": "IBAN",
+      "start": 1459,
+      "end": 1485,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-017",
+      "id_format": "nrb"
+    },
+    {
+      "text": "IBAN: PL76 0000 0000 0020 2607 9178 2210",
+      "label": "IBAN",
+      "start": 1525,
+      "end": 1565,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-018",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "PL49000000000020260791782211",
+      "label": "IBAN",
+      "start": 1609,
+      "end": 1637,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-019",
+      "id_format": "bare"
+    },
+    {
+      "text": "PL22 0000 0000 0020 2607 9178 2212",
+      "label": "IBAN",
+      "start": 1713,
+      "end": 1747,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-020",
+      "id_format": "spaced"
+    },
+    {
+      "text": "92000000000020260791782213",
+      "label": "IBAN",
+      "start": 1792,
+      "end": 1818,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-021",
+      "id_format": "nrb"
+    },
+    {
+      "text": "PL65 0000 0000 0020 2607 9178 2214",
+      "label": "IBAN",
+      "start": 1866,
+      "end": 1900,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-022",
+      "id_format": "spaced"
+    },
+    {
+      "text": "PL38-0000-0000-0020-2607-9178-2215",
+      "label": "IBAN",
+      "start": 1944,
+      "end": 1978,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-023",
+      "id_format": "dashed"
+    },
+    {
+      "text": "IBAN: PL11 0000 0000 0020 2607 9178 2216",
+      "label": "IBAN",
+      "start": 2046,
+      "end": 2086,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-024",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "PL81000000000020260791782217",
+      "label": "IBAN",
+      "start": 2139,
+      "end": 2167,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-025",
+      "id_format": "bare"
+    },
+    {
+      "text": "PL54000000000020260791782218",
+      "label": "IBAN",
+      "start": 2215,
+      "end": 2243,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-026",
+      "id_format": "bare"
+    },
+    {
+      "text": "PL27 0000 0000 0020 2607 9178 2219",
+      "label": "IBAN",
+      "start": 2287,
+      "end": 2321,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-027",
+      "id_format": "spaced"
+    },
+    {
+      "text": "97000000000020260791782220",
+      "label": "IBAN",
+      "start": 2389,
+      "end": 2415,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-028",
+      "id_format": "nrb"
+    },
+    {
+      "text": "IBAN: PL70 0000 0000 0020 2607 9178 2221",
+      "label": "IBAN",
+      "start": 2460,
+      "end": 2500,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-029",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "PL43-0000-0000-0020-2607-9178-2222",
+      "label": "IBAN",
+      "start": 2548,
+      "end": 2582,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "iban-030",
+      "id_format": "dashed"
+    }
+  ]
+}

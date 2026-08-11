@@ -1,0 +1,119 @@
+{
+  "doc_id": "core-odpis-krs-medium-robustness-spacing-damage-missing-entity-whitespace",
+  "clean_doc_id": "core-odpis-krs-medium",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "odpis-krs",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "mixed",
+    "protection_mix": false,
+    "noise": "spacing-damage",
+    "noise_detail": "missing-entity-whitespace"
+  },
+  "text": "ODPIS PEŁNY Z REJESTRU PRZEDSIĘBIORCÓW\nKRAJOWEGO REJESTRU SĄDOWEGO\n\nFirma: InnowacjeTechnologiczneSpółkazograniczonąodpowiedzialnością\nNazwa skrócona: InnowacjeTechnologiczneSp.zo.o.\nNIP: 8943217651\nREGON: 514382966\n\nZARZĄD:\nCzłonek Zarządu: MarekNowak, PESEL 70010110004\nCzłonek Zarządu: AnnaKowalska, PESEL 71020411110\nCzłonek Zarządu: PiotrZalewski, PESEL 72030712226\n\nKapitał zakładowy InnowacjeTechnologiczneSp.zo.o. wynosi 50 000,00 PLN.\n",
+  "entities": [
+    {
+      "text": "InnowacjeTechnologiczneSpółkazograniczonąodpowiedzialnością",
+      "label": "ORG",
+      "start": 75,
+      "end": 134,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "InnowacjeTechnologiczneSp.zo.o.",
+      "label": "ORG",
+      "start": 151,
+      "end": 182,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "8943217651",
+      "label": "NIP",
+      "start": 188,
+      "end": 198,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "514382966",
+      "label": "REGON",
+      "start": 206,
+      "end": 215,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "MarekNowak",
+      "label": "PERSON",
+      "start": 242,
+      "end": 252,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "70010110004",
+      "label": "PESEL",
+      "start": 260,
+      "end": 271,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "AnnaKowalska",
+      "label": "PERSON",
+      "start": 289,
+      "end": 301,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "71020411110",
+      "label": "PESEL",
+      "start": 309,
+      "end": 320,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2"
+    },
+    {
+      "text": "PiotrZalewski",
+      "label": "PERSON",
+      "start": 338,
+      "end": 351,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "nom"
+    },
+    {
+      "text": "72030712226",
+      "label": "PESEL",
+      "start": 359,
+      "end": 370,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3"
+    },
+    {
+      "text": "InnowacjeTechnologiczneSp.zo.o.",
+      "label": "ORG",
+      "start": 390,
+      "end": 421,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    }
+  ]
+}

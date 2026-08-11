@@ -1,0 +1,212 @@
+{
+  "doc_id": "core-umowa-o-prace-high-robustness-line-break-split-entity-wrap",
+  "clean_doc_id": "core-umowa-o-prace-high",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "umowa-o-prace",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "prose",
+    "protection_mix": false,
+    "noise": "line-break-split",
+    "noise_detail": "entity-wrap"
+  },
+  "text": "UMOWA O PRACĘ NR 12/2024\n\nzawarta w Poznaniu, dnia 02 stycznia 2024 r. pomiędzy Fabryka Mebli Nowak Sp. z\no.o., NIP 73421\n85851, REGON 124\n567890,\nreprezentowaną przez Pana Henryk\nZając,\na Panem Tomaszem\nWróblem, PESEL 9007\n1523179, legitymującym się dowodem osobistym nr ABK323\n847.\n\n§ 1. WARUNKI ZATRUDNIENIA\n\nHenryk\nZając zatrudnia Tomasza\nWróbla na stanowisku Specjalisty ds. Technicznych.\nTomaszowi\nWróblowi przysługuje wynagrodzenie zasadnicze w wysokości 7 500,00 zł brutto miesięcznie.\n\n§ 2. OBOWIĄZKI\n\n1. Tomasz\nWróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 1.\n2. Tomasz\nWróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 2.\n3. Tomasz\nWróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 3.\n4. Tomasz\nWróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 4.\n5. Tomasz\nWróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 5.\n6. Tomasz\nWróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 6.\n7. Tomasz\nWróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 7.\n8. Tomasz\nWróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 8.\n\n..................................         ..................................\nHenryk\nZając                                Tomasz\nWróbel\n",
+  "entities": [
+    {
+      "text": "Fabryka Mebli Nowak Sp. z\no.o.",
+      "label": "ORG",
+      "start": 80,
+      "end": 110,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "73421\n85851",
+      "label": "NIP",
+      "start": 116,
+      "end": 127,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "124\n567890",
+      "label": "REGON",
+      "start": 135,
+      "end": 145,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Henryk\nZając",
+      "label": "PERSON",
+      "start": 173,
+      "end": 185,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Tomaszem\nWróblem",
+      "label": "PERSON",
+      "start": 195,
+      "end": 211,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "inst"
+    },
+    {
+      "text": "9007\n1523179",
+      "label": "PESEL",
+      "start": 219,
+      "end": 231,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "ABK323\n847",
+      "label": "DOWOD",
+      "start": 272,
+      "end": 282,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "Henryk\nZając",
+      "label": "PERSON",
+      "start": 312,
+      "end": 324,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasza\nWróbla",
+      "label": "PERSON",
+      "start": 335,
+      "end": 349,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "acc"
+    },
+    {
+      "text": "Tomaszowi\nWróblowi",
+      "label": "PERSON",
+      "start": 394,
+      "end": 412,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "dat"
+    },
+    {
+      "text": "Tomasz\nWróbel",
+      "label": "PERSON",
+      "start": 514,
+      "end": 527,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz\nWróbel",
+      "label": "PERSON",
+      "start": 590,
+      "end": 603,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz\nWróbel",
+      "label": "PERSON",
+      "start": 666,
+      "end": 679,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz\nWróbel",
+      "label": "PERSON",
+      "start": 742,
+      "end": 755,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz\nWróbel",
+      "label": "PERSON",
+      "start": 818,
+      "end": 831,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz\nWróbel",
+      "label": "PERSON",
+      "start": 894,
+      "end": 907,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz\nWróbel",
+      "label": "PERSON",
+      "start": 970,
+      "end": 983,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz\nWróbel",
+      "label": "PERSON",
+      "start": 1046,
+      "end": 1059,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Henryk\nZając",
+      "label": "PERSON",
+      "start": 1198,
+      "end": 1210,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz\nWróbel",
+      "label": "PERSON",
+      "start": 1242,
+      "end": 1255,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+pl-pii-bench data license
+
+The contents of corpus/ and data/ are licensed under the Creative Commons
+Attribution 4.0 International license (CC BY 4.0).
+
+Copyright 2026 Anonimator
+
+You are free to share and adapt the data for any purpose, including
+commercially, provided that you give appropriate credit, provide a link to
+the license, and indicate whether changes were made. You may not apply legal
+terms or technological measures that legally restrict others from doing
+anything the license permits.
+
+The full legal code is available at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested attribution:
+
+  pl-pii-bench, version 1.0.0, Anonimator, CC BY 4.0.
+
+The benchmark software, including eval/, adapters/, scripts/, and tests/, is
+not covered by this data license. It is licensed under Apache-2.0 as stated
+in LICENSE.

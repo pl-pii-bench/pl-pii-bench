@@ -1,0 +1,142 @@
+{
+  "doc_id": "address-osiedle-block",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-osiedle-block",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Przesyłki należy pozostawić pod adresami: os. Piastowskie 12/34, bl. 4, kl. B, 61-148 Poznań; os. Tysiąclecia 18/7, bl. 9, kl. C, 31-610 Kraków; os. Przyjaźni 5/11, bl. 2, kl. A, 53-030 Wrocław; os. Zwycięstwa 33/14, bl. 6, kl. D, 81-451 Gdynia. ",
+  "entities": [
+    {
+      "text": "os. Piastowskie 12/34, bl. 4, kl. B",
+      "label": "LOC",
+      "start": 42,
+      "end": 77,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-1",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "61-148",
+      "label": "POSTAL",
+      "start": 79,
+      "end": 85,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-1",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "Poznań",
+      "label": "LOC",
+      "start": 86,
+      "end": 92,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-1",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "os. Tysiąclecia 18/7, bl. 9, kl. C",
+      "label": "LOC",
+      "start": 94,
+      "end": 128,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-2",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "31-610",
+      "label": "POSTAL",
+      "start": 130,
+      "end": 136,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-2",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "Kraków",
+      "label": "LOC",
+      "start": 137,
+      "end": 143,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-2",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "os. Przyjaźni 5/11, bl. 2, kl. A",
+      "label": "LOC",
+      "start": 145,
+      "end": 177,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-3",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "53-030",
+      "label": "POSTAL",
+      "start": 179,
+      "end": 185,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-3",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "Wrocław",
+      "label": "LOC",
+      "start": 186,
+      "end": 193,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-3",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "os. Zwycięstwa 33/14, bl. 6, kl. D",
+      "label": "LOC",
+      "start": 195,
+      "end": 229,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-4",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "81-451",
+      "label": "POSTAL",
+      "start": 231,
+      "end": 237,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-4",
+      "address_form": "street-with-unit"
+    },
+    {
+      "text": "Gdynia",
+      "label": "LOC",
+      "start": 238,
+      "end": 244,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "estate-4",
+      "case": "nom",
+      "address_form": "street-with-unit"
+    }
+  ]
+}

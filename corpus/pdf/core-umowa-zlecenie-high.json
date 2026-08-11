@@ -1,0 +1,70 @@
+{
+  "doc_id": "core-umowa-zlecenie-high",
+  "pdf": "core-umowa-zlecenie-high.pdf",
+  "text": "UMOWA ZLECENIE NR Z/2024/018\nzawarta w Krakowie dnia 05 lutego 2024 r. pomiędzy Studio Kreatywne Pryzmat Sp. z o.o.,\nNIP 4128367957, REGON 552314685,\nzwaną dalej „Zleceniodawcą”, a Panią Katarzyną Zielińską, PESEL 85042233913, zwaną dalej\n„Zleceniobiorcą”.\n§ 1. PRZEDMIOT UMOWY\n1. Wykonanie projektu graficznego nr 1 zgodnie ze specyfikacją Zleceniodawcy.\n2. Wykonanie projektu graficznego nr 2 zgodnie ze specyfikacją Zleceniodawcy.\n3. Wykonanie projektu graficznego nr 3 zgodnie ze specyfikacją Zleceniodawcy.\n4. Wykonanie projektu graficznego nr 4 zgodnie ze specyfikacją Zleceniodawcy.\n5. Wykonanie projektu graficznego nr 5 zgodnie ze specyfikacją Zleceniodawcy.\n6. Wykonanie projektu graficznego nr 6 zgodnie ze specyfikacją Zleceniodawcy.\n7. Wykonanie projektu graficznego nr 7 zgodnie ze specyfikacją Zleceniodawcy.\n8. Wykonanie projektu graficznego nr 8 zgodnie ze specyfikacją Zleceniodawcy.\n§ 2. WYNAGRODZENIE\nKatarzynie Zielińskiej przysługuje wynagrodzenie w wysokości 4 200,00 zł brutto za\nwykonanie przedmiotu umowy.\nKatarzyna Zielińska oświadcza, że zapoznała się z warunkami umowy.",
+  "entities": [
+    {
+      "text": "Studio Kreatywne Pryzmat Sp. z o.o.",
+      "label": "ORG",
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1",
+      "start": 80,
+      "end": 115
+    },
+    {
+      "text": "4128367957",
+      "label": "NIP",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1",
+      "start": 121,
+      "end": 131
+    },
+    {
+      "text": "552314685",
+      "label": "REGON",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1",
+      "start": 139,
+      "end": 148
+    },
+    {
+      "text": "Katarzyną Zielińską",
+      "label": "PERSON",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "start": 187,
+      "end": 206
+    },
+    {
+      "text": "85042233913",
+      "label": "PESEL",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "start": 214,
+      "end": 225
+    },
+    {
+      "text": "Katarzynie Zielińskiej",
+      "label": "PERSON",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "start": 921,
+      "end": 943
+    },
+    {
+      "text": "Katarzyna Zielińska",
+      "label": "PERSON",
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "start": 1032,
+      "end": 1051
+    }
+  ]
+}

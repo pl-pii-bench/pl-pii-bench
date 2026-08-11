@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-regon",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-regon",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają numer REGON: 447-287-892.\nPole 03 formularza, numer REGON: 447-287-900.\n04 | rejestr | wskazana wartość | REGON: 447287917 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: REGON: 447287923.\n§ 6. Strony potwierdzają wskazaną wartość: REGON: 447287930.\nPole 07 formularza, numer REGON: 447287946.\n08 | rejestr | numer REGON | 447287952 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer REGON: 447287969.\n§ 1. Strony potwierdzają numer REGON: 447287975.\nPole 11 formularza, numer REGON: 447287981.\n12 | rejestr | numer REGON | 447 287 998 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer REGON: 447 288 006.\n§ 5. Strony potwierdzają numer REGON: 447 288 012.\nPole 15 formularza, numer REGON: 447 288 029.\n16 | rejestr | wskazana wartość | REGON: 447288035 | sprawdzono\nW odpowiedzi na pismo prosimy podać wskazaną wartość: REGON: 447288041.\n§ 9. Strony potwierdzają numer REGON: 447-288-058.\nPole 19 formularza, numer REGON: 447-288-064.\n20 | rejestr | numer REGON | 447-288-070 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer REGON: 447 288 087.\n§ 4. Strony potwierdzają numer REGON: 447288093.\nPole 03 formularza, wskazana wartość: REGON: 447288101.\n24 | rejestr | numer REGON | 447-288-118 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer REGON: 447288124.\n§ 8. Strony potwierdzają wskazaną wartość: REGON: 447288130.\nPole 07 formularza, numer REGON: 447288147.\n28 | rejestr | numer REGON | 447 288 153 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer REGON: 447-288-160.\n§ 3. Strony potwierdzają numer REGON: 447 288 176.\nPole 11 formularza, numer REGON: 447-288-182.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "447-287-892",
+      "label": "REGON",
+      "start": 98,
+      "end": 109,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-001",
+      "id_format": "dashed"
+    },
+    {
+      "text": "447-287-900",
+      "label": "REGON",
+      "start": 144,
+      "end": 155,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-002",
+      "id_format": "dashed"
+    },
+    {
+      "text": "REGON: 447287917",
+      "label": "REGON",
+      "start": 191,
+      "end": 207,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-003",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "REGON: 447287923",
+      "label": "REGON",
+      "start": 275,
+      "end": 291,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-004",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "REGON: 447287930",
+      "label": "REGON",
+      "start": 336,
+      "end": 352,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-005",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "447287946",
+      "label": "REGON",
+      "start": 387,
+      "end": 396,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-006",
+      "id_format": "bare"
+    },
+    {
+      "text": "447287952",
+      "label": "REGON",
+      "start": 427,
+      "end": 436,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-007",
+      "id_format": "bare"
+    },
+    {
+      "text": "447287969",
+      "label": "REGON",
+      "start": 499,
+      "end": 508,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-008",
+      "id_format": "bare"
+    },
+    {
+      "text": "447287975",
+      "label": "REGON",
+      "start": 548,
+      "end": 557,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-009",
+      "id_format": "bare"
+    },
+    {
+      "text": "447287981",
+      "label": "REGON",
+      "start": 592,
+      "end": 601,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-010",
+      "id_format": "bare"
+    },
+    {
+      "text": "447 287 998",
+      "label": "REGON",
+      "start": 632,
+      "end": 643,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-011",
+      "id_format": "spaced"
+    },
+    {
+      "text": "447 288 006",
+      "label": "REGON",
+      "start": 706,
+      "end": 717,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-012",
+      "id_format": "spaced"
+    },
+    {
+      "text": "447 288 012",
+      "label": "REGON",
+      "start": 757,
+      "end": 768,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-013",
+      "id_format": "spaced"
+    },
+    {
+      "text": "447 288 029",
+      "label": "REGON",
+      "start": 803,
+      "end": 814,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-014",
+      "id_format": "spaced"
+    },
+    {
+      "text": "REGON: 447288035",
+      "label": "REGON",
+      "start": 850,
+      "end": 866,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-015",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "REGON: 447288041",
+      "label": "REGON",
+      "start": 934,
+      "end": 950,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-016",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "447-288-058",
+      "label": "REGON",
+      "start": 990,
+      "end": 1001,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-017",
+      "id_format": "dashed"
+    },
+    {
+      "text": "447-288-064",
+      "label": "REGON",
+      "start": 1036,
+      "end": 1047,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-018",
+      "id_format": "dashed"
+    },
+    {
+      "text": "447-288-070",
+      "label": "REGON",
+      "start": 1078,
+      "end": 1089,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-019",
+      "id_format": "dashed"
+    },
+    {
+      "text": "447 288 087",
+      "label": "REGON",
+      "start": 1152,
+      "end": 1163,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-020",
+      "id_format": "spaced"
+    },
+    {
+      "text": "447288093",
+      "label": "REGON",
+      "start": 1203,
+      "end": 1212,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-021",
+      "id_format": "bare"
+    },
+    {
+      "text": "REGON: 447288101",
+      "label": "REGON",
+      "start": 1252,
+      "end": 1268,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-022",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "447-288-118",
+      "label": "REGON",
+      "start": 1299,
+      "end": 1310,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-023",
+      "id_format": "dashed"
+    },
+    {
+      "text": "447288124",
+      "label": "REGON",
+      "start": 1373,
+      "end": 1382,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-024",
+      "id_format": "bare"
+    },
+    {
+      "text": "REGON: 447288130",
+      "label": "REGON",
+      "start": 1427,
+      "end": 1443,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-025",
+      "id_format": "prefixed"
+    },
+    {
+      "text": "447288147",
+      "label": "REGON",
+      "start": 1478,
+      "end": 1487,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-026",
+      "id_format": "bare"
+    },
+    {
+      "text": "447 288 153",
+      "label": "REGON",
+      "start": 1518,
+      "end": 1529,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-027",
+      "id_format": "spaced"
+    },
+    {
+      "text": "447-288-160",
+      "label": "REGON",
+      "start": 1592,
+      "end": 1603,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-028",
+      "id_format": "dashed"
+    },
+    {
+      "text": "447 288 176",
+      "label": "REGON",
+      "start": 1643,
+      "end": 1654,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-029",
+      "id_format": "spaced"
+    },
+    {
+      "text": "447-288-182",
+      "label": "REGON",
+      "start": 1689,
+      "end": 1700,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "regon-030",
+      "id_format": "dashed"
+    }
+  ]
+}

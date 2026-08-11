@@ -1,0 +1,133 @@
+{
+  "doc_id": "core-wyrok-001-robustness-spacing-damage-missing-entity-whitespace",
+  "clean_doc_id": "core-wyrok-001",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "wyrok",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": true,
+    "noise": "spacing-damage",
+    "noise_detail": "missing-entity-whitespace"
+  },
+  "text": "SądRejonowyGdańsk-PołudniewGdańsku,IWydziałCywilny\n\nSygn. akt I C 482/24\n\nWYROK\nW IMIENIU RZECZYPOSPOLITEJ POLSKIEJ\n\nDnia 12 czerwca 2024 r.\n\nSądRejonowyGdańsk-PołudniewGdańsku,IWydziałCywilny w składzie:\nPrzewodniczący: SSR PiotrZalewski\n\npo rozpoznaniu na rozprawie sprawy z powództwa MarkaNowaka, PESEL 82031155210,\nprzeciwko AnnieKowalskiej, prowadzącej działalność gospodarczą pod firmą\n„Kowalska Consulting”, NIP 9142635782,\no zapłatę,\n\norzeka:\n\n1. zasądza od AnnyKowalskiej na rzecz MarkaNowaka kwotę 12 400,00 zł wraz z odsetkami ustawowymi;\n2. zasądza od AnnyKowalskiej na rzecz MarkaNowaka zwrot kosztów procesu.\n\nPiotrZalewski\nSędzia Sądu Rejonowego\n",
+  "entities": [
+    {
+      "text": "SądRejonowyGdańsk-PołudniewGdańsku,IWydziałCywilny",
+      "label": "ORG",
+      "start": 0,
+      "end": 50,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "SądRejonowyGdańsk-PołudniewGdańsku,IWydziałCywilny",
+      "label": "ORG",
+      "start": 142,
+      "end": 192,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "PiotrZalewski",
+      "label": "PERSON",
+      "start": 225,
+      "end": 238,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "MarkaNowaka",
+      "label": "PERSON",
+      "start": 287,
+      "end": 298,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "gen"
+    },
+    {
+      "text": "82031155210",
+      "label": "PESEL",
+      "start": 306,
+      "end": 317,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2"
+    },
+    {
+      "text": "AnnieKowalskiej",
+      "label": "PERSON",
+      "start": 329,
+      "end": 344,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "dat"
+    },
+    {
+      "text": "9142635782",
+      "label": "NIP",
+      "start": 419,
+      "end": 429,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3"
+    },
+    {
+      "text": "AnnyKowalskiej",
+      "label": "PERSON",
+      "start": 466,
+      "end": 480,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "gen"
+    },
+    {
+      "text": "MarkaNowaka",
+      "label": "PERSON",
+      "start": 490,
+      "end": 501,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "gen"
+    },
+    {
+      "text": "AnnyKowalskiej",
+      "label": "PERSON",
+      "start": 564,
+      "end": 578,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "gen"
+    },
+    {
+      "text": "MarkaNowaka",
+      "label": "PERSON",
+      "start": 588,
+      "end": 599,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "gen"
+    },
+    {
+      "text": "PiotrZalewski",
+      "label": "PERSON",
+      "start": 624,
+      "end": 637,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "doc_id": "core-wyrok-001-robustness-light-obfuscation-interdigit-dot",
+  "clean_doc_id": "core-wyrok-001",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "wyrok",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": true,
+    "noise": "light-obfuscation",
+    "noise_detail": "interdigit-dot"
+  },
+  "text": "Sąd Rejonowy Gdańsk-Południe w Gdańsku, I Wydział Cywilny\n\nSygn. akt I C 482/24\n\nWYROK\nW IMIENIU RZECZYPOSPOLITEJ POLSKIEJ\n\nDnia 12 czerwca 2024 r.\n\nSąd Rejonowy Gdańsk-Południe w Gdańsku, I Wydział Cywilny w składzie:\nPrzewodniczący: SSR Piotr Zalewski\n\npo rozpoznaniu na rozprawie sprawy z powództwa Marka Nowaka, PESEL 8.2.0.3.1.1.5.5.2.1.0,\nprzeciwko Annie Kowalskiej, prowadzącej działalność gospodarczą pod firmą\n„Kowalska Consulting”, NIP 9.1.4.2.6.3.5.7.8.2,\no zapłatę,\n\norzeka:\n\n1. zasądza od Anny Kowalskiej na rzecz Marka Nowaka kwotę 12 400,00 zł wraz z odsetkami ustawowymi;\n2. zasądza od Anny Kowalskiej na rzecz Marka Nowaka zwrot kosztów procesu.\n\nPiotr Zalewski\nSędzia Sądu Rejonowego\n",
+  "entities": [
+    {
+      "text": "Sąd Rejonowy Gdańsk-Południe w Gdańsku, I Wydział Cywilny",
+      "label": "ORG",
+      "start": 0,
+      "end": 57,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Sąd Rejonowy Gdańsk-Południe w Gdańsku, I Wydział Cywilny",
+      "label": "ORG",
+      "start": 149,
+      "end": 206,
+      "identifier_class": "quasi",
+      "protection": "keep",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Piotr Zalewski",
+      "label": "PERSON",
+      "start": 239,
+      "end": 253,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Marka Nowaka",
+      "label": "PERSON",
+      "start": 302,
+      "end": 314,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "gen"
+    },
+    {
+      "text": "8.2.0.3.1.1.5.5.2.1.0",
+      "label": "PESEL",
+      "start": 322,
+      "end": 343,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2"
+    },
+    {
+      "text": "Annie Kowalskiej",
+      "label": "PERSON",
+      "start": 355,
+      "end": 371,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "dat"
+    },
+    {
+      "text": "9.1.4.2.6.3.5.7.8.2",
+      "label": "NIP",
+      "start": 446,
+      "end": 465,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 502,
+      "end": 517,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "gen"
+    },
+    {
+      "text": "Marka Nowaka",
+      "label": "PERSON",
+      "start": 527,
+      "end": 539,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "gen"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 602,
+      "end": 617,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "gen"
+    },
+    {
+      "text": "Marka Nowaka",
+      "label": "PERSON",
+      "start": 627,
+      "end": 639,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "gen"
+    },
+    {
+      "text": "Piotr Zalewski",
+      "label": "PERSON",
+      "start": 664,
+      "end": 678,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    }
+  ]
+}

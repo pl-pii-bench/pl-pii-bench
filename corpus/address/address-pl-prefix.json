@@ -1,0 +1,102 @@
+{
+  "doc_id": "address-pl-prefix",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-pl-prefix",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Spotkania wyznaczono przy pl. Konstytucji 5; rondzie Daszyńskiego; skwerze Kahla; pl. Grunwaldzkim 2; rondzie Mogilskim; skwerze Kościuszki; pl. Bankowym 1; rondzie ONZ. ",
+  "entities": [
+    {
+      "text": "pl. Konstytucji 5",
+      "label": "LOC",
+      "start": 26,
+      "end": 43,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "square-1",
+      "case": "loc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "rondzie Daszyńskiego",
+      "label": "LOC",
+      "start": 45,
+      "end": 65,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "square-2",
+      "case": "loc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "skwerze Kahla",
+      "label": "LOC",
+      "start": 67,
+      "end": 80,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "square-3",
+      "case": "loc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "pl. Grunwaldzkim 2",
+      "label": "LOC",
+      "start": 82,
+      "end": 100,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "square-4",
+      "case": "loc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "rondzie Mogilskim",
+      "label": "LOC",
+      "start": 102,
+      "end": 119,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "square-5",
+      "case": "loc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "skwerze Kościuszki",
+      "label": "LOC",
+      "start": 121,
+      "end": 139,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "square-6",
+      "case": "loc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "pl. Bankowym 1",
+      "label": "LOC",
+      "start": 141,
+      "end": 155,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "square-7",
+      "case": "loc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "rondzie ONZ",
+      "label": "LOC",
+      "start": 157,
+      "end": 168,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "square-8",
+      "case": "loc",
+      "address_form": "street-only"
+    }
+  ]
+}

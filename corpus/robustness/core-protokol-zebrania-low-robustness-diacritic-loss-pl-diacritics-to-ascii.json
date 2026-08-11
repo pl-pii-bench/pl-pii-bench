@@ -1,0 +1,76 @@
+{
+  "doc_id": "core-protokol-zebrania-low-robustness-diacritic-loss-pl-diacritics-to-ascii",
+  "clean_doc_id": "core-protokol-zebrania-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "protokol-zebrania",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "prose",
+    "protection_mix": false,
+    "noise": "diacritic-loss",
+    "noise_detail": "pl-diacritics-to-ascii"
+  },
+  "text": "PROTOKOL NR 1/2024\nZEBRANIA ROCZNEGO WSPOLNOTY MIESZKANIOWEJ\n\nPRZEWODNICZACY ZEBRANIA: Piotr Zalewski\nPROTOKOLANT: Beata Szymanska\n\n§ 1. LISTA OBECNOSCI\n1. Marek Nowak – lokal nr 3\n\n§ 2. PRZEBIEG ZEBRANIA\nWniosek Marka Nowaka poddano pod glosowanie.\n\nWspolnota zawiera umowe o zarzadzanie nieruchomoscia z firma Zarzad i Administracja Nieruchomosci Sp. z o.o..\n\nZebranie zakonczono. Protokol sporzadzila Beata Szymanska.\n",
+  "entities": [
+    {
+      "text": "Piotr Zalewski",
+      "label": "PERSON",
+      "start": 87,
+      "end": 101,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Beata Szymanska",
+      "label": "PERSON",
+      "start": 115,
+      "end": 130,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Marek Nowak",
+      "label": "PERSON",
+      "start": 156,
+      "end": 167,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "nom"
+    },
+    {
+      "text": "Marka Nowaka",
+      "label": "PERSON",
+      "start": 213,
+      "end": 225,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "gen"
+    },
+    {
+      "text": "Zarzad i Administracja Nieruchomosci Sp. z o.o.",
+      "label": "ORG",
+      "start": 312,
+      "end": 359,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Beata Szymanska",
+      "label": "PERSON",
+      "start": 404,
+      "end": 419,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "doc_id": "address-admin-unit",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-admin-unit",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "W zestawieniu podano: Nowa Wieś 17, gmina Michałowice, powiat pruszkowski, woj. mazowieckie; Stara Wieś 8, gmina Nadarzyn, powiat grodziski, woj. mazowieckie; Brzeziny 24, gmina Lubicz, powiat toruński, woj. kujawsko-pomorskie; Zielona Dolina 3, gmina Długołęka, powiat wrocławski, woj. dolnośląskie. ",
+  "entities": [
+    {
+      "text": "Nowa Wieś 17",
+      "label": "LOC",
+      "start": 22,
+      "end": 34,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-1",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "gmina Michałowice",
+      "label": "LOC",
+      "start": 36,
+      "end": 53,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-1",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "powiat pruszkowski",
+      "label": "LOC",
+      "start": 55,
+      "end": 73,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-1",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "woj. mazowieckie",
+      "label": "LOC",
+      "start": 75,
+      "end": 91,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-1",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "Stara Wieś 8",
+      "label": "LOC",
+      "start": 93,
+      "end": 105,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-2",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "gmina Nadarzyn",
+      "label": "LOC",
+      "start": 107,
+      "end": 121,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-2",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "powiat grodziski",
+      "label": "LOC",
+      "start": 123,
+      "end": 139,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-2",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "woj. mazowieckie",
+      "label": "LOC",
+      "start": 141,
+      "end": 157,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-2",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "Brzeziny 24",
+      "label": "LOC",
+      "start": 159,
+      "end": 170,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-3",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "gmina Lubicz",
+      "label": "LOC",
+      "start": 172,
+      "end": 184,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-3",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "powiat toruński",
+      "label": "LOC",
+      "start": 186,
+      "end": 201,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-3",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "woj. kujawsko-pomorskie",
+      "label": "LOC",
+      "start": 203,
+      "end": 226,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-3",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "Zielona Dolina 3",
+      "label": "LOC",
+      "start": 228,
+      "end": 244,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-4",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "gmina Długołęka",
+      "label": "LOC",
+      "start": 246,
+      "end": 261,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-4",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "powiat wrocławski",
+      "label": "LOC",
+      "start": 263,
+      "end": 280,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-4",
+      "case": "nom",
+      "address_form": "admin-unit"
+    },
+    {
+      "text": "woj. dolnośląskie",
+      "label": "LOC",
+      "start": 282,
+      "end": 299,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "admin-4",
+      "case": "nom",
+      "address_form": "admin-unit"
+    }
+  ]
+}

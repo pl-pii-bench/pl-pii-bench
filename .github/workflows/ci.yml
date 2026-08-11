@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install harness (unit-test) dependencies
+        run: pip install -e ".[dev]"
+
+      - name: Unit tests + import-guard
+        run: python -m pytest tests/ -v
+
+      - name: Validate release matrix plan
+        run: python scripts/run-release.py --plan
+
+      - name: Build and validate deterministic release packages
+        run: python scripts/package-release.py --output-dir /tmp/pl-pii-bench-release
+
+  presidio-baseline:
+    runs-on: ubuntu-latest
+    # No proprietary engine required: this is the open, reproducible row.
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install harness + Presidio dependencies
+        run: |
+          pip install -e ".[dev,presidio]"
+          python -m spacy download pl_core_news_lg
+
+      - name: Run Presidio baseline smoke on JSON and JSONL lanes
+        run: |
+          python adapters/presidio.py --corpus corpus --lanes core negative inflection \
+            --out /tmp/predictions-presidio.jsonl
+          python eval/score.py --corpus corpus --predictions /tmp/predictions-presidio.jsonl \
+            --lanes core negative inflection --system presidio-pl --corpus-version ci \
+            --out-md results/ci-presidio-smoke.md --out-json results/ci-presidio-smoke.json
+
+      - name: Upload Presidio report
+        uses: actions/upload-artifact@v4
+        with:
+          name: presidio-smoke-report
+          path: |
+            results/ci-presidio-smoke.md
+            results/ci-presidio-smoke.json

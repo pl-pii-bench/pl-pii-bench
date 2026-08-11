@@ -1,0 +1,66 @@
+{
+  "doc_id": "core-wyciag-bankowy-low-robustness-line-break-split-entity-wrap",
+  "clean_doc_id": "core-wyciag-bankowy-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "wyciag-bankowy",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "table-heavy",
+    "protection_mix": false,
+    "noise": "line-break-split",
+    "noise_detail": "entity-wrap"
+  },
+  "text": "PKO BANK POLSKI S.A.\nWYCIĄG Z RACHUNKU\n\nPosiadacz rachunku: Joanna\nLis\nNumer rachunku: PL5\n4716496752472114180714012\n\nData: 01.06.2024\nKontrahent: Artcore Solutions Sp.\nz o.o.\nNr rachunku: PL38789746315\n910353640157945\nKwota: -100,00 PLN\n\nDokument wygenerowany automatycznie. Posiadaczem rachunku jest Joanna\nLis.\n",
+  "entities": [
+    {
+      "text": "Joanna\nLis",
+      "label": "PERSON",
+      "start": 60,
+      "end": 70,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "PL5\n4716496752472114180714012",
+      "label": "IBAN",
+      "start": 87,
+      "end": 116,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "id_format": "bare"
+    },
+    {
+      "text": "Artcore Solutions Sp.\nz o.o.",
+      "label": "ORG",
+      "start": 147,
+      "end": 175,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "PL38789746315\n910353640157945",
+      "label": "IBAN",
+      "start": 189,
+      "end": 218,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2",
+      "id_format": "bare"
+    },
+    {
+      "text": "Joanna\nLis",
+      "label": "PERSON",
+      "start": 302,
+      "end": 312,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    }
+  ]
+}

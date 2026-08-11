@@ -1,0 +1,407 @@
+{
+  "doc_id": "core-faktura-vat-high-alt1-robustness-spacing-damage-missing-entity-whitespace",
+  "clean_doc_id": "core-faktura-vat-high-alt1",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "faktura-vat",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "table-heavy",
+    "protection_mix": false,
+    "noise": "spacing-damage",
+    "noise_detail": "missing-entity-whitespace"
+  },
+  "text": "FAKTURA VAT NR FV/2024/03/0047\n\nSPRZEDAWCA:\nTechnologiaPrzyszłościSp.zo.o.\nNIP: 6213467802\nREGON: 461204895\nNr konta: PL55663975721078514668511924\n\nNABYWCA:\nHandeliLogistykaSp.zo.o.\nNIP: 7483721599\nREGON: 374836154\n\nPOZYCJE FAKTURY:\n1.    Usługa konsultingowa etap 1        1 szt.   1000,00    23%\n2.    Usługa konsultingowa etap 2        1 szt.   1050,00    23%\n3.    Usługa konsultingowa etap 3        1 szt.   1100,00    23%\n4.    Usługa konsultingowa etap 4        1 szt.   1150,00    23%\n5.    Usługa konsultingowa etap 5        1 szt.   1200,00    23%\n6.    Usługa konsultingowa etap 6        1 szt.   1250,00    23%\n7.    Usługa konsultingowa etap 7        1 szt.   1300,00    23%\n8.    Usługa konsultingowa etap 8        1 szt.   1350,00    23%\n\nPotwierdzenie 1: sprzedawca TechnologiaPrzyszłościSp.zo.o. (NIP 6213467802) potwierdza odbiór zapłaty od nabywcy HandeliLogistykaSp.zo.o. (NIP 7483721599).\nPotwierdzenie 2: sprzedawca TechnologiaPrzyszłościSp.zo.o. (NIP 6213467802) potwierdza odbiór zapłaty od nabywcy HandeliLogistykaSp.zo.o. (NIP 7483721599).\nPotwierdzenie 3: sprzedawca TechnologiaPrzyszłościSp.zo.o. (NIP 6213467802) potwierdza odbiór zapłaty od nabywcy HandeliLogistykaSp.zo.o. (NIP 7483721599).\nPotwierdzenie 4: sprzedawca TechnologiaPrzyszłościSp.zo.o. (NIP 6213467802) potwierdza odbiór zapłaty od nabywcy HandeliLogistykaSp.zo.o. (NIP 7483721599).\nPotwierdzenie 5: sprzedawca TechnologiaPrzyszłościSp.zo.o. (NIP 6213467802) potwierdza odbiór zapłaty od nabywcy HandeliLogistykaSp.zo.o. (NIP 7483721599).\nPotwierdzenie 6: sprzedawca TechnologiaPrzyszłościSp.zo.o. (NIP 6213467802) potwierdza odbiór zapłaty od nabywcy HandeliLogistykaSp.zo.o. (NIP 7483721599).\nPotwierdzenie 7: sprzedawca TechnologiaPrzyszłościSp.zo.o. (NIP 6213467802) potwierdza odbiór zapłaty od nabywcy HandeliLogistykaSp.zo.o. (NIP 7483721599).\nPotwierdzenie 8: sprzedawca TechnologiaPrzyszłościSp.zo.o. (NIP 6213467802) potwierdza odbiór zapłaty od nabywcy HandeliLogistykaSp.zo.o. (NIP 7483721599).\n\nWystawił: MarcinKowalczyk, Kierownik Sprzedaży, TechnologiaPrzyszłościSp.zo.o.\nOdebrał: JoannaBrzezicka, Dyrektor Finansowy, HandeliLogistykaSp.zo.o.\n",
+  "entities": [
+    {
+      "text": "TechnologiaPrzyszłościSp.zo.o.",
+      "label": "ORG",
+      "start": 44,
+      "end": 74,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "6213467802",
+      "label": "NIP",
+      "start": 80,
+      "end": 90,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "461204895",
+      "label": "REGON",
+      "start": 98,
+      "end": 107,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "PL55663975721078514668511924",
+      "label": "IBAN",
+      "start": 118,
+      "end": 146,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1",
+      "id_format": "bare"
+    },
+    {
+      "text": "HandeliLogistykaSp.zo.o.",
+      "label": "ORG",
+      "start": 157,
+      "end": 181,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "7483721599",
+      "label": "NIP",
+      "start": 187,
+      "end": 197,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "374836154",
+      "label": "REGON",
+      "start": 205,
+      "end": 214,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "TechnologiaPrzyszłościSp.zo.o.",
+      "label": "ORG",
+      "start": 782,
+      "end": 812,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "6213467802",
+      "label": "NIP",
+      "start": 818,
+      "end": 828,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "HandeliLogistykaSp.zo.o.",
+      "label": "ORG",
+      "start": 867,
+      "end": 891,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "7483721599",
+      "label": "NIP",
+      "start": 897,
+      "end": 907,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "TechnologiaPrzyszłościSp.zo.o.",
+      "label": "ORG",
+      "start": 938,
+      "end": 968,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "6213467802",
+      "label": "NIP",
+      "start": 974,
+      "end": 984,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "HandeliLogistykaSp.zo.o.",
+      "label": "ORG",
+      "start": 1023,
+      "end": 1047,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "7483721599",
+      "label": "NIP",
+      "start": 1053,
+      "end": 1063,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "TechnologiaPrzyszłościSp.zo.o.",
+      "label": "ORG",
+      "start": 1094,
+      "end": 1124,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "6213467802",
+      "label": "NIP",
+      "start": 1130,
+      "end": 1140,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "HandeliLogistykaSp.zo.o.",
+      "label": "ORG",
+      "start": 1179,
+      "end": 1203,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "7483721599",
+      "label": "NIP",
+      "start": 1209,
+      "end": 1219,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "TechnologiaPrzyszłościSp.zo.o.",
+      "label": "ORG",
+      "start": 1250,
+      "end": 1280,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "6213467802",
+      "label": "NIP",
+      "start": 1286,
+      "end": 1296,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "HandeliLogistykaSp.zo.o.",
+      "label": "ORG",
+      "start": 1335,
+      "end": 1359,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "7483721599",
+      "label": "NIP",
+      "start": 1365,
+      "end": 1375,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "TechnologiaPrzyszłościSp.zo.o.",
+      "label": "ORG",
+      "start": 1406,
+      "end": 1436,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "6213467802",
+      "label": "NIP",
+      "start": 1442,
+      "end": 1452,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "HandeliLogistykaSp.zo.o.",
+      "label": "ORG",
+      "start": 1491,
+      "end": 1515,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "7483721599",
+      "label": "NIP",
+      "start": 1521,
+      "end": 1531,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "TechnologiaPrzyszłościSp.zo.o.",
+      "label": "ORG",
+      "start": 1562,
+      "end": 1592,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "6213467802",
+      "label": "NIP",
+      "start": 1598,
+      "end": 1608,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "HandeliLogistykaSp.zo.o.",
+      "label": "ORG",
+      "start": 1647,
+      "end": 1671,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "7483721599",
+      "label": "NIP",
+      "start": 1677,
+      "end": 1687,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "TechnologiaPrzyszłościSp.zo.o.",
+      "label": "ORG",
+      "start": 1718,
+      "end": 1748,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "6213467802",
+      "label": "NIP",
+      "start": 1754,
+      "end": 1764,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "HandeliLogistykaSp.zo.o.",
+      "label": "ORG",
+      "start": 1803,
+      "end": 1827,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "7483721599",
+      "label": "NIP",
+      "start": 1833,
+      "end": 1843,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "TechnologiaPrzyszłościSp.zo.o.",
+      "label": "ORG",
+      "start": 1874,
+      "end": 1904,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "6213467802",
+      "label": "NIP",
+      "start": 1910,
+      "end": 1920,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "HandeliLogistykaSp.zo.o.",
+      "label": "ORG",
+      "start": 1959,
+      "end": 1983,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "7483721599",
+      "label": "NIP",
+      "start": 1989,
+      "end": 1999,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "MarcinKowalczyk",
+      "label": "PERSON",
+      "start": 2013,
+      "end": 2028,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "TechnologiaPrzyszłościSp.zo.o.",
+      "label": "ORG",
+      "start": 2051,
+      "end": 2081,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "JoannaBrzezicka",
+      "label": "PERSON",
+      "start": 2091,
+      "end": 2106,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "HandeliLogistykaSp.zo.o.",
+      "label": "ORG",
+      "start": 2128,
+      "end": 2152,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    }
+  ]
+}

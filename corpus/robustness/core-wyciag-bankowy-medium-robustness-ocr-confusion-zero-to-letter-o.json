@@ -1,0 +1,104 @@
+{
+  "doc_id": "core-wyciag-bankowy-medium-robustness-ocr-confusion-zero-to-letter-o",
+  "clean_doc_id": "core-wyciag-bankowy-medium",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "wyciag-bankowy",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "table-heavy",
+    "protection_mix": false,
+    "noise": "ocr-confusion",
+    "noise_detail": "0-to-O"
+  },
+  "text": "PKO BANK POLSKI S.A.\nWYCIĄG Z RACHUNKU\n\nPosiadacz rachunku: Joanna Lis\nNumer rachunku: PL5471649675247211418O714O12\n\nData: O1.O6.2O24\nKontrahent: Artcore Solutions Sp. z o.o.\nNr rachunku: PL3878974631591O35364O157945\nKwota: -1OO,OO PLN\n\nData: O2.O6.2O24\nKontrahent: Enea S.A.\nNr rachunku: PL75453558525577O57O5327O723\nKwota: -137,OO PLN\n\nData: O3.O6.2O24\nKontrahent: Piotr Malinowski\nNr rachunku: PL22852526O6813531583391O119\nKwota: -174,OO PLN\n\nDokument wygenerowany automatycznie. Posiadaczem rachunku jest Joanna Lis.\n",
+  "entities": [
+    {
+      "text": "Joanna Lis",
+      "label": "PERSON",
+      "start": 60,
+      "end": 70,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "PL5471649675247211418O714O12",
+      "label": "IBAN",
+      "start": 87,
+      "end": 115,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "id_format": "bare"
+    },
+    {
+      "text": "Artcore Solutions Sp. z o.o.",
+      "label": "ORG",
+      "start": 146,
+      "end": 174,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "PL3878974631591O35364O157945",
+      "label": "IBAN",
+      "start": 188,
+      "end": 216,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org2",
+      "id_format": "bare"
+    },
+    {
+      "text": "Enea S.A.",
+      "label": "ORG",
+      "start": 266,
+      "end": 275,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org3"
+    },
+    {
+      "text": "PL75453558525577O57O5327O723",
+      "label": "IBAN",
+      "start": 289,
+      "end": 317,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org3",
+      "id_format": "bare"
+    },
+    {
+      "text": "Piotr Malinowski",
+      "label": "PERSON",
+      "start": 367,
+      "end": 383,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2"
+    },
+    {
+      "text": "PL22852526O6813531583391O119",
+      "label": "IBAN",
+      "start": 397,
+      "end": 425,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "id_format": "bare"
+    },
+    {
+      "text": "Joanna Lis",
+      "label": "PERSON",
+      "start": 509,
+      "end": 519,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    }
+  ]
+}

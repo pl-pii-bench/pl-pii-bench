@@ -1,0 +1,142 @@
+{
+  "doc_id": "address-building-letter",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-building-letter",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Punkty odbioru: ul. Długa 12A, 31-146 Kraków; ul. Świętokrzyska 3/5A, 00-360 Warszawa; ul. Grunwaldzka 82B, 80-244 Gdańsk; ul. Legionów 46C, 90-404 Łódź. ",
+  "entities": [
+    {
+      "text": "ul. Długa 12A",
+      "label": "LOC",
+      "start": 16,
+      "end": 29,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-1",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "31-146",
+      "label": "POSTAL",
+      "start": 31,
+      "end": 37,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-1",
+      "address_form": "full"
+    },
+    {
+      "text": "Kraków",
+      "label": "LOC",
+      "start": 38,
+      "end": 44,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-1",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "ul. Świętokrzyska 3/5A",
+      "label": "LOC",
+      "start": 46,
+      "end": 68,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-2",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "00-360",
+      "label": "POSTAL",
+      "start": 70,
+      "end": 76,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-2",
+      "address_form": "full"
+    },
+    {
+      "text": "Warszawa",
+      "label": "LOC",
+      "start": 77,
+      "end": 85,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-2",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "ul. Grunwaldzka 82B",
+      "label": "LOC",
+      "start": 87,
+      "end": 106,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-3",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "80-244",
+      "label": "POSTAL",
+      "start": 108,
+      "end": 114,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-3",
+      "address_form": "full"
+    },
+    {
+      "text": "Gdańsk",
+      "label": "LOC",
+      "start": 115,
+      "end": 121,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-3",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "ul. Legionów 46C",
+      "label": "LOC",
+      "start": 123,
+      "end": 139,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-4",
+      "case": "nom",
+      "address_form": "full"
+    },
+    {
+      "text": "90-404",
+      "label": "POSTAL",
+      "start": 141,
+      "end": 147,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-4",
+      "address_form": "full"
+    },
+    {
+      "text": "Łódź",
+      "label": "LOC",
+      "start": 148,
+      "end": 152,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "building-4",
+      "case": "nom",
+      "address_form": "full"
+    }
+  ]
+}

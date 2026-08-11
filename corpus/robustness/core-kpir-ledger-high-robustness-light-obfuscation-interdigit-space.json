@@ -1,0 +1,107 @@
+{
+  "doc_id": "core-kpir-ledger-high-robustness-light-obfuscation-interdigit-space",
+  "clean_doc_id": "core-kpir-ledger-high",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "kpir-ledger",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "table-heavy",
+    "protection_mix": false,
+    "noise": "light-obfuscation",
+    "noise_detail": "interdigit-space"
+  },
+  "text": "Lista_zapisów_w_KPiR EWIDENCJA IP BOX ZA 2024 ROK\nJacek Kowalczyk NESTOR NIP 9 2 5 1 5 8 5 6 7 5\nLp | Data | Numer dokumentu / Kontrahent | Kwota | Opis\n1 | 01/01/2024 | F/1000/2024 Mariusz Zmysłowski GIGANET - INSTALACJE | 40,00 | koszt kwalifikowalny\n2 | 02/01/2024 | F/1001/2024 BP Europa SE Oddział w Polsce | 52,00 | koszt kwalifikowalny\n3 | 03/01/2024 | F/1002/2024 P4 Sp. z o.o. | 64,00 | koszt kwalifikowalny\n4 | 04/01/2024 | F/1003/2024 BIURO RACHUNKOWE MARTON Sp. z o.o. | 76,00 | koszt kwalifikowalny\n5 | 05/01/2024 | F/1004/2024 HOSTIDO.PL GAŁĄZKA SPÓŁKA JAWNA | 88,00 | koszt kwalifikowalny\n6 | 06/01/2024 | F/1005/2024 Allianz Polska SA | 100,00 | koszt kwalifikowalny\n7 | 07/01/2024 | F/1006/2024 Action S.A. | 112,00 | koszt kwalifikowalny\n8 | 08/01/2024 | F/1007/2024 BOMATO BIS BOGUSŁAW I WANDA MATOGA SP J | 124,00 | koszt kwalifikowalny\n",
+  "entities": [
+    {
+      "text": "Jacek Kowalczyk NESTOR",
+      "label": "ORG",
+      "start": 50,
+      "end": 72,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "9 2 5 1 5 8 5 6 7 5",
+      "label": "NIP",
+      "start": 77,
+      "end": 96,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Mariusz Zmysłowski GIGANET - INSTALACJE",
+      "label": "ORG",
+      "start": 182,
+      "end": 221,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "BP Europa SE Oddział w Polsce",
+      "label": "ORG",
+      "start": 282,
+      "end": 311,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org3"
+    },
+    {
+      "text": "P4 Sp. z o.o.",
+      "label": "ORG",
+      "start": 372,
+      "end": 385,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org4"
+    },
+    {
+      "text": "BIURO RACHUNKOWE MARTON Sp. z o.o.",
+      "label": "ORG",
+      "start": 446,
+      "end": 480,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org5"
+    },
+    {
+      "text": "HOSTIDO.PL GAŁĄZKA SPÓŁKA JAWNA",
+      "label": "ORG",
+      "start": 541,
+      "end": 572,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org6"
+    },
+    {
+      "text": "Allianz Polska SA",
+      "label": "ORG",
+      "start": 633,
+      "end": 650,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org7"
+    },
+    {
+      "text": "Action S.A.",
+      "label": "ORG",
+      "start": 712,
+      "end": 723,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org8"
+    },
+    {
+      "text": "BOMATO BIS BOGUSŁAW I WANDA MATOGA SP J",
+      "label": "ORG",
+      "start": 785,
+      "end": 824,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org9"
+    }
+  ]
+}

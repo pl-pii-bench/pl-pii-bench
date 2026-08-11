@@ -1,0 +1,168 @@
+{
+  "doc_id": "address-bare-city",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-bare-city",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Celem spotkania pozostaje Warszawa. Protokół nadszedł z Krakowa. Dotację przyznano Łodzi. Kontrola obejmie Warszawę. Trasa przebiega nad Wrocławiem. Posiedzenie odbędzie się we Wrocławiu. Do adresata zwrócono się: \"Krakowie!\". Miejscem doręczenia jest Gdańsk. Pismo przekazano z Poznania. Materiały udostępniono Lublinowi. Delegacja odwiedzi Katowice. Magazyn utworzono pod Rzeszowem. Odbiór nastąpi w Białymstoku. W nagłówku zapisano: \"Warszawo!\". ",
+  "entities": [
+    {
+      "text": "Warszawa",
+      "label": "LOC",
+      "start": 26,
+      "end": 34,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-1",
+      "case": "nom",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "z Krakowa",
+      "label": "LOC",
+      "start": 54,
+      "end": 63,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-2",
+      "case": "gen",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Łodzi",
+      "label": "LOC",
+      "start": 83,
+      "end": 88,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-3",
+      "case": "dat",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Warszawę",
+      "label": "LOC",
+      "start": 107,
+      "end": 115,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-4",
+      "case": "acc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "nad Wrocławiem",
+      "label": "LOC",
+      "start": 133,
+      "end": 147,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-5",
+      "case": "inst",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "we Wrocławiu",
+      "label": "LOC",
+      "start": 174,
+      "end": 186,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-6",
+      "case": "loc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Krakowie",
+      "label": "LOC",
+      "start": 215,
+      "end": 223,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-7",
+      "case": "voc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Gdańsk",
+      "label": "LOC",
+      "start": 252,
+      "end": 258,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-8",
+      "case": "nom",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "z Poznania",
+      "label": "LOC",
+      "start": 277,
+      "end": 287,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-9",
+      "case": "gen",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Lublinowi",
+      "label": "LOC",
+      "start": 312,
+      "end": 321,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-10",
+      "case": "dat",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Katowice",
+      "label": "LOC",
+      "start": 342,
+      "end": 350,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-11",
+      "case": "acc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "pod Rzeszowem",
+      "label": "LOC",
+      "start": 370,
+      "end": 383,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-12",
+      "case": "inst",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "w Białymstoku",
+      "label": "LOC",
+      "start": 400,
+      "end": 413,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-13",
+      "case": "loc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Warszawo",
+      "label": "LOC",
+      "start": 437,
+      "end": 445,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "bare-city-14",
+      "case": "voc",
+      "address_form": "bare-city"
+    }
+  ]
+}

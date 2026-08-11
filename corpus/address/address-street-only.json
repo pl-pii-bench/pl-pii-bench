@@ -1,0 +1,124 @@
+{
+  "doc_id": "address-street-only",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-street-only",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Adresy punktów obsługi to ul. Floriańskiej 12; ul. Królewska 3; ul. Różana 10; ul. Leśna 22; ul. Północna 4; ul. Szeroka 19; ul. Nadbrzeżna 27; ul. Cicha 6; ul. Ogrodowa 15; ul. Wspólna 29. ",
+  "entities": [
+    {
+      "text": "ul. Floriańskiej 12",
+      "label": "LOC",
+      "start": 26,
+      "end": 45,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "street-only-1",
+      "case": "loc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Królewska 3",
+      "label": "LOC",
+      "start": 47,
+      "end": 62,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "street-only-2",
+      "case": "nom",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Różana 10",
+      "label": "LOC",
+      "start": 64,
+      "end": 77,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "street-only-3",
+      "case": "nom",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Leśna 22",
+      "label": "LOC",
+      "start": 79,
+      "end": 91,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "street-only-4",
+      "case": "nom",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Północna 4",
+      "label": "LOC",
+      "start": 93,
+      "end": 107,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "street-only-5",
+      "case": "nom",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Szeroka 19",
+      "label": "LOC",
+      "start": 109,
+      "end": 123,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "street-only-6",
+      "case": "nom",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Nadbrzeżna 27",
+      "label": "LOC",
+      "start": 125,
+      "end": 142,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "street-only-7",
+      "case": "nom",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Cicha 6",
+      "label": "LOC",
+      "start": 144,
+      "end": 155,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "street-only-8",
+      "case": "nom",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Ogrodowa 15",
+      "label": "LOC",
+      "start": 157,
+      "end": 172,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "street-only-9",
+      "case": "nom",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Wspólna 29",
+      "label": "LOC",
+      "start": 174,
+      "end": 188,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "street-only-10",
+      "case": "nom",
+      "address_form": "street-only"
+    }
+  ]
+}

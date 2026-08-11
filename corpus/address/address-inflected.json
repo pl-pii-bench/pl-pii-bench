@@ -1,0 +1,168 @@
+{
+  "doc_id": "address-inflected",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-inflected",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Odnotowano następujące formy: w Krakowie; z Wrocławia; do Gdańska; pod Warszawą; Poznań; Szczecinowi; Łodzi; ulicy Kwiatowej; ul. Długiej 9; al. Pokoju 14; ul. Różaną 6; ul. Leśną 22; pl. Wolności 4; ulico Ogrodowa. ",
+  "entities": [
+    {
+      "text": "w Krakowie",
+      "label": "LOC",
+      "start": 30,
+      "end": 40,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-city-1",
+      "case": "loc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "z Wrocławia",
+      "label": "LOC",
+      "start": 42,
+      "end": 53,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-city-2",
+      "case": "gen",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "do Gdańska",
+      "label": "LOC",
+      "start": 55,
+      "end": 65,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-city-3",
+      "case": "gen",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "pod Warszawą",
+      "label": "LOC",
+      "start": 67,
+      "end": 79,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-city-4",
+      "case": "inst",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Poznań",
+      "label": "LOC",
+      "start": 81,
+      "end": 87,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-city-5",
+      "case": "acc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Szczecinowi",
+      "label": "LOC",
+      "start": 89,
+      "end": 100,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-city-6",
+      "case": "dat",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "Łodzi",
+      "label": "LOC",
+      "start": 102,
+      "end": 107,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-city-7",
+      "case": "voc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "ulicy Kwiatowej",
+      "label": "LOC",
+      "start": 109,
+      "end": 124,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-street-1",
+      "case": "loc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Długiej 9",
+      "label": "LOC",
+      "start": 126,
+      "end": 139,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-street-2",
+      "case": "gen",
+      "address_form": "street-only"
+    },
+    {
+      "text": "al. Pokoju 14",
+      "label": "LOC",
+      "start": 141,
+      "end": 154,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-street-3",
+      "case": "dat",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Różaną 6",
+      "label": "LOC",
+      "start": 156,
+      "end": 168,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-street-4",
+      "case": "acc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ul. Leśną 22",
+      "label": "LOC",
+      "start": 170,
+      "end": 182,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-street-5",
+      "case": "inst",
+      "address_form": "street-only"
+    },
+    {
+      "text": "pl. Wolności 4",
+      "label": "LOC",
+      "start": 184,
+      "end": 198,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-street-6",
+      "case": "nom",
+      "address_form": "street-only"
+    },
+    {
+      "text": "ulico Ogrodowa",
+      "label": "LOC",
+      "start": 200,
+      "end": 214,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "inflected-street-7",
+      "case": "voc",
+      "address_form": "street-only"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+{"doc_id": "mini-doc1", "spans": [{"label": "PERSON", "start": 0, "end": 12, "text": "Jan Kowalski"}, {"label": "PESEL", "start": 99, "end": 110, "text": "79030835344"}, {"label": "ORG", "start": 69, "end": 73, "text": "Acme"}, {"label": "PHONE", "start": 0, "end": 5, "text": "Jan K"}]}
+{"doc_id": "mini-neg1", "spans": [{"label": "PESEL", "start": 6, "end": 11, "text": "12345"}, {"label": "PERSON", "start": 0, "end": 5, "text": "Numer"}]}

@@ -1,0 +1,209 @@
+{
+  "doc_id": "core-umowa-o-prace-high",
+  "lane": "core",
+  "axes": {
+    "doc_type": "umowa-o-prace",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "UMOWA O PRACĘ NR 12/2024\n\nzawarta w Poznaniu, dnia 02 stycznia 2024 r. pomiędzy Fabryka Mebli Nowak Sp. z o.o., NIP 7342185851, REGON 124567890,\nreprezentowaną przez Pana Henryk Zając,\na Panem Tomaszem Wróblem, PESEL 90071523179, legitymującym się dowodem osobistym nr ABK323847.\n\n§ 1. WARUNKI ZATRUDNIENIA\n\nHenryk Zając zatrudnia Tomasza Wróbla na stanowisku Specjalisty ds. Technicznych.\nTomaszowi Wróblowi przysługuje wynagrodzenie zasadnicze w wysokości 7 500,00 zł brutto miesięcznie.\n\n§ 2. OBOWIĄZKI\n\n1. Tomasz Wróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 1.\n2. Tomasz Wróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 2.\n3. Tomasz Wróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 3.\n4. Tomasz Wróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 4.\n5. Tomasz Wróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 5.\n6. Tomasz Wróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 6.\n7. Tomasz Wróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 7.\n8. Tomasz Wróbel zobowiązuje się do sumiennego wykonywania obowiązków nr 8.\n\n..................................         ..................................\nHenryk Zając                                Tomasz Wróbel\n",
+  "entities": [
+    {
+      "text": "Fabryka Mebli Nowak Sp. z o.o.",
+      "label": "ORG",
+      "start": 80,
+      "end": 110,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "7342185851",
+      "label": "NIP",
+      "start": 116,
+      "end": 126,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "124567890",
+      "label": "REGON",
+      "start": 134,
+      "end": 143,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Henryk Zając",
+      "label": "PERSON",
+      "start": 171,
+      "end": 183,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Tomaszem Wróblem",
+      "label": "PERSON",
+      "start": 193,
+      "end": 209,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "inst"
+    },
+    {
+      "text": "90071523179",
+      "label": "PESEL",
+      "start": 217,
+      "end": 228,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "ABK323847",
+      "label": "DOWOD",
+      "start": 269,
+      "end": 278,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "Henryk Zając",
+      "label": "PERSON",
+      "start": 308,
+      "end": 320,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasza Wróbla",
+      "label": "PERSON",
+      "start": 331,
+      "end": 345,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "acc"
+    },
+    {
+      "text": "Tomaszowi Wróblowi",
+      "label": "PERSON",
+      "start": 390,
+      "end": 408,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "dat"
+    },
+    {
+      "text": "Tomasz Wróbel",
+      "label": "PERSON",
+      "start": 510,
+      "end": 523,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz Wróbel",
+      "label": "PERSON",
+      "start": 586,
+      "end": 599,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz Wróbel",
+      "label": "PERSON",
+      "start": 662,
+      "end": 675,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz Wróbel",
+      "label": "PERSON",
+      "start": 738,
+      "end": 751,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz Wróbel",
+      "label": "PERSON",
+      "start": 814,
+      "end": 827,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz Wróbel",
+      "label": "PERSON",
+      "start": 890,
+      "end": 903,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz Wróbel",
+      "label": "PERSON",
+      "start": 966,
+      "end": 979,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz Wróbel",
+      "label": "PERSON",
+      "start": 1042,
+      "end": 1055,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Henryk Zając",
+      "label": "PERSON",
+      "start": 1194,
+      "end": 1206,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Tomasz Wróbel",
+      "label": "PERSON",
+      "start": 1238,
+      "end": 1251,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "doc_id": "core-protokol-zebrania-medium",
+  "lane": "core",
+  "axes": {
+    "doc_type": "protokol-zebrania",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "PROTOKÓŁ NR 1/2024\nZEBRANIA ROCZNEGO WSPÓLNOTY MIESZKANIOWEJ\n\nPRZEWODNICZĄCY ZEBRANIA: Piotr Zalewski\nPROTOKOLANT: Beata Szymańska\n\n§ 1. LISTA OBECNOŚCI\n1. Marek Nowak – lokal nr 3\n2. Anna Kowalska – lokal nr 4\n3. Joanna Lis – lokal nr 5\n\n§ 2. PRZEBIEG ZEBRANIA\nWniosek Marka Nowaka poddano pod głosowanie.\nWniosek Anny Kowalskiej poddano pod głosowanie.\nWniosek Joanny Lis poddano pod głosowanie.\n\nWspólnota zawiera umowę o zarządzanie nieruchomością z firmą Zarząd i Administracja Nieruchomości Sp. z o.o..\n\nZebranie zakończono. Protokół sporządziła Beata Szymańska.\n",
+  "entities": [
+    {
+      "text": "Piotr Zalewski",
+      "label": "PERSON",
+      "start": 87,
+      "end": 101,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "Beata Szymańska",
+      "label": "PERSON",
+      "start": 115,
+      "end": 130,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    },
+    {
+      "text": "Marek Nowak",
+      "label": "PERSON",
+      "start": 156,
+      "end": 167,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "nom"
+    },
+    {
+      "text": "Anna Kowalska",
+      "label": "PERSON",
+      "start": 184,
+      "end": 197,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p4",
+      "case": "nom"
+    },
+    {
+      "text": "Joanna Lis",
+      "label": "PERSON",
+      "start": 214,
+      "end": 224,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p5",
+      "case": "nom"
+    },
+    {
+      "text": "Marka Nowaka",
+      "label": "PERSON",
+      "start": 270,
+      "end": 282,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p3",
+      "case": "gen"
+    },
+    {
+      "text": "Anny Kowalskiej",
+      "label": "PERSON",
+      "start": 315,
+      "end": 330,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p4",
+      "case": "gen"
+    },
+    {
+      "text": "Joanny Lis",
+      "label": "PERSON",
+      "start": 363,
+      "end": 373,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p5",
+      "case": "gen"
+    },
+    {
+      "text": "Zarząd i Administracja Nieruchomości Sp. z o.o.",
+      "label": "ORG",
+      "start": 460,
+      "end": 507,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Beata Szymańska",
+      "label": "PERSON",
+      "start": 552,
+      "end": 567,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p2",
+      "case": "nom"
+    }
+  ]
+}

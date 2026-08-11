@@ -1,0 +1,62 @@
+{
+  "doc_id": "core-kpir-ledger-medium-robustness-line-break-split-entity-wrap",
+  "clean_doc_id": "core-kpir-ledger-medium",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "kpir-ledger",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "table-heavy",
+    "protection_mix": false,
+    "noise": "line-break-split",
+    "noise_detail": "entity-wrap"
+  },
+  "text": "Lista_zapisów_w_KPiR EWIDENCJA IP BOX ZA 2024 ROK\nJacek\nKowalczyk NESTOR NIP 925\n1585675\nLp | Data | Numer dokumentu / Kontrahent | Kwota | Opis\n1 | 01/01/2024 | F/1000/2024 Mariusz Zmysłowski GIGANET -\nINSTALACJE | 40,00 | koszt kwalifikowalny\n2 | 02/01/2024 | F/1001/2024 BP Europa SE Oddział w\nPolsce | 52,00 | koszt kwalifikowalny\n3 | 03/01/2024 | F/1002/2024 P4 Sp. z\no.o. | 64,00 | koszt kwalifikowalny\n",
+  "entities": [
+    {
+      "text": "Jacek\nKowalczyk NESTOR",
+      "label": "ORG",
+      "start": 50,
+      "end": 72,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "925\n1585675",
+      "label": "NIP",
+      "start": 77,
+      "end": 88,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Mariusz Zmysłowski GIGANET -\nINSTALACJE",
+      "label": "ORG",
+      "start": 174,
+      "end": 213,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    },
+    {
+      "text": "BP Europa SE Oddział w\nPolsce",
+      "label": "ORG",
+      "start": 274,
+      "end": 303,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org3"
+    },
+    {
+      "text": "P4 Sp. z\no.o.",
+      "label": "ORG",
+      "start": 364,
+      "end": 377,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org4"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "doc_id": "address-po-box",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-po-box",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Odpowiedzi wyślij na skr. poczt. 145, 00-950 Warszawa; skr. poczt. 8, 31-001 Kraków; skr. poczt. 72, 80-958 Gdańsk; skr. poczt. 301, 50-950 Wrocław. ",
+  "entities": [
+    {
+      "text": "skr. poczt. 145",
+      "label": "LOC",
+      "start": 21,
+      "end": 36,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-1",
+      "case": "nom",
+      "address_form": "po-box"
+    },
+    {
+      "text": "00-950",
+      "label": "POSTAL",
+      "start": 38,
+      "end": 44,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-1",
+      "address_form": "po-box"
+    },
+    {
+      "text": "Warszawa",
+      "label": "LOC",
+      "start": 45,
+      "end": 53,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-1",
+      "case": "nom",
+      "address_form": "po-box"
+    },
+    {
+      "text": "skr. poczt. 8",
+      "label": "LOC",
+      "start": 55,
+      "end": 68,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-2",
+      "case": "nom",
+      "address_form": "po-box"
+    },
+    {
+      "text": "31-001",
+      "label": "POSTAL",
+      "start": 70,
+      "end": 76,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-2",
+      "address_form": "po-box"
+    },
+    {
+      "text": "Kraków",
+      "label": "LOC",
+      "start": 77,
+      "end": 83,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-2",
+      "case": "nom",
+      "address_form": "po-box"
+    },
+    {
+      "text": "skr. poczt. 72",
+      "label": "LOC",
+      "start": 85,
+      "end": 99,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-3",
+      "case": "nom",
+      "address_form": "po-box"
+    },
+    {
+      "text": "80-958",
+      "label": "POSTAL",
+      "start": 101,
+      "end": 107,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-3",
+      "address_form": "po-box"
+    },
+    {
+      "text": "Gdańsk",
+      "label": "LOC",
+      "start": 108,
+      "end": 114,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-3",
+      "case": "nom",
+      "address_form": "po-box"
+    },
+    {
+      "text": "skr. poczt. 301",
+      "label": "LOC",
+      "start": 116,
+      "end": 131,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-4",
+      "case": "nom",
+      "address_form": "po-box"
+    },
+    {
+      "text": "50-950",
+      "label": "POSTAL",
+      "start": 133,
+      "end": 139,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-4",
+      "address_form": "po-box"
+    },
+    {
+      "text": "Wrocław",
+      "label": "LOC",
+      "start": 140,
+      "end": 147,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "box-4",
+      "case": "nom",
+      "address_form": "po-box"
+    }
+  ]
+}

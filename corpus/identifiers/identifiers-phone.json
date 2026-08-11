@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-phone",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-phone",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają numer telefonu kontaktowego: 510-070-889.\nPole 03 formularza, numer telefonu kontaktowego: +48 510 070 890.\n04 | rejestr | numer telefonu kontaktowego | 510 070 891 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer telefonu kontaktowego: 510-070-892.\n§ 6. Strony potwierdzają numer telefonu kontaktowego: 510-070-893.\nPole 07 formularza, numer telefonu kontaktowego: +48 510 070 894.\n08 | rejestr | numer telefonu kontaktowego | 510070895 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer telefonu kontaktowego: 510070896.\n§ 1. Strony potwierdzają numer telefonu kontaktowego: +48 510 070 897.\nPole 11 formularza, numer telefonu kontaktowego: 510-070-898.\n12 | rejestr | numer telefonu kontaktowego | +48 510 070 899 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer telefonu kontaktowego: 510 070 900.\n§ 5. Strony potwierdzają numer telefonu kontaktowego: 510 070 901.\nPole 15 formularza, numer telefonu kontaktowego: 510-070-902.\n16 | rejestr | numer telefonu kontaktowego | 510070903 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer telefonu kontaktowego: +48 510 070 904.\n§ 9. Strony potwierdzają numer telefonu kontaktowego: 510070905.\nPole 19 formularza, numer telefonu kontaktowego: 510070906.\n20 | rejestr | numer telefonu kontaktowego | 510070907 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer telefonu kontaktowego: 510 070 908.\n§ 4. Strony potwierdzają numer telefonu kontaktowego: 510 070 909.\nPole 03 formularza, numer telefonu kontaktowego: 510 070 910.\n24 | rejestr | numer telefonu kontaktowego | +48 510 070 911 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer telefonu kontaktowego: 510070912.\n§ 8. Strony potwierdzają numer telefonu kontaktowego: 510-070-913.\nPole 07 formularza, numer telefonu kontaktowego: 510-070-914.\n28 | rejestr | numer telefonu kontaktowego | 510 070 915 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer telefonu kontaktowego: +48 510 070 916.\n§ 3. Strony potwierdzają numer telefonu kontaktowego: 510-070-917.\nPole 11 formularza, numer telefonu kontaktowego: 510070918.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "510-070-889",
+      "label": "PHONE",
+      "start": 114,
+      "end": 125,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-001",
+      "id_format": "dashed"
+    },
+    {
+      "text": "+48 510 070 890",
+      "label": "PHONE",
+      "start": 176,
+      "end": 191,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-002",
+      "id_format": "plus48"
+    },
+    {
+      "text": "510 070 891",
+      "label": "PHONE",
+      "start": 238,
+      "end": 249,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-003",
+      "id_format": "spaced"
+    },
+    {
+      "text": "510-070-892",
+      "label": "PHONE",
+      "start": 328,
+      "end": 339,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-004",
+      "id_format": "dashed"
+    },
+    {
+      "text": "510-070-893",
+      "label": "PHONE",
+      "start": 395,
+      "end": 406,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-005",
+      "id_format": "dashed"
+    },
+    {
+      "text": "+48 510 070 894",
+      "label": "PHONE",
+      "start": 457,
+      "end": 472,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-006",
+      "id_format": "plus48"
+    },
+    {
+      "text": "510070895",
+      "label": "PHONE",
+      "start": 519,
+      "end": 528,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-007",
+      "id_format": "bare"
+    },
+    {
+      "text": "510070896",
+      "label": "PHONE",
+      "start": 607,
+      "end": 616,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-008",
+      "id_format": "bare"
+    },
+    {
+      "text": "+48 510 070 897",
+      "label": "PHONE",
+      "start": 672,
+      "end": 687,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-009",
+      "id_format": "plus48"
+    },
+    {
+      "text": "510-070-898",
+      "label": "PHONE",
+      "start": 738,
+      "end": 749,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-010",
+      "id_format": "dashed"
+    },
+    {
+      "text": "+48 510 070 899",
+      "label": "PHONE",
+      "start": 796,
+      "end": 811,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-011",
+      "id_format": "plus48"
+    },
+    {
+      "text": "510 070 900",
+      "label": "PHONE",
+      "start": 890,
+      "end": 901,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-012",
+      "id_format": "spaced"
+    },
+    {
+      "text": "510 070 901",
+      "label": "PHONE",
+      "start": 957,
+      "end": 968,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-013",
+      "id_format": "spaced"
+    },
+    {
+      "text": "510-070-902",
+      "label": "PHONE",
+      "start": 1019,
+      "end": 1030,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-014",
+      "id_format": "dashed"
+    },
+    {
+      "text": "510070903",
+      "label": "PHONE",
+      "start": 1077,
+      "end": 1086,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-015",
+      "id_format": "bare"
+    },
+    {
+      "text": "+48 510 070 904",
+      "label": "PHONE",
+      "start": 1165,
+      "end": 1180,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-016",
+      "id_format": "plus48"
+    },
+    {
+      "text": "510070905",
+      "label": "PHONE",
+      "start": 1236,
+      "end": 1245,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-017",
+      "id_format": "bare"
+    },
+    {
+      "text": "510070906",
+      "label": "PHONE",
+      "start": 1296,
+      "end": 1305,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-018",
+      "id_format": "bare"
+    },
+    {
+      "text": "510070907",
+      "label": "PHONE",
+      "start": 1352,
+      "end": 1361,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-019",
+      "id_format": "bare"
+    },
+    {
+      "text": "510 070 908",
+      "label": "PHONE",
+      "start": 1440,
+      "end": 1451,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-020",
+      "id_format": "spaced"
+    },
+    {
+      "text": "510 070 909",
+      "label": "PHONE",
+      "start": 1507,
+      "end": 1518,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-021",
+      "id_format": "spaced"
+    },
+    {
+      "text": "510 070 910",
+      "label": "PHONE",
+      "start": 1569,
+      "end": 1580,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-022",
+      "id_format": "spaced"
+    },
+    {
+      "text": "+48 510 070 911",
+      "label": "PHONE",
+      "start": 1627,
+      "end": 1642,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-023",
+      "id_format": "plus48"
+    },
+    {
+      "text": "510070912",
+      "label": "PHONE",
+      "start": 1721,
+      "end": 1730,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-024",
+      "id_format": "bare"
+    },
+    {
+      "text": "510-070-913",
+      "label": "PHONE",
+      "start": 1786,
+      "end": 1797,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-025",
+      "id_format": "dashed"
+    },
+    {
+      "text": "510-070-914",
+      "label": "PHONE",
+      "start": 1848,
+      "end": 1859,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-026",
+      "id_format": "dashed"
+    },
+    {
+      "text": "510 070 915",
+      "label": "PHONE",
+      "start": 1906,
+      "end": 1917,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-027",
+      "id_format": "spaced"
+    },
+    {
+      "text": "+48 510 070 916",
+      "label": "PHONE",
+      "start": 1996,
+      "end": 2011,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-028",
+      "id_format": "plus48"
+    },
+    {
+      "text": "510-070-917",
+      "label": "PHONE",
+      "start": 2067,
+      "end": 2078,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-029",
+      "id_format": "dashed"
+    },
+    {
+      "text": "510070918",
+      "label": "PHONE",
+      "start": 2129,
+      "end": 2138,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "phone-030",
+      "id_format": "bare"
+    }
+  ]
+}

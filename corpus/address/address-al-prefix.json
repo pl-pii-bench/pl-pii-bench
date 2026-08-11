@@ -1,0 +1,102 @@
+{
+  "doc_id": "address-al-prefix",
+  "lane": "address",
+  "axes": {
+    "doc_type": "address-al-prefix",
+    "format": "text",
+    "pii_density": "medium",
+    "structure": "prose",
+    "protection_mix": false
+  },
+  "text": "Korespondencję kieruj na al. Jana Pawła II 43 w Warszawie; al. Solidarności 117 w Warszawie; al. Niepodległości 18 w Poznaniu; al. Zwycięstwa 241 w Gdyni. ",
+  "entities": [
+    {
+      "text": "al. Jana Pawła II 43",
+      "label": "LOC",
+      "start": 25,
+      "end": 45,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "al-1",
+      "case": "acc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 46,
+      "end": 57,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "al-1",
+      "case": "loc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "al. Solidarności 117",
+      "label": "LOC",
+      "start": 59,
+      "end": 79,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "al-2",
+      "case": "acc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 80,
+      "end": 91,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "al-2",
+      "case": "loc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "al. Niepodległości 18",
+      "label": "LOC",
+      "start": 93,
+      "end": 114,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "al-3",
+      "case": "acc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "w Poznaniu",
+      "label": "LOC",
+      "start": 115,
+      "end": 125,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "al-3",
+      "case": "loc",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "al. Zwycięstwa 241",
+      "label": "LOC",
+      "start": 127,
+      "end": 145,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "al-4",
+      "case": "acc",
+      "address_form": "street-only"
+    },
+    {
+      "text": "w Gdyni",
+      "label": "LOC",
+      "start": 146,
+      "end": 153,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "al-4",
+      "case": "loc",
+      "address_form": "bare-city"
+    }
+  ]
+}

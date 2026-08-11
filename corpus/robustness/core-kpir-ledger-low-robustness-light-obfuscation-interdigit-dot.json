@@ -1,0 +1,44 @@
+{
+  "doc_id": "core-kpir-ledger-low-robustness-light-obfuscation-interdigit-dot",
+  "clean_doc_id": "core-kpir-ledger-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "kpir-ledger",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "table-heavy",
+    "protection_mix": false,
+    "noise": "light-obfuscation",
+    "noise_detail": "interdigit-dot"
+  },
+  "text": "Lista_zapisów_w_KPiR EWIDENCJA IP BOX ZA 2024 ROK\nJacek Kowalczyk NESTOR NIP 9.2.5.1.5.8.5.6.7.5\nLp | Data | Numer dokumentu / Kontrahent | Kwota | Opis\n1 | 01/01/2024 | F/1000/2024 Mariusz Zmysłowski GIGANET - INSTALACJE | 40,00 | koszt kwalifikowalny\n",
+  "entities": [
+    {
+      "text": "Jacek Kowalczyk NESTOR",
+      "label": "ORG",
+      "start": 50,
+      "end": 72,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "9.2.5.1.5.8.5.6.7.5",
+      "label": "NIP",
+      "start": 77,
+      "end": 96,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Mariusz Zmysłowski GIGANET - INSTALACJE",
+      "label": "ORG",
+      "start": 182,
+      "end": 221,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org2"
+    }
+  ]
+}

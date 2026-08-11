@@ -1,0 +1,81 @@
+{
+  "doc_id": "core-odpis-krs-low-robustness-diacritic-loss-pl-diacritics-to-ascii",
+  "clean_doc_id": "core-odpis-krs-low",
+  "lane": "robustness",
+  "axes": {
+    "doc_type": "odpis-krs",
+    "format": "text",
+    "pii_density": "low",
+    "structure": "mixed",
+    "protection_mix": false,
+    "noise": "diacritic-loss",
+    "noise_detail": "pl-diacritics-to-ascii"
+  },
+  "text": "ODPIS PELNY Z REJESTRU PRZEDSIEBIORCOW\nKRAJOWEGO REJESTRU SADOWEGO\n\nFirma: Innowacje Technologiczne Spolka z ograniczona odpowiedzialnoscia\nNazwa skrocona: Innowacje Technologiczne Sp. z o.o.\nNIP: 8943217651\nREGON: 514382966\n\nZARZAD:\nCzlonek Zarzadu: Marek Nowak, PESEL 70010110004\n\nKapital zakladowy Innowacje Technologiczne Sp. z o.o. wynosi 50 000,00 PLN.\n",
+  "entities": [
+    {
+      "text": "Innowacje Technologiczne Spolka z ograniczona odpowiedzialnoscia",
+      "label": "ORG",
+      "start": 75,
+      "end": 139,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Innowacje Technologiczne Sp. z o.o.",
+      "label": "ORG",
+      "start": 156,
+      "end": 191,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "8943217651",
+      "label": "NIP",
+      "start": 197,
+      "end": 207,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "514382966",
+      "label": "REGON",
+      "start": 215,
+      "end": 224,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "org1"
+    },
+    {
+      "text": "Marek Nowak",
+      "label": "PERSON",
+      "start": 251,
+      "end": 262,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1",
+      "case": "nom"
+    },
+    {
+      "text": "70010110004",
+      "label": "PESEL",
+      "start": 270,
+      "end": 281,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "p1"
+    },
+    {
+      "text": "Innowacje Technologiczne Sp. z o.o.",
+      "label": "ORG",
+      "start": 301,
+      "end": 336,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "org1"
+    }
+  ]
+}

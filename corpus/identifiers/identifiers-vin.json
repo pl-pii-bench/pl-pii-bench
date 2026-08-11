@@ -1,0 +1,324 @@
+{
+  "doc_id": "identifiers-vin",
+  "lane": "identifiers",
+  "axes": {
+    "doc_type": "identifier-vin",
+    "format": "text",
+    "pii_density": "high",
+    "structure": "mixed-administrative",
+    "protection_mix": false
+  },
+  "text": "w Warszawie zarejestrowano poniższy zestaw identyfikatorów.\n§ 2. Strony potwierdzają numer VIN pojazdu: WVW0 0000 04RZ PEJE C.\nPole 03 formularza, numer VIN pojazdu: WVW0000004RZPEJED.\n04 | rejestr | numer VIN pojazdu | wvw0000004rzpejee | sprawdzono\nW odpowiedzi na pismo prosimy podać numer VIN pojazdu: WVW0-0000-04RZ-PEJE-F.\n§ 6. Strony potwierdzają numer VIN pojazdu: WVW0-0000-04RZ-PEJE-G.\nPole 07 formularza, numer VIN pojazdu: wvw0000004rzpejeh.\n08 | rejestr | numer VIN pojazdu | WVW0000004RZPEJEJ | sprawdzono\nW odpowiedzi na pismo prosimy podać numer VIN pojazdu: WVW0 0000 04RZ PEJE K.\n§ 1. Strony potwierdzają numer VIN pojazdu: WVW0000004RZPEJEL.\nPole 11 formularza, numer VIN pojazdu: WVW0-0000-04RZ-PEJE-M.\n12 | rejestr | numer VIN pojazdu | WVW0000004RZPEJEN | sprawdzono\nW odpowiedzi na pismo prosimy podać numer VIN pojazdu: wvw0000004rzpejep.\n§ 5. Strony potwierdzają numer VIN pojazdu: WVW0000004RZPEJER.\nPole 15 formularza, numer VIN pojazdu: WVW0000004RZPEJES.\n16 | rejestr | numer VIN pojazdu | WVW0 0000 04RZ PEJE T | sprawdzono\nW odpowiedzi na pismo prosimy podać numer VIN pojazdu: wvw0000004rzpejeu.\n§ 9. Strony potwierdzają numer VIN pojazdu: WVW0 0000 04RZ PEJE V.\nPole 19 formularza, numer VIN pojazdu: WVW0 0000 04RZ PEJE W.\n20 | rejestr | numer VIN pojazdu | WVW0 0000 04RZ PEJE X | sprawdzono\nW odpowiedzi na pismo prosimy podać numer VIN pojazdu: wvw0000004rzpejey.\n§ 4. Strony potwierdzają numer VIN pojazdu: WVW0 0000 04RZ PEJE Z.\nPole 03 formularza, numer VIN pojazdu: WVW0-0000-04RZ-PEJF-0.\n24 | rejestr | numer VIN pojazdu | WVW0000004RZPEJF1 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer VIN pojazdu: WVW0 0000 04RZ PEJF 2.\n§ 8. Strony potwierdzają numer VIN pojazdu: wvw0000004rzpejf3.\nPole 07 formularza, numer VIN pojazdu: wvw0000004rzpejf4.\n28 | rejestr | numer VIN pojazdu | WVW0-0000-04RZ-PEJF-5 | sprawdzono\nW odpowiedzi na pismo prosimy podać numer VIN pojazdu: WVW0-0000-04RZ-PEJF-6.\n§ 3. Strony potwierdzają numer VIN pojazdu: WVW0000004RZPEJF7.\nPole 11 formularza, numer VIN pojazdu: WVW0-0000-04RZ-PEJF-8.\n",
+  "entities": [
+    {
+      "text": "w Warszawie",
+      "label": "LOC",
+      "start": 0,
+      "end": 11,
+      "identifier_class": "quasi",
+      "protection": "protect",
+      "entity_id": "location-001",
+      "address_form": "bare-city"
+    },
+    {
+      "text": "WVW0 0000 04RZ PEJE C",
+      "label": "VIN",
+      "start": 104,
+      "end": 125,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-001",
+      "id_format": "spaced"
+    },
+    {
+      "text": "WVW0000004RZPEJED",
+      "label": "VIN",
+      "start": 166,
+      "end": 183,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-002",
+      "id_format": "bare"
+    },
+    {
+      "text": "wvw0000004rzpejee",
+      "label": "VIN",
+      "start": 220,
+      "end": 237,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-003",
+      "id_format": "lowercase"
+    },
+    {
+      "text": "WVW0-0000-04RZ-PEJE-F",
+      "label": "VIN",
+      "start": 306,
+      "end": 327,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-004",
+      "id_format": "dashed"
+    },
+    {
+      "text": "WVW0-0000-04RZ-PEJE-G",
+      "label": "VIN",
+      "start": 373,
+      "end": 394,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-005",
+      "id_format": "dashed"
+    },
+    {
+      "text": "wvw0000004rzpejeh",
+      "label": "VIN",
+      "start": 435,
+      "end": 452,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-006",
+      "id_format": "lowercase"
+    },
+    {
+      "text": "WVW0000004RZPEJEJ",
+      "label": "VIN",
+      "start": 489,
+      "end": 506,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-007",
+      "id_format": "bare"
+    },
+    {
+      "text": "WVW0 0000 04RZ PEJE K",
+      "label": "VIN",
+      "start": 575,
+      "end": 596,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-008",
+      "id_format": "spaced"
+    },
+    {
+      "text": "WVW0000004RZPEJEL",
+      "label": "VIN",
+      "start": 642,
+      "end": 659,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-009",
+      "id_format": "bare"
+    },
+    {
+      "text": "WVW0-0000-04RZ-PEJE-M",
+      "label": "VIN",
+      "start": 700,
+      "end": 721,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-010",
+      "id_format": "dashed"
+    },
+    {
+      "text": "WVW0000004RZPEJEN",
+      "label": "VIN",
+      "start": 758,
+      "end": 775,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-011",
+      "id_format": "bare"
+    },
+    {
+      "text": "wvw0000004rzpejep",
+      "label": "VIN",
+      "start": 844,
+      "end": 861,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-012",
+      "id_format": "lowercase"
+    },
+    {
+      "text": "WVW0000004RZPEJER",
+      "label": "VIN",
+      "start": 907,
+      "end": 924,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-013",
+      "id_format": "bare"
+    },
+    {
+      "text": "WVW0000004RZPEJES",
+      "label": "VIN",
+      "start": 965,
+      "end": 982,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-014",
+      "id_format": "bare"
+    },
+    {
+      "text": "WVW0 0000 04RZ PEJE T",
+      "label": "VIN",
+      "start": 1019,
+      "end": 1040,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-015",
+      "id_format": "spaced"
+    },
+    {
+      "text": "wvw0000004rzpejeu",
+      "label": "VIN",
+      "start": 1109,
+      "end": 1126,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-016",
+      "id_format": "lowercase"
+    },
+    {
+      "text": "WVW0 0000 04RZ PEJE V",
+      "label": "VIN",
+      "start": 1172,
+      "end": 1193,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-017",
+      "id_format": "spaced"
+    },
+    {
+      "text": "WVW0 0000 04RZ PEJE W",
+      "label": "VIN",
+      "start": 1234,
+      "end": 1255,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-018",
+      "id_format": "spaced"
+    },
+    {
+      "text": "WVW0 0000 04RZ PEJE X",
+      "label": "VIN",
+      "start": 1292,
+      "end": 1313,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-019",
+      "id_format": "spaced"
+    },
+    {
+      "text": "wvw0000004rzpejey",
+      "label": "VIN",
+      "start": 1382,
+      "end": 1399,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-020",
+      "id_format": "lowercase"
+    },
+    {
+      "text": "WVW0 0000 04RZ PEJE Z",
+      "label": "VIN",
+      "start": 1445,
+      "end": 1466,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-021",
+      "id_format": "spaced"
+    },
+    {
+      "text": "WVW0-0000-04RZ-PEJF-0",
+      "label": "VIN",
+      "start": 1507,
+      "end": 1528,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-022",
+      "id_format": "dashed"
+    },
+    {
+      "text": "WVW0000004RZPEJF1",
+      "label": "VIN",
+      "start": 1565,
+      "end": 1582,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-023",
+      "id_format": "bare"
+    },
+    {
+      "text": "WVW0 0000 04RZ PEJF 2",
+      "label": "VIN",
+      "start": 1651,
+      "end": 1672,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-024",
+      "id_format": "spaced"
+    },
+    {
+      "text": "wvw0000004rzpejf3",
+      "label": "VIN",
+      "start": 1718,
+      "end": 1735,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-025",
+      "id_format": "lowercase"
+    },
+    {
+      "text": "wvw0000004rzpejf4",
+      "label": "VIN",
+      "start": 1776,
+      "end": 1793,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-026",
+      "id_format": "lowercase"
+    },
+    {
+      "text": "WVW0-0000-04RZ-PEJF-5",
+      "label": "VIN",
+      "start": 1830,
+      "end": 1851,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-027",
+      "id_format": "dashed"
+    },
+    {
+      "text": "WVW0-0000-04RZ-PEJF-6",
+      "label": "VIN",
+      "start": 1920,
+      "end": 1941,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-028",
+      "id_format": "dashed"
+    },
+    {
+      "text": "WVW0000004RZPEJF7",
+      "label": "VIN",
+      "start": 1987,
+      "end": 2004,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-029",
+      "id_format": "bare"
+    },
+    {
+      "text": "WVW0-0000-04RZ-PEJF-8",
+      "label": "VIN",
+      "start": 2045,
+      "end": 2066,
+      "identifier_class": "direct",
+      "protection": "protect",
+      "entity_id": "vin-030",
+      "id_format": "dashed"
+    }
+  ]
+}
