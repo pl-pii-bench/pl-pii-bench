@@ -233,11 +233,59 @@ def results_table(
         for row in rows:
             summary = row["summary"]
             values.append(
-                f"n/a, {summary['negative_lane_fp_count']} FP"
+                f"{summary['negative_lane_fp_count']} FP"
                 if split == "negative"
                 else percentage(summary["relaxed_recall"])
             )
-        lines.append(f"| `{split}` | {rows[0]['documents']} | " + " | ".join(values) + " |")
+        label = f"`{split}`*" if split == "negative" else f"`{split}`"
+        lines.append(f"| {label} | {rows[0]['documents']} | " + " | ".join(values) + " |")
+    lines.append(
+        "\n\\* The `negative` split has no planted entities, so relaxed recall "
+        "is undefined; the value shown is the false-positive count instead."
+    )
+    return "\n".join(lines)
+
+
+def _engine_version_text(engine: dict, environment: dict) -> str:
+    """Render the pinned package/model versions an engine's row was produced with."""
+
+    engine_id = engine.get("id")
+    reproducibility = engine.get("reproducibility", {})
+    model_id = reproducibility.get("model_id")
+    model_revision = reproducibility.get("model_revision")
+    if engine_id == "anonimator":
+        return f"version {environment.get('anonimator_version', 'n/a')}"
+    if engine_id == "presidio":
+        return (
+            f"presidio-analyzer {environment.get('presidio_analyzer_version', 'n/a')}, "
+            f"spaCy {environment.get('spacy_version', 'n/a')}, "
+            f"pl_core_news_lg {environment.get('spacy_model_version', 'n/a')}"
+        )
+    if engine_id == "spacy-pl":
+        return (
+            f"spaCy {environment.get('spacy_version', 'n/a')}, "
+            f"pl_core_news_lg {environment.get('spacy_model_version', 'n/a')}"
+        )
+    if engine_id == "gliner-pii-polish":
+        package_text = f"gliner {environment.get('gliner_version', 'n/a')}"
+    elif engine_id == "bardsai-eu-pii":
+        package_text = (
+            f"transformers {environment.get('transformers_version', 'n/a')}, "
+            f"torch {environment.get('torch_version', 'n/a')}"
+        )
+    else:
+        package_text = None
+    if model_id and model_revision:
+        model_text = f"model `{model_id}` @ `{model_revision}`"
+        return f"{package_text}, {model_text}" if package_text else model_text
+    return package_text or "n/a"
+
+
+def environment_table(environment: dict, engine_rows: tuple[dict, ...]) -> str:
+    lines = ["| Engine | Reproduction versions |", "|---|---|"]
+    for engine in engine_rows:
+        display_name = engine.get("display_name", engine.get("id", "unknown"))
+        lines.append(f"| {display_name} | {_engine_version_text(engine, environment)} |")
     return "\n".join(lines)
 
 
@@ -256,11 +304,7 @@ def sanitized_results(
         "It contains public split aggregates only. Predictions, detailed "
         "reports, reproduction commands, and maintainer paths are excluded.\n\n"
         f"{results_table(runs, engine_rows)}\n\n"
-        "Reproduction environment: "
-        f"Anonimator {environment['anonimator_version']}; "
-        f"presidio-analyzer {environment['presidio_analyzer_version']}; "
-        f"spaCy {environment['spacy_version']}; "
-        f"pl_core_news_lg {environment['spacy_model_version']}.\n\n"
+        f"{environment_table(environment, engine_rows)}\n\n"
         f"Source commit: `{commit}`\n\n"
         f"Public artifact-set SHA-256: `{artifact_sha}`\n"
     )
@@ -291,6 +335,9 @@ def sanitized_summary_json(
             "spacy_version": environment["spacy_version"],
             "spacy_model": environment["spacy_model"],
             "spacy_model_version": environment["spacy_model_version"],
+            "gliner_version": environment.get("gliner_version"),
+            "transformers_version": environment.get("transformers_version"),
+            "torch_version": environment.get("torch_version"),
         },
         "runs": [
             {
@@ -363,6 +410,7 @@ def render_card(
     artifact_sha: str,
     runs: dict[tuple[str, str], dict],
     engine_rows: tuple[dict, ...],
+    environment: dict | None = None,
 ) -> str:
     template = (REPO_ROOT / "scripts" / "dataset-card-template.md").read_text(
         encoding="utf-8"
@@ -372,6 +420,7 @@ def render_card(
         "{{DATA_FILES}}": data_files_yaml(),
         "{{SPLIT_ROWS}}": split_rows(runs),
         "{{RESULTS_TABLE}}": results_table(runs, engine_rows),
+        "{{ENVIRONMENT_TABLE}}": environment_table(environment or {}, engine_rows),
         "{{SOURCE_COMMIT}}": commit,
         "{{PUBLIC_ARTIFACTS_SHA256}}": artifact_sha,
     }
@@ -390,7 +439,7 @@ def citation(version: str) -> str:
         "@misc{pl-pii-bench,\n"
         "  title  = {pl-pii-bench: An Open Benchmark for Polish PII "
         "Detection and Anonymization},\n"
-        "  author = {Anonimator},\n"
+        "  author = {Anonimator.pl},\n"
         "  year   = {2026},\n"
         f"  note   = {{Version {version.removeprefix('v')}}}\n"
         "}\n"
@@ -511,6 +560,7 @@ def prepare_huggingface(
     results: str,
     runs: dict[tuple[str, str], dict],
     engine_rows: tuple[dict, ...],
+    environment: dict,
 ) -> None:
     destination.mkdir(parents=True)
     data_dir = destination / "data"
@@ -525,7 +575,7 @@ def prepare_huggingface(
     shutil.copy2(REPO_ROOT / "DATA_LICENSE", destination / "DATA_LICENSE")
     (destination / "README.md").write_text(
         render_card(
-            version, commit, artifact_sha, runs, engine_rows
+            version, commit, artifact_sha, runs, engine_rows, environment
         ),
         encoding="utf-8",
     )
@@ -609,7 +659,14 @@ def build(version: str, manifest_path: Path, output_dir: Path) -> dict:
     huggingface_dir = resolved_output / f"pl-pii-bench-{version}-huggingface"
     prepare_github(github_dir, version, commit, results, public_summary)
     prepare_huggingface(
-        huggingface_dir, version, commit, artifact_sha, results, runs, engine_rows
+        huggingface_dir,
+        version,
+        commit,
+        artifact_sha,
+        results,
+        runs,
+        engine_rows,
+        manifest["environment"],
     )
     scan_release_tree(github_dir)
     scan_release_tree(huggingface_dir)

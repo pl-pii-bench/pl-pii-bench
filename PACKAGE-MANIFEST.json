@@ -24,9 +24,9 @@
       "sha256": "5d5d1fdd0de81f0a9207391152eead1179763da8bac8f222f9bc978a56e5d6ee"
     },
     {
-      "bytes": 1155,
+      "bytes": 1551,
       "path": "RESULTS.md",
-      "sha256": "830e01d6335d076fcfc3760e5252001b516ed90ce28deca39b845fa8dc348473"
+      "sha256": "31a5abb608685507a492f88dd3a62bee5a69f38f91c62561c7a168161a5e03f9"
     },
     {
       "bytes": 0,
@@ -1779,14 +1779,14 @@
       "sha256": "3f6e318c0da624d22b10641fdcf8f7ff995cbd038eef872558528947413f20a7"
     },
     {
-      "bytes": 10158,
+      "bytes": 10331,
       "path": "release-manifest.schema.json",
-      "sha256": "e8d7ad7307acb2e1294666a15a6660e90d46c36ce3e1079051de6dd7877f0533"
+      "sha256": "efe2929843ddf3679ef18bbe8182f3eb956b543b9cf9db946d2b781885c8ba49"
     },
     {
-      "bytes": 21733,
+      "bytes": 21822,
       "path": "release-summary.json",
-      "sha256": "43c729f1f7556a24912d3dc7654e2362b11e0fb2d16e95ce69a0424299f91a67"
+      "sha256": "9fc616da2a249157ff2f15342fea45882ef4482d2696f9fed60dc5d42bc966fd"
     },
     {
       "bytes": 10842,
@@ -1794,9 +1794,9 @@
       "sha256": "b7336cda5a2037210060073231d47f5111177e83c08769463f8119488a890a73"
     },
     {
-      "bytes": 9568,
+      "bytes": 10820,
       "path": "scripts/dataset-card-template.md",
-      "sha256": "c926a3d70138cf95cdbd2b10c6b8c1a21aa4ca9264b334181fa10ae10d259e7c"
+      "sha256": "c255b319136484c07d1d35bf8bc77beea77d390def49e413deacb8feed975423"
     },
     {
       "bytes": 1404,
@@ -1804,14 +1804,14 @@
       "sha256": "5590d1003e49130339cdf31330d257f743b39974bd10be39ccbba10e0e5dfcab"
     },
     {
-      "bytes": 22505,
+      "bytes": 24879,
       "path": "scripts/package-release.py",
-      "sha256": "f37d06aff71467c48967b54bd4278d954e7bd18d33f104238f3198c81ce1446b"
+      "sha256": "c495a89f8dd1c8b2316b7abbea747b97a99db67cd37b14868c01f444e3dce702"
     },
     {
-      "bytes": 28369,
+      "bytes": 30522,
       "path": "scripts/run-release.py",
-      "sha256": "327b45c7717e802436f2c4c90229801a966ff660bbf920fe7007cfdeff868faa"
+      "sha256": "7b290f8236f83297ecaea09e3988973767955d30cb8de48334fb27170d6ff538"
     },
     {
       "bytes": 1589,
@@ -1849,9 +1849,9 @@
       "sha256": "1b09fa16e931dcceedefcd79e45463cb440860e42b83bcc07306c40c18efdd1f"
     },
     {
-      "bytes": 8588,
+      "bytes": 8728,
       "path": "tests/test_adapters_corpus_shapes.py",
-      "sha256": "9c05e1a4465d456b1e924bf9ff4618a028148af24fbe682776812023fefec67f"
+      "sha256": "f7ff1601514fab94ff67ce70beefb20c84a7fc3e7898a4a311d81f9fa8c78f23"
     },
     {
       "bytes": 7102,

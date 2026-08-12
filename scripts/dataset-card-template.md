@@ -19,6 +19,10 @@ configs:
 
 # pl-pii-bench
 
+Maintained by [Anonimator.pl](https://anonimator.pl), a local-first Polish
+document anonymization tool. [GitHub repository](https://github.com/pl-pii-bench/pl-pii-bench) ·
+[Live benchmark results](https://anonimator.pl/benchmark.html)
+
 `pl-pii-bench` is an open benchmark for Polish personally identifiable
 information detection and text anonymization. It contains a fully synthetic,
 exhaustively annotated, document-level corpus and a separate open scoring
@@ -154,6 +158,12 @@ public manifest, release packages, or the website.
 
 {{RESULTS_TABLE}}
 
+Every row above comes from one pinned tool version. Model-based engines are
+pinned to an immutable revision, not a mutable branch, so the row is
+reproducible.
+
+{{ENVIRONMENT_TABLE}}
+
 Source commit: `{{SOURCE_COMMIT}}`
 
 Public artifact-set SHA-256: `{{PUBLIC_ARTIFACTS_SHA256}}`
@@ -169,12 +179,18 @@ Apache-2.0.
 ```bibtex
 @misc{pl-pii-bench,
   title  = {pl-pii-bench: An Open Benchmark for Polish PII Detection and Anonymization},
-  author = {Anonimator},
+  author = {Anonimator.pl},
   year   = {2026},
   note   = {Version {{VERSION}}},
   url    = {https://huggingface.co/datasets/pl-pii-bench/pl-pii-bench}
 }
 ```
+
+## Links
+
+- Maintainer: [Anonimator.pl](https://anonimator.pl)
+- Source code and open harness: [github.com/pl-pii-bench/pl-pii-bench](https://github.com/pl-pii-bench/pl-pii-bench)
+- Live, human-readable results: [anonimator.pl/benchmark.html](https://anonimator.pl/benchmark.html)
 
 ## Related locale-specific PII benchmarks
 
@@ -204,3 +220,14 @@ agreement figure, which this corpus does not have.
   not a probabilistic linkage adversary.
 - End-to-end PDF extraction is not part of the comparison. The PDF split
   measures detection over one committed canonical extraction.
+
+## Feedback
+
+The maintainer of this benchmark also maintains one of the systems it
+measures (see the harness repository's "Known biases" section for where that
+shows up). Outside scrutiny is how a benchmark like that earns trust rather
+than asserts it. Open an issue on
+[github.com/pl-pii-bench/pl-pii-bench](https://github.com/pl-pii-bench/pl-pii-bench)
+for anything that would make a split more thorough or more objective: a
+labeling rule you think is wrong, an annotation gap, a matching or scoring
+edge case, or a split you think is missing.

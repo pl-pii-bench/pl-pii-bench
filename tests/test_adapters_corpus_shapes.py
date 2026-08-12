@@ -274,8 +274,11 @@ def test_release_summary_reports_negative_false_positives():
         "GLiNER PII Polish recall | BardsAI EU PII recall |"
     ) in summary
     assert (
-        "| public | `negative` | n/a, 3 FP | n/a, 6 FP | n/a, 6 FP | "
-        "n/a, 6 FP | n/a, 6 FP |"
+        "| public | `negative`* | 3 FP | 6 FP | 6 FP | 6 FP | 6 FP |"
+    ) in summary
+    assert (
+        "\\* This lane has no planted entities, so relaxed recall is "
+        "undefined; the value shown is the false-positive count instead."
     ) in summary
 
 

@@ -64,7 +64,10 @@
         "presidio_analyzer_version": {"type": "string", "minLength": 1},
         "spacy_version": {"type": "string", "minLength": 1},
         "spacy_model": {"const": "pl_core_news_lg"},
-        "spacy_model_version": {"type": "string", "minLength": 1}
+        "spacy_model_version": {"type": "string", "minLength": 1},
+        "gliner_version": {"type": ["string", "null"]},
+        "transformers_version": {"type": ["string", "null"]},
+        "torch_version": {"type": ["string", "null"]}
       }
     },
     "corpora": {

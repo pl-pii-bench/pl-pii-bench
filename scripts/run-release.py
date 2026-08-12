@@ -106,6 +106,8 @@ PUBLIC_ENGINE_REGISTRY = (
         "gliner_pii_polish",
         "gliner-pii-polish",
         "open-adapter",
+        "piotrmaciejbednarski/gliner-pii-polish",
+        "a06dee420506ca62c8948a5d6970b7a64455f15d",
     ),
     EngineSpec(
         "bardsai-eu-pii",
@@ -302,6 +304,18 @@ def _git_value(*args: str) -> str:
     return result.stdout.strip()
 
 
+def _anonimator_app_version(product_repo: Path) -> str:
+    """Anonimator has one app version (desktop, Rust engine, py-anonymize kept
+    in sync via ``desktop/scripts/sync-app-version.mjs``); read it from the
+    single source of truth rather than hand-maintaining a copy here.
+    """
+    package_json = product_repo / "desktop" / "package.json"
+    version = json.loads(package_json.read_text(encoding="utf-8")).get("version")
+    if not version:
+        raise SystemExit(f"error: no \"version\" field in {package_json}")
+    return version
+
+
 def _presidio_versions(python: Path) -> dict[str, str]:
     code = (
         "import importlib.metadata as m,json;"
@@ -318,6 +332,26 @@ def _presidio_versions(python: Path) -> dict[str, str]:
         text=True,
     )
     return json.loads(result.stdout)
+
+
+def _local_package_versions(package_names: tuple[str, ...]) -> dict[str, str | None]:
+    """Return installed versions for packages run in-process (not the Presidio venv).
+
+    ``gliner-pii-polish``, ``spacy-pl``, and ``bardsai-eu-pii`` all execute
+    through ``sys.executable`` (see ``_adapter_command``), so the harness's
+    own interpreter is the actual execution environment and needs no subprocess
+    hop the way the isolated Presidio baseline venv does.
+    """
+
+    import importlib.metadata as metadata
+
+    versions: dict[str, str | None] = {}
+    for name in package_names:
+        try:
+            versions[name] = metadata.version(name)
+        except metadata.PackageNotFoundError:
+            versions[name] = None
+    return versions
 
 
 def _relative_artifact(path: Path) -> dict[str, str | int]:
@@ -524,21 +558,33 @@ def _render_release_summary(manifest: dict) -> str:
         (run["scope"], run["lane"], run["engine"]): run
         for run in manifest["runs"]
     }
+    any_fp_only_lane = False
     for scope, lanes in (
         ("public", PUBLIC_LANES),
         ("holdout", HOLDOUT_LANES),
     ):
         for lane in lanes:
             values = []
+            fp_only = False
             for engine in engine_rows:
                 summary = lookup[(scope, lane, engine["id"])]["summary"]
                 recall = summary["relaxed_recall"]
-                values.append(
-                    f"n/a, {summary['negative_lane_fp_count']} FP"
-                    if recall is None
-                    else f"{recall * 100:.1f}%"
-                )
-            lines.append(f"| {scope} | `{lane}` | " + " | ".join(values) + " |")
+                if recall is None:
+                    fp_only = True
+                    values.append(f"{summary['negative_lane_fp_count']} FP")
+                else:
+                    values.append(f"{recall * 100:.1f}%")
+            any_fp_only_lane = any_fp_only_lane or fp_only
+            marker = "*" if fp_only else ""
+            lines.append(f"| {scope} | `{lane}`{marker} | " + " | ".join(values) + " |")
+    if any_fp_only_lane:
+        lines.extend(
+            [
+                "",
+                "\\* This lane has no planted entities, so relaxed recall is "
+                "undefined; the value shown is the false-positive count instead.",
+            ]
+        )
     lines.extend(
         [
             "",
@@ -568,6 +614,7 @@ def execute_release(
             f"error: Presidio baseline Python not found: {presidio_python}"
         )
     presidio_versions = _presidio_versions(presidio_python)
+    local_versions = _local_package_versions(("gliner", "transformers", "torch"))
     validated_at = _utc_now()
     documents_by_lane: dict[tuple[str, str], list] = {}
     for scope, lanes in (
@@ -736,7 +783,7 @@ def execute_release(
             "python": sys.version.split()[0],
             "platform": platform.platform(),
             "harness_version": HARNESS_VERSION,
-            "anonimator_version": "0.1.0",
+            "anonimator_version": _anonimator_app_version(product_repo),
             "presidio_analyzer_version": presidio_versions[
                 "presidio_analyzer_version"
             ],
@@ -745,6 +792,9 @@ def execute_release(
             "spacy_model_version": presidio_versions[
                 "spacy_model_version"
             ],
+            "gliner_version": local_versions["gliner"],
+            "transformers_version": local_versions["transformers"],
+            "torch_version": local_versions["torch"],
         },
         "engine_registry": {
             "version": PUBLIC_ENGINE_REGISTRY_VERSION,

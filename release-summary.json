@@ -129,11 +129,14 @@
   },
   "environment": {
     "anonimator_version": "0.1.0",
+    "gliner_version": null,
     "harness_version": "0.1.0",
     "presidio_analyzer_version": "2.2.364",
     "spacy_model": "pl_core_news_lg",
     "spacy_model_version": "3.8.0",
-    "spacy_version": "3.8.14"
+    "spacy_version": "3.8.14",
+    "torch_version": null,
+    "transformers_version": null
   },
   "public_artifacts_sha256": "62cedba703ee5197194a3d5db49a8114ea7875d0504060808135e85a00ab20a6",
   "runs": [

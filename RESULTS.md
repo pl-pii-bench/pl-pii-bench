@@ -8,11 +8,19 @@ This summary is generated from the authoritative release manifest. It contains p
 | `inflection` | 441 | 100.0% | 96.4% | 96.4% | 97.3% | 37.0% |
 | `identifiers` | 12 | 75.0% | 44.4% | 3.2% | 16.7% | 31.2% |
 | `address` | 14 | 93.9% | 79.3% | 79.3% | 29.9% | 68.3% |
-| `negative` | 14 | n/a, 32 FP | n/a, 362 FP | n/a, 346 FP | n/a, 123 FP | n/a, 513 FP |
+| `negative`* | 14 | 32 FP | 362 FP | 346 FP | 123 FP | 513 FP |
 | `robustness` | 231 | 76.6% | 68.0% | 56.5% | 54.9% | 61.6% |
 | `pdf` | 14 | 99.5% | 95.2% | 63.1% | 55.1% | 64.7% |
 
-Reproduction environment: Anonimator 0.1.0; presidio-analyzer 2.2.364; spaCy 3.8.14; pl_core_news_lg 3.8.0.
+\* The `negative` split has no planted entities, so relaxed recall is undefined; the value shown is the false-positive count instead.
+
+| Engine | Reproduction versions |
+|---|---|
+| Anonimator | version 0.1.0 |
+| Presidio | presidio-analyzer 2.2.364, spaCy 3.8.14, pl_core_news_lg 3.8.0 |
+| spaCy PL | spaCy 3.8.14, pl_core_news_lg 3.8.0 |
+| GLiNER PII Polish | gliner n/a |
+| BardsAI EU PII | transformers n/a, torch n/a, model `bardsai/eu-pii-anonimization-multilang-v2-preview` @ `8e0b19766bb0dd4916d096b4f540dd46c138c760` |
 
 Source commit: `29b51c335b26454b5c9271df9eeb343dcd28a8d4`
 
